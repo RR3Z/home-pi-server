@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 7
+    },
+    "auditLog": "/app/config/logs/.d2109f103a9d757bc28894d508ee5579a3284e75-audit.json",
+    "files": [
+        {
+            "date": 1749413297652,
+            "name": "/app/config/logs/overseerr-2025-06-08.log",
+            "hash": "74b5dac3782cc2a2282cb95812396703559bcb28f3aad21526b49d86de8f5552"
+        }
+    ],
+    "hashType": "sha256"
+}
