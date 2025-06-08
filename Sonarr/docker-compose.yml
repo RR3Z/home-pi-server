@@ -1,0 +1,14 @@
+services:
+  sonarr:
+    container_name: sonarr
+    image: ghcr.io/hotio/sonarr
+    network_mode: "container:gluetun"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - UMASK=002
+      - TZ=Etc/UTC
+    volumes:
+      - /home/raspberrypi/home-pi-server/Sonarr/config:/config
+      - /mnt/hdd/media:/media
+      - /mnt/hdd/downloads:/downloads
