@@ -4,6 +4,8 @@ services:
     container_name: gluetun
     cap_add:
       - NET_ADMIN
+    networks:
+      - media-shared
     devices:
       - /dev/net/tun:/dev/net/tun
     ports:
@@ -25,3 +27,8 @@ services:
       - WIREGUARD_PRESHARED_KEY=
       - WIREGUARD_ADDRESSES=
     restart: unless-stopped
+
+
+networks:
+  media-shared:
+    external: true
