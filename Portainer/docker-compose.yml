@@ -1,0 +1,32 @@
+services:
+  portainer:
+    image: portainer/portainer-ce:latest
+    container_name: portainer
+    restart: always
+    ports:
+      - "9000:9000"   # Web UI access (HTTP)
+      - "9443:9443"   # Web UI access (HTTPS)
+      - "8000:8000"   # Edge Agent port
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - portainer_data:/data
+    networks:
+      - portainer_network
+
+  agent:
+    image: portainer/agent:latest
+    container_name: portainer_agent
+    restart: always
+    environment:
+      AGENT_CLUSTER_ADDR: tasks.agent
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /var/lib/docker/volumes:/var/lib/docker/volumes
+    networks:
+      - portainer_network
+
+networks:
+  portainer_network:
+
+volumes:
+  portainer_data:
