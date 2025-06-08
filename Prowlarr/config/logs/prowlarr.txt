@@ -6265,3 +6265,33 @@ RequestUri: https://megapeer.vip/browse.php?search=2025&cat=0&stype=0&sort=0&asc
 }
 
 
+2025-06-08 19:54:06.2|Info|Prowlarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-08 19:54:06.3|Info|Prowlarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-08 19:59:41.2|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
+2025-06-08 19:59:41.3|Info|ConsoleApp|Exiting main.
+2025-06-08 19:59:46.4|Info|Bootstrap|Starting Prowlarr - /app/bin/Prowlarr - Version 1.37.0.5076
+2025-06-08 19:59:46.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-06-08 19:59:46.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-06-08 19:59:47.2|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-06-08 19:59:47.5|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-06-08 19:59:47.7|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-06-08 19:59:47.7|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-06-08 19:59:47.7|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-06-08 19:59:47.8|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-06-08 19:59:47.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0671439s
+2025-06-08 19:59:47.8|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-06-08 19:59:47.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0700478s
+2025-06-08 19:59:47.8|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-06-08 19:59:47.8|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-06-08 19:59:47.8|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-06-08 19:59:47.8|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-06-08 19:59:47.8|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-06-08 19:59:47.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0041187s
+2025-06-08 19:59:47.8|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-06-08 19:59:47.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0046244s
+2025-06-08 19:59:48.3|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:9696
+2025-06-08 19:59:48.5|Info|CommandExecutor|Starting 3 threads for tasks.
+2025-06-08 19:59:49.0|Info|ManagedHttpDispatcher|IPv4 is available: True, IPv6 will be disabled
+2025-06-08 19:59:50.7|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-06-08 19:59:50.7|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2025-06-08 19:59:50.7|Info|Microsoft.Hosting.Lifetime|Content root path: /app/bin

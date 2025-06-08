@@ -6177,3 +6177,160 @@ RequestUri: https://megapeer.vip/browse.php?search=2025&cat=0&stype=0&sort=0&asc
 2025-06-08 19:48:58.1|Debug|ReleaseSearchService|Total of 50 reports were found for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2040, 2070, 2060] from 1 indexer(s)
 2025-06-08 19:52:34.2|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
 2025-06-08 19:52:34.2|Debug|Api|[GET] /api/v1/command: 200.OK (2 ms)
+2025-06-08 19:53:13.1|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:13.1|Debug|Api|[GET] /api/v1/health: 200.OK (1 ms)
+2025-06-08 19:53:13.1|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:13.1|Debug|Api|[GET] /api/v1/system/status: 200.OK (2 ms)
+2025-06-08 19:53:14.5|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:14.5|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:14.5|Debug|Api|[GET] /api/v1/command: 200.OK (1 ms)
+2025-06-08 19:53:14.5|Debug|Api|[GET] /api/v1/system/task: 200.OK (13 ms)
+2025-06-08 19:53:14.9|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:14.9|Debug|Api|[GET] /api/v1/system/backup: 200.OK (16 ms)
+2025-06-08 19:53:15.5|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:15.5|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:15.6|Debug|Api|[GET] /api/v1/config/host: 200.OK (4 ms)
+2025-06-08 19:53:16.1|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:16.1|Debug|Api|[GET] /api/v1/log?page=1&pageSize=50&sortDirection=descending&sortKey=time: 200.OK (37 ms)
+2025-06-08 19:53:16.2|Debug|Api|[GET] /api/v1/update: 200.OK (609 ms)
+2025-06-08 19:53:16.8|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:16.8|Debug|Api|[GET] /api/v1/log/file: 200.OK (9 ms)
+2025-06-08 19:53:17.6|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:17.6|Debug|Api|[GET] /api/v1/log?page=1&pageSize=50&sortDirection=descending&sortKey=time: 200.OK (7 ms)
+2025-06-08 19:53:18.9|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:18.9|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:18.9|Debug|Api|[GET] /api/v1/config/host: 200.OK (2 ms)
+2025-06-08 19:53:19.0|Debug|Api|[GET] /api/v1/update: 200.OK (86 ms)
+2025-06-08 19:53:19.3|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:19.3|Debug|Api|[GET] /api/v1/health: 200.OK (1 ms)
+2025-06-08 19:53:19.3|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:19.3|Debug|Api|[GET] /api/v1/system/status: 200.OK (2 ms)
+2025-06-08 19:53:21.3|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:21.3|Debug|Api|[GET] /api/v1/indexerProxy: 200.OK (9 ms)
+2025-06-08 19:53:21.7|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:21.7|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:21.7|Debug|Api|[GET] /api/v1/appprofile: 200.OK (3 ms)
+2025-06-08 19:53:21.7|Debug|Api|[GET] /api/v1/applications: 200.OK (5 ms)
+2025-06-08 19:53:22.1|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:22.1|Debug|Api|[GET] /api/v1/downloadclient: 200.OK (6 ms)
+2025-06-08 19:53:22.9|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:22.9|Debug|Api|[GET] /api/v1/notification: 200.OK (16 ms)
+2025-06-08 19:53:23.3|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:23.3|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:23.3|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:23.3|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:23.3|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:23.3|Debug|Api|[GET] /api/v1/tag: 200.OK (6 ms)
+2025-06-08 19:53:23.3|Debug|Api|[GET] /api/v1/notification: 200.OK (8 ms)
+2025-06-08 19:53:23.3|Debug|Api|[GET] /api/v1/indexerProxy: 200.OK (7 ms)
+2025-06-08 19:53:23.3|Debug|Api|[GET] /api/v1/applications: 200.OK (11 ms)
+2025-06-08 19:53:23.4|Debug|Api|[GET] /api/v1/tag/detail: 200.OK (40 ms)
+2025-06-08 19:53:23.9|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:23.9|Debug|Api|[GET] /api/v1/config/host: 200.OK (2 ms)
+2025-06-08 19:53:24.6|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:24.6|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:24.6|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:24.6|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:24.6|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:24.6|Debug|Api|[GET] /api/v1/tag: 200.OK (3 ms)
+2025-06-08 19:53:24.6|Debug|Api|[GET] /api/v1/indexerProxy: 200.OK (8 ms)
+2025-06-08 19:53:24.6|Debug|Api|[GET] /api/v1/notification: 200.OK (9 ms)
+2025-06-08 19:53:24.6|Debug|Api|[GET] /api/v1/applications: 200.OK (10 ms)
+2025-06-08 19:53:24.6|Debug|Api|[GET] /api/v1/tag/detail: 200.OK (26 ms)
+2025-06-08 19:53:26.6|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:26.6|Debug|Api|[GET] /api/v1/config/host: 200.OK (3 ms)
+2025-06-08 19:53:27.9|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:27.9|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:27.9|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:27.9|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:27.9|Debug|Api|[GET] /api/v1/indexerProxy: 200.OK (2 ms)
+2025-06-08 19:53:27.9|Debug|Api|[GET] /api/v1/tag: 200.OK (2 ms)
+2025-06-08 19:53:27.9|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:27.9|Debug|Api|[GET] /api/v1/notification: 200.OK (5 ms)
+2025-06-08 19:53:27.9|Debug|Api|[GET] /api/v1/applications: 200.OK (7 ms)
+2025-06-08 19:53:27.9|Debug|Api|[GET] /api/v1/tag/detail: 200.OK (24 ms)
+2025-06-08 19:53:29.8|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:29.9|Debug|Api|[DELETE] /api/v1/tag/2: 200.OK (43 ms)
+2025-06-08 19:53:29.9|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:29.9|Debug|Api|[GET] /api/v1/tag: 200.OK (1 ms)
+2025-06-08 19:53:29.9|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:29.9|Debug|Api|[GET] /api/v1/tag/detail: 200.OK (17 ms)
+2025-06-08 19:53:30.6|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:30.6|Debug|Api|[GET] /api/v1/config/host: 200.OK (2 ms)
+2025-06-08 19:53:34.2|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:34.2|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:53:34.2|Debug|Api|[GET] /api/v1/config/ui: 200.OK (1 ms)
+2025-06-08 19:53:34.2|Debug|Api|[GET] /api/v1/localization/options: 200.OK (1 ms)
+2025-06-08 19:54:04.7|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:54:04.7|Debug|Api|[GET] /api/v1/downloadclient: 200.OK (2 ms)
+2025-06-08 19:54:05.0|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:54:05.0|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:54:05.0|Debug|Api|[GET] /api/v1/indexerStatus: 200.OK (3 ms)
+2025-06-08 19:54:05.0|Debug|Api|[GET] /api/v1/indexer: 200.OK (17 ms)
+2025-06-08 19:54:06.2|Info|Prowlarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-08 19:54:06.3|Info|Prowlarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-08 19:54:06.4|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:54:06.4|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:54:06.4|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:54:06.4|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:54:06.4|Debug|Api|[GET] /api/v1/customFilter: 200.OK (2 ms)
+2025-06-08 19:54:06.4|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:54:06.4|Debug|Api|[GET] /api/v1/appprofile: 200.OK (1 ms)
+2025-06-08 19:54:06.4|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:54:06.4|Debug|Api|[GET] /api/v1/tag: 200.OK (2 ms)
+2025-06-08 19:54:06.4|Debug|Api|[GET] /api/v1/indexer/categories: 200.OK (1 ms)
+2025-06-08 19:54:06.4|Debug|Api|[GET] /api/v1/indexerStatus: 200.OK (3 ms)
+2025-06-08 19:54:06.4|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:54:06.4|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:54:06.4|Debug|Api|[GET] /api/v1/config/ui: 200.OK (2 ms)
+2025-06-08 19:54:06.4|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:54:06.4|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:54:06.4|Debug|Api|[GET] /api/v1/config/host: 200.OK (3 ms)
+2025-06-08 19:54:06.4|Debug|Api|[GET] /api/v1/system/status: 200.OK (3 ms)
+2025-06-08 19:54:06.4|Debug|Api|[GET] /api/v1/localization: 200.OK (4 ms)
+2025-06-08 19:54:06.4|Debug|Api|[GET] /api/v1/indexer: 200.OK (19 ms)
+2025-06-08 19:54:06.4|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was successfully authenticated.
+2025-06-08 19:54:06.4|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:54:06.4|Debug|Api|[GET] /api/v1/health: 200.OK (1 ms)
+2025-06-08 19:54:06.4|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:54:06.4|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-08 19:54:06.4|Debug|Api|[GET] /api/v1/indexerStatus: 200.OK (1 ms)
+2025-06-08 19:54:06.4|Debug|Api|[GET] /api/v1/indexer: 200.OK (13 ms)
+2025-06-08 19:54:06.5|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: SignalR was successfully authenticated.
+2025-06-08 19:59:41.2|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
+2025-06-08 19:59:41.3|Info|ConsoleApp|Exiting main.
+2025-06-08 19:59:47.4|Debug|ProcessProvider|Found 0 processes with the name: Prowlarr.Console
+2025-06-08 19:59:47.4|Debug|ProcessProvider|Found 1 processes with the name: Prowlarr
+2025-06-08 19:59:47.4|Debug|ProcessProvider| - [144] Prowlarr
+2025-06-08 19:59:47.5|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-06-08 19:59:47.7|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-06-08 19:59:47.7|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-06-08 19:59:47.7|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-06-08 19:59:47.8|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-06-08 19:59:47.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0671439s
+2025-06-08 19:59:47.8|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-06-08 19:59:47.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0700478s
+2025-06-08 19:59:47.8|Debug|MigrationController|Took: 00:00:00.3318060
+2025-06-08 19:59:47.8|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-06-08 19:59:47.8|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-06-08 19:59:47.8|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-06-08 19:59:47.8|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-06-08 19:59:47.8|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-06-08 19:59:47.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0041187s
+2025-06-08 19:59:47.8|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-06-08 19:59:47.8|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0046244s
+2025-06-08 19:59:47.8|Debug|MigrationController|Took: 00:00:00.0205504
+2025-06-08 19:59:48.3|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:9696
+2025-06-08 19:59:48.5|Debug|NotificationFactory|Initializing Providers. Count 20
+2025-06-08 19:59:48.5|Info|CommandExecutor|Starting 3 threads for tasks.
+2025-06-08 19:59:48.6|Debug|HttpClient|Downloading [https://indexers.prowlarr.com/master/11/package.zip] to [/config/Definitions/indexers.zip]
+2025-06-08 19:59:49.0|Info|ManagedHttpDispatcher|IPv4 is available: True, IPv6 will be disabled
+2025-06-08 19:59:50.0|Debug|HttpClient|Downloading Completed. took 1s
+2025-06-08 19:59:50.6|Debug|IndexerDefinitionUpdateService|Updated indexer definitions
+2025-06-08 19:59:50.6|Debug|IndexerFactory|Initializing Providers. Count 67
+2025-06-08 19:59:50.7|Debug|IndexerProxyFactory|Initializing Providers. Count 4
+2025-06-08 19:59:50.7|Debug|DownloadClientFactory|Initializing Providers. Count 18
+2025-06-08 19:59:50.7|Debug|ApplicationFactory|Initializing Providers. Count 7
+2025-06-08 19:59:50.7|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-06-08 19:59:50.7|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2025-06-08 19:59:50.7|Info|Microsoft.Hosting.Lifetime|Content root path: /app/bin
