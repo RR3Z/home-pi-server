@@ -1,0 +1,27 @@
+(N) 2025-06-08T16:35:40 - qBittorrent v5.1.0 started. Process ID: 151
+(N) 2025-06-08T16:35:40 - Using config directory: /app/qBittorrent/config
+(N) 2025-06-08T16:35:40 - Trying to listen on the following list of IP addresses: "0.0.0.0:28052,[::]:28052"
+(I) 2025-06-08T16:35:40 - Peer ID: "-qB5100-"
+(I) 2025-06-08T16:35:40 - HTTP User-Agent: "qBittorrent/5.1.0"
+(I) 2025-06-08T16:35:40 - Distributed Hash Table (DHT) support: ON
+(I) 2025-06-08T16:35:40 - Local Peer Discovery support: ON
+(I) 2025-06-08T16:35:40 - Peer Exchange (PeX) support: ON
+(I) 2025-06-08T16:35:40 - Anonymous mode: OFF
+(I) 2025-06-08T16:35:40 - Encryption support: ON
+(I) 2025-06-08T16:35:40 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/28052"
+(I) 2025-06-08T16:35:40 - Successfully listening on IP. IP: "127.0.0.1". Port: "UDP/28052"
+(I) 2025-06-08T16:35:40 - Successfully listening on IP. IP: "172.21.0.2". Port: "TCP/28052"
+(I) 2025-06-08T16:35:40 - Successfully listening on IP. IP: "172.21.0.2". Port: "UDP/28052"
+(I) 2025-06-08T16:35:40 - UPnP/NAT-PMP support: ON
+(W) 2025-06-08T16:35:40 - Couldn't load IP geolocation database. Reason: No such file or directory
+(N) 2025-06-08T16:35:40 - Using built-in WebUI.
+(N) 2025-06-08T16:35:40 - WebUI translation for selected locale (en_US) has been successfully loaded.
+(N) 2025-06-08T16:35:40 - WebUI: Now listening on IP: *, port: 8081
+(I) 2025-06-08T16:35:40 - Detected external IP. IP: "89.23.148.175"
+(I) 2025-06-08T16:35:40 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sun Jun 1 01:26:17 2025.
+(I) 2025-06-08T16:35:41 - Successfully updated IP geolocation database.
+(N) 2025-06-08T16:36:16 - WebAPI login success. IP: ::ffff:192.168.0.149
+(N) 2025-06-08T16:36:30 - Перевод веб-интерфейса для выбранного языка (ru) успешно подгружен.
+(N) 2025-06-08T16:37:20 - Перевод веб-интерфейса для выбранного языка (en) успешно подгружен.
+(W) 2025-06-08T16:38:16 - Проброс портов UPnP/NAT-PMP не удался. Сообщение: «could not map port using UPnP: no router found»
+(W) 2025-06-08T16:38:16 - Проброс портов UPnP/NAT-PMP не удался. Сообщение: «could not map port using UPnP: no router found»
