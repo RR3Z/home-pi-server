@@ -2,6 +2,8 @@ services:
   qbittorrent:
     container_name: qbittorrent
     image: ghcr.io/hotio/qbittorrent
+    networks:
+      - media-shared
     ports:
       - "8081:8081"
     environment:
@@ -14,3 +16,7 @@ services:
       - /home/raspberrypi/home-pi-server/qbittorrent/config:/config
       - /mnt/hdd/downloads:/downloads
       - /mnt/hdd/media:/media
+
+networks:
+  media-shared:
+    external: true
