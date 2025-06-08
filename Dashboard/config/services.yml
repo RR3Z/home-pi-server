@@ -1,0 +1,30 @@
+- name: Services
+  width: slim
+  center-vertically: true
+  columns:
+    - size: full
+      widgets:
+        - type: monitor
+          cache: 1m
+          title: General
+          sites:
+            - title: Portainer
+              url: http://192.168.0.111:9000
+              icon: /assets/portainer-logo.png
+            - title: Glance
+              url: http://192.168.0.111:8080
+              icon: /assets/glance-logo.png
+
+    - size: small
+      widgets:
+        - type: calendar
+          first-day-of-week: monday
+        - type: repository
+          repository: RR3Z/home-pi-server
+          issues-limit: 3
+          commits-limit: 3
+        - type: server-stats
+          servers:
+            - type: local
+              name: Raspberry Pi 5
+              hide-swap: false

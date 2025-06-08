@@ -1,0 +1,11 @@
+services:
+  glance:
+    container_name: glance
+    image: glanceapp/glance
+    restart: unless-stopped
+    volumes:
+      - /home/raspberrypi/home-pi-server/Dashboard/config:/app/config
+      - /home/raspberrypi/home-pi-server/Dashboard/assets:/app/assets
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    ports:
+      - 8080:8080
