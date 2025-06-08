@@ -6373,3 +6373,148 @@ UNIQUE constraint failed: Indexers.Name
 2025-06-08 20:03:37.7|Info|RssSyncService|Starting RSS Sync
 2025-06-08 20:03:53.9|Info|DownloadDecisionMaker|Processing 323 releases
 2025-06-08 20:03:55.4|Info|RssSyncService|RSS Sync Completed. Reports found: 323, Reports grabbed: 0
+2025-06-08 20:08:09.5|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from qBittorrent
+
+[v4.0.14.2939] System.Net.Http.HttpRequestException: Network unreachable (172.25.0.3:8081)
+ ---> System.Net.Sockets.SocketException (101): Network unreachable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.CreateException(SocketError error, Boolean forAsyncThrow)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ConnectAsync(Socket socket)
+   at System.Net.Sockets.Socket.ConnectAsync(EndPoint remoteEP, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 327
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 313
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Net.Http.HttpConnectionPool.<>c__DisplayClass74_0.<CheckForHttp11ConnectionInjection>b__0()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+   at System.Threading.Tasks.Task.ExecuteEntryUnsafe(Thread threadPoolThread)
+   at System.Threading.Tasks.Task.ExecuteFromThreadPool(Thread threadPoolThread)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()
+--- End of stack trace from previous location ---
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 327
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 313
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.ProcessRequest(HttpRequestBuilder requestBuilder, QBittorrentSettings settings) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxyV2.cs:line 370
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.GetApiVersion(QBittorrentSettings settings) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxyV2.cs:line 75
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetItems() in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrent.cs:line 220
+   at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads(IDownloadClient downloadClient) in ./Sonarr.Core/Download/TrackedDownloads/DownloadMonitoringService.cs:line 90
+
+2025-06-08 20:09:32.1|Info|Bootstrap|Starting Sonarr - /app/bin/Sonarr - Version 4.0.14.2939
+2025-06-08 20:09:32.2|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-06-08 20:09:32.2|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-06-08 20:09:32.7|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-06-08 20:09:32.9|Info|MigrationController|*** Migrating data source=/config/sonarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-06-08 20:09:33.0|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-06-08 20:09:33.0|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-06-08 20:09:33.0|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-06-08 20:09:33.1|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-06-08 20:09:33.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0626202s
+2025-06-08 20:09:33.1|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-06-08 20:09:33.1|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0652513s
+2025-06-08 20:09:33.1|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-06-08 20:09:33.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-06-08 20:09:33.2|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-06-08 20:09:33.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-06-08 20:09:33.2|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-06-08 20:09:33.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0056293s
+2025-06-08 20:09:33.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-06-08 20:09:33.2|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0059703s
+2025-06-08 20:09:33.8|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:8989
+2025-06-08 20:09:34.3|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-06-08 20:09:34.3|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2025-06-08 20:09:34.3|Info|Microsoft.Hosting.Lifetime|Content root path: /app/bin
+2025-06-08 20:09:34.6|Info|ManagedHttpDispatcher|IPv4 is available: True, IPv6 will be disabled
+2025-06-08 20:19:04.5|Info|RssSyncService|Starting RSS Sync
+2025-06-08 20:19:15.7|Info|DownloadDecisionMaker|Processing 323 releases
+2025-06-08 20:19:18.9|Info|RssSyncService|RSS Sync Completed. Reports found: 323, Reports grabbed: 0
+2025-06-08 20:22:11.2|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-08 20:22:11.4|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-08 20:22:36.2|Warn|LanguageProfileController|API call made to deprecated endpoint from axios/1.3.4
+2025-06-08 20:24:13.1|Warn|LanguageProfileController|API call made to deprecated endpoint from axios/1.3.4
+2025-06-08 20:24:41.9|Warn|LanguageProfileController|API call made to deprecated endpoint from axios/1.3.4
+2025-06-08 20:25:45.4|Warn|LanguageProfileController|API call made to deprecated endpoint from axios/1.3.4
+2025-06-08 20:26:18.0|Warn|LanguageProfileController|API call made to deprecated endpoint from axios/1.3.4
+2025-06-08 20:28:09.4|Warn|LanguageProfileController|API call made to deprecated endpoint from axios/1.3.4
+2025-06-08 20:28:13.5|Info|AddSeriesService|Adding Series [446831][MobLand] Path: [/media/MobLand]
+2025-06-08 20:28:13.6|Info|SceneMappingService|Updating Scene mappings
+2025-06-08 20:28:13.6|Info|RefreshSeriesService|Updating MobLand
+2025-06-08 20:28:13.7|Info|RefreshEpisodeService|Starting episode info refresh for: [446831][MobLand]
+2025-06-08 20:28:13.7|Info|RefreshEpisodeService|Finished episode refresh for series: [446831][MobLand].
+2025-06-08 20:28:14.1|Info|MediaCoverService|Downloading Banner for [446831][MobLand] https://artworks.thetvdb.com/banners/v4/series/446831/banners/68175c94c4974.jpg
+2025-06-08 20:28:14.1|Warn|DiskScanService|Series' root folder (/media) is empty.
+2025-06-08 20:28:14.1|Info|SeriesScannedHandler|[MobLand] was recently added, performing post-add actions
+2025-06-08 20:28:14.6|Info|EpisodeSearchService|Performing search for 10 episodes
+2025-06-08 20:28:14.6|Info|ReleaseSearchService|Searching indexers for [MobLand : S01]. 5 active indexers
+2025-06-08 20:28:14.6|Info|MediaCoverService|Downloading Poster for [446831][MobLand] https://artworks.thetvdb.com/banners/v4/series/446831/posters/67eaec7feed20.jpg
+2025-06-08 20:28:14.8|Info|MediaCoverService|Downloading Fanart for [446831][MobLand] https://artworks.thetvdb.com/banners/v4/series/446831/backgrounds/67e9845c46113.jpg
+2025-06-08 20:28:15.1|Info|MediaCoverService|Downloading Clearlogo for [446831][MobLand] https://artworks.thetvdb.com/banners/v4/series/446831/clearlogo/67d8a408c285a.png
+2025-06-08 20:28:16.1|Info|MetadataService|Series folder does not exist, skipping metadata image creation
+2025-06-08 20:28:23.8|Warn|LanguageProfileController|API call made to deprecated endpoint from axios/1.3.4
+2025-06-08 20:28:26.3|Info|AddSeriesService|Adding Series [445802][Dept. Q] Path: [/media/Dept. Q]
+2025-06-08 20:28:26.4|Info|RefreshSeriesService|Updating Dept. Q
+2025-06-08 20:28:26.5|Info|RefreshEpisodeService|Starting episode info refresh for: [445802][Dept. Q]
+2025-06-08 20:28:26.5|Info|RefreshEpisodeService|Finished episode refresh for series: [445802][Dept. Q].
+2025-06-08 20:28:26.5|Info|MediaCoverService|Downloading Banner for [445802][Dept. Q] https://artworks.thetvdb.com/banners/v4/series/445802/banners/681d1d67c51bd.jpg
+2025-06-08 20:28:26.5|Warn|DiskScanService|Series' root folder (/media) is empty.
+2025-06-08 20:28:26.5|Info|SeriesScannedHandler|[Dept. Q] was recently added, performing post-add actions
+2025-06-08 20:28:26.6|Info|EpisodeSearchService|Performing search for 9 episodes
+2025-06-08 20:28:26.6|Info|ReleaseSearchService|Searching indexers for [Dept. Q : S01]. 5 active indexers
+2025-06-08 20:28:26.7|Info|MediaCoverService|Downloading Poster for [445802][Dept. Q] https://artworks.thetvdb.com/banners/v4/series/445802/posters/681d238ba9fc4.jpg
+2025-06-08 20:28:26.8|Info|MediaCoverService|Downloading Fanart for [445802][Dept. Q] https://artworks.thetvdb.com/banners/v4/series/445802/backgrounds/6837b36f9a0ff.jpg
+2025-06-08 20:28:27.1|Info|MediaCoverService|Downloading Clearlogo for [445802][Dept. Q] https://artworks.thetvdb.com/banners/v4/series/445802/clearlogo/68383430bb072.png
+2025-06-08 20:28:27.6|Info|MetadataService|Series folder does not exist, skipping metadata image creation
+2025-06-08 20:28:30.3|Info|DownloadDecisionMaker|Processing 22 releases
+2025-06-08 20:28:30.9|Info|AddSeriesService|Adding Series [393625][Ginny & Georgia] Path: [/media/Ginny & Georgia]
+2025-06-08 20:28:31.0|Info|RefreshSeriesService|Updating Ginny & Georgia
+2025-06-08 20:28:31.1|Info|RefreshEpisodeService|Starting episode info refresh for: [393625][Ginny & Georgia]
+2025-06-08 20:28:31.1|Info|RefreshEpisodeService|Finished episode refresh for series: [393625][Ginny & Georgia].
+2025-06-08 20:28:31.1|Info|MediaCoverService|Downloading Banner for [393625][Ginny & Georgia] https://artworks.thetvdb.com/banners/series/393625/banners/601e40a781f9c.jpg
+2025-06-08 20:28:31.1|Warn|DiskScanService|Series' root folder (/media) is empty.
+2025-06-08 20:28:31.1|Info|SeriesScannedHandler|[Ginny & Georgia] was recently added, performing post-add actions
+2025-06-08 20:28:31.2|Info|MediaCoverService|Downloading Poster for [393625][Ginny & Georgia] https://artworks.thetvdb.com/banners/series/393625/posters/60104643f0768.jpg
+2025-06-08 20:28:31.3|Info|DownloadService|Report sent to qBittorrent. Indexer BitRu (Prowlarr). Mobland (2025) WEB-DL 1080p | AVC |  Jetvis Studio S1E1-5 of 10 RUS
+2025-06-08 20:28:31.4|Info|MediaCoverService|Downloading Fanart for [393625][Ginny & Georgia] https://artworks.thetvdb.com/banners/v4/series/393625/backgrounds/60b38fcb0f55b.jpg
+2025-06-08 20:28:31.5|Info|EpisodeSearchService|Performing search for 10 episodes
+2025-06-08 20:28:31.5|Info|ReleaseSearchService|Searching indexers for [Ginny & Georgia : S03]. 5 active indexers
+2025-06-08 20:28:31.6|Info|EpisodeSearchService|Completed search for 10 episodes. 1 reports downloaded.
+2025-06-08 20:28:31.8|Info|MetadataService|Series folder does not exist, skipping metadata image creation
+2025-06-08 20:28:49.3|Info|DownloadDecisionMaker|Processing 3 releases
+2025-06-08 20:28:49.6|Info|DownloadService|Report sent to qBittorrent. Indexer BitRu (Prowlarr). Dept. Q (2025) WEB-DL 1080p | AVC S1E1-9 of 9 RUS
+2025-06-08 20:28:49.7|Info|EpisodeSearchService|Completed search for 9 episodes. 1 reports downloaded.
+2025-06-08 20:29:11.2|Info|DownloadDecisionMaker|No results found
+2025-06-08 20:29:11.2|Info|EpisodeSearchService|Completed search for 10 episodes. 0 reports downloaded.
+2025-06-08 20:31:47.6|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-08 20:31:47.7|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-08 20:34:34.7|Info|RssSyncService|Starting RSS Sync

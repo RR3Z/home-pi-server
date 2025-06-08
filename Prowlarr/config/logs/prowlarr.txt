@@ -6295,3 +6295,137 @@ RequestUri: https://megapeer.vip/browse.php?search=2025&cat=0&stype=0&sort=0&asc
 2025-06-08 19:59:50.7|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
 2025-06-08 19:59:50.7|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
 2025-06-08 19:59:50.7|Info|Microsoft.Hosting.Lifetime|Content root path: /app/bin
+2025-06-08 20:03:38.1|Info|ReleaseSearchService|Searching indexer(s): [BigFANGroup] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2025-06-08 20:03:38.1|Info|ReleaseSearchService|Searching indexer(s): [AniLibria] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2025-06-08 20:03:38.2|Info|ReleaseSearchService|Searching indexer(s): [BitRu] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2025-06-08 20:03:38.2|Info|ReleaseSearchService|Searching indexer(s): [NoNaMe Club] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2025-06-08 20:03:38.2|Info|ReleaseSearchService|Searching indexer(s): [RuTracker.RU] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5040, 5010, 5045, 5030, 5070]
+2025-06-08 20:09:38.4|Info|Bootstrap|Starting Prowlarr - /app/bin/Prowlarr - Version 1.37.0.5076
+2025-06-08 20:09:38.5|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-06-08 20:09:38.5|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-06-08 20:09:39.0|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-06-08 20:09:39.2|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-06-08 20:09:39.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-06-08 20:09:39.3|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-06-08 20:09:39.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-06-08 20:09:39.4|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-06-08 20:09:39.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0601332s
+2025-06-08 20:09:39.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-06-08 20:09:39.4|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0627476s
+2025-06-08 20:09:39.4|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-06-08 20:09:39.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-06-08 20:09:39.5|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-06-08 20:09:39.5|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-06-08 20:09:39.5|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-06-08 20:09:39.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0019833s
+2025-06-08 20:09:39.5|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-06-08 20:09:39.5|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0024829s
+2025-06-08 20:09:39.8|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:9696
+2025-06-08 20:09:40.0|Info|CommandExecutor|Starting 3 threads for tasks.
+2025-06-08 20:09:40.5|Info|ManagedHttpDispatcher|IPv4 is available: True, IPv6 will be disabled
+2025-06-08 20:09:41.9|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-06-08 20:09:41.9|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2025-06-08 20:09:41.9|Info|Microsoft.Hosting.Lifetime|Content root path: /app/bin
+2025-06-08 20:18:17.4|Info|ReleaseSearchService|Searching indexer(s): [AniLibria] for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2020]
+2025-06-08 20:18:17.4|Info|ReleaseSearchService|Searching indexer(s): [BitRu] for Term: [], Offset: 0, Limit: 100, Categories: [2000]
+2025-06-08 20:18:17.4|Info|ReleaseSearchService|Searching indexer(s): [BigFANGroup] for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2060, 2010, 2040, 2070]
+2025-06-08 20:18:17.5|Info|ReleaseSearchService|Searching indexer(s): [NoNaMe Club] for Term: [], Offset: 0, Limit: 100, Categories: [2000]
+2025-06-08 20:18:17.5|Info|ReleaseSearchService|Searching indexer(s): [RuTracker.RU] for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2040, 2070, 2060]
+2025-06-08 20:19:04.6|Info|ReleaseSearchService|Searching indexer(s): [AniLibria] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2025-06-08 20:19:04.7|Info|ReleaseSearchService|Searching indexer(s): [BigFANGroup] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2025-06-08 20:19:04.7|Info|ReleaseSearchService|Searching indexer(s): [BitRu] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2025-06-08 20:19:04.7|Info|ReleaseSearchService|Searching indexer(s): [NoNaMe Club] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2025-06-08 20:19:04.7|Info|ReleaseSearchService|Searching indexer(s): [RuTracker.RU] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5040, 5010, 5045, 5030, 5070]
+2025-06-08 20:21:59.3|Info|Prowlarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-08 20:21:59.4|Info|Prowlarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-08 20:28:06.6|Info|ReleaseSearchService|Searching indexer(s): [AniLibria] for Term: [Sinners 2025], Offset: 0, Limit: 100, Categories: [2000, 2020]
+2025-06-08 20:28:06.6|Info|ReleaseSearchService|Searching indexer(s): [BigFANGroup] for Term: [Sinners 2025], Offset: 0, Limit: 100, Categories: [2000, 2060, 2010, 2040, 2070]
+2025-06-08 20:28:06.6|Info|ReleaseSearchService|Searching indexer(s): [NoNaMe Club] for Term: [Sinners 2025], Offset: 0, Limit: 100, Categories: [2000]
+2025-06-08 20:28:06.7|Info|ReleaseSearchService|Searching indexer(s): [RuTracker.RU] for Term: [Sinners 2025], Offset: 0, Limit: 100, Categories: [2000, 2040, 2070, 2060]
+2025-06-08 20:28:06.7|Info|ReleaseSearchService|Searching indexer(s): [BitRu] for Term: [Sinners 2025], Offset: 0, Limit: 100, Categories: [2000]
+2025-06-08 20:28:08.6|Info|ReleaseSearchService|Searching indexer(s): [BitRu] for Term: [Грешники 2025], Offset: 0, Limit: 100, Categories: [2000]
+2025-06-08 20:28:08.6|Info|ReleaseSearchService|Searching indexer(s): [BigFANGroup] for Term: [Грешники 2025], Offset: 0, Limit: 100, Categories: [2000, 2060, 2010, 2040, 2070]
+2025-06-08 20:28:08.7|Info|ReleaseSearchService|Searching indexer(s): [NoNaMe Club] for Term: [Грешники 2025], Offset: 0, Limit: 100, Categories: [2000]
+2025-06-08 20:28:14.5|Info|ReleaseSearchService|Searching indexer(s): [AniLibria] for Term: [Грешники 2025], Offset: 0, Limit: 100, Categories: [2000, 2020]
+2025-06-08 20:28:14.6|Info|ReleaseSearchService|Searching indexer(s): [BitRu] for Term: [MobLand] for Season / Episode:[S01], Offset: 0, Limit: 100, Categories: [5000]
+2025-06-08 20:28:14.6|Info|ReleaseSearchService|Searching indexer(s): [AniLibria] for Term: [MobLand] for Season / Episode:[S01], Offset: 0, Limit: 100, Categories: [5000]
+2025-06-08 20:28:14.7|Info|ReleaseSearchService|Searching indexer(s): [RuTracker.RU] for Term: [MobLand] for Season / Episode:[S01], Offset: 0, Limit: 100, Categories: [5000, 5040, 5010, 5045, 5030]
+2025-06-08 20:28:14.7|Info|ReleaseSearchService|Searching indexer(s): [BigFANGroup] for Term: [MobLand] for Season / Episode:[S01], Offset: 0, Limit: 100, Categories: [5000]
+2025-06-08 20:28:14.7|Info|ReleaseSearchService|Searching indexer(s): [NoNaMe Club] for Term: [MobLand] for Season / Episode:[S01], Offset: 0, Limit: 100, Categories: [5000]
+2025-06-08 20:28:18.5|Info|ReleaseSearchService|Searching indexer(s): [BigFANGroup] for Term: [A Minecraft Movie 2025], Offset: 0, Limit: 100, Categories: [2000, 2060, 2010, 2040, 2070]
+2025-06-08 20:28:18.6|Info|ReleaseSearchService|Searching indexer(s): [AniLibria] for Term: [A Minecraft Movie 2025], Offset: 0, Limit: 100, Categories: [2000, 2020]
+2025-06-08 20:28:18.6|Info|ReleaseSearchService|Searching indexer(s): [NoNaMe Club] for Term: [A Minecraft Movie 2025], Offset: 0, Limit: 100, Categories: [2000]
+2025-06-08 20:28:18.6|Info|ReleaseSearchService|Searching indexer(s): [BitRu] for Term: [A Minecraft Movie 2025], Offset: 0, Limit: 100, Categories: [2000]
+2025-06-08 20:28:18.6|Info|ReleaseSearchService|Searching indexer(s): [RuTracker.RU] for Term: [A Minecraft Movie 2025], Offset: 0, Limit: 100, Categories: [2000, 2040, 2070, 2060]
+2025-06-08 20:28:20.6|Info|ReleaseSearchService|Searching indexer(s): [RuTracker.RU] for Term: [Грешники 2025], Offset: 0, Limit: 100, Categories: [2000, 2040, 2070, 2060]
+2025-06-08 20:28:20.6|Info|ReleaseSearchService|Searching indexer(s): [BigFANGroup] for Term: [Minecraft в Кино 2025], Offset: 0, Limit: 100, Categories: [2000, 2060, 2010, 2040, 2070]
+2025-06-08 20:28:20.6|Info|ReleaseSearchService|Searching indexer(s): [BitRu] for Term: [Minecraft в Кино 2025], Offset: 0, Limit: 100, Categories: [2000]
+2025-06-08 20:28:20.6|Info|ReleaseSearchService|Searching indexer(s): [NoNaMe Club] for Term: [Minecraft в Кино 2025], Offset: 0, Limit: 100, Categories: [2000]
+2025-06-08 20:28:25.6|Info|ReleaseSearchService|Searching indexer(s): [AniLibria] for Term: [Minecraft в Кино 2025], Offset: 0, Limit: 100, Categories: [2000, 2020]
+2025-06-08 20:28:26.6|Info|ReleaseSearchService|Searching indexer(s): [BigFANGroup] for Term: [Dept Q] for Season / Episode:[S01], Offset: 0, Limit: 100, Categories: [5000]
+2025-06-08 20:28:26.6|Info|ReleaseSearchService|Searching indexer(s): [AniLibria] for Term: [Dept Q] for Season / Episode:[S01], Offset: 0, Limit: 100, Categories: [5000]
+2025-06-08 20:28:26.6|Info|ReleaseSearchService|Searching indexer(s): [BitRu] for Term: [Dept Q] for Season / Episode:[S01], Offset: 0, Limit: 100, Categories: [5000]
+2025-06-08 20:28:26.6|Info|ReleaseSearchService|Searching indexer(s): [NoNaMe Club] for Term: [Dept. Q] for Season / Episode:[S01], Offset: 0, Limit: 100, Categories: [5000]
+2025-06-08 20:28:26.6|Info|ReleaseSearchService|Searching indexer(s): [RuTracker.RU] for Term: [Dept. Q] for Season / Episode:[S01], Offset: 0, Limit: 100, Categories: [5000, 5040, 5010, 5045, 5030]
+2025-06-08 20:28:28.6|Info|ReleaseSearchService|Searching indexer(s): [NoNaMe Club] for Term: [Dept Q] for Season / Episode:[S01], Offset: 0, Limit: 100, Categories: [5000]
+2025-06-08 20:28:31.0|Info|ReleaseSearchService|Searching indexer(s): [RuTracker.RU] for Term: [Minecraft в Кино 2025], Offset: 0, Limit: 100, Categories: [2000, 2040, 2070, 2060]
+2025-06-08 20:28:31.5|Info|ReleaseSearchService|Searching indexer(s): [BigFANGroup] for Term: [Ginny and Georgia] for Season / Episode:[S03], Offset: 0, Limit: 100, Categories: [5000]
+2025-06-08 20:28:31.5|Info|ReleaseSearchService|Searching indexer(s): [AniLibria] for Term: [Ginny and Georgia] for Season / Episode:[S03], Offset: 0, Limit: 100, Categories: [5000]
+2025-06-08 20:28:31.5|Info|ReleaseSearchService|Searching indexer(s): [NoNaMe Club] for Term: [Ginny and Georgia] for Season / Episode:[S03], Offset: 0, Limit: 100, Categories: [5000]
+2025-06-08 20:28:31.5|Info|ReleaseSearchService|Searching indexer(s): [RuTracker.RU] for Term: [Ginny and Georgia] for Season / Episode:[S03], Offset: 0, Limit: 100, Categories: [5000, 5040, 5010, 5045, 5030]
+2025-06-08 20:28:31.5|Info|ReleaseSearchService|Searching indexer(s): [BitRu] for Term: [Ginny and Georgia] for Season / Episode:[S03], Offset: 0, Limit: 100, Categories: [5000]
+2025-06-08 20:28:33.5|Info|ReleaseSearchService|Searching indexer(s): [NoNaMe Club] for Term: [Ginny & Georgia] for Season / Episode:[S03], Offset: 0, Limit: 100, Categories: [5000]
+2025-06-08 20:28:35.5|Info|ReleaseSearchService|Searching indexer(s): [NoNaMe Club] for Term: [Ginny and Georgia] for Season / Episode:[S03], Offset: 0, Limit: 100, Categories: [5000]
+2025-06-08 20:28:39.0|Info|ReleaseSearchService|Searching indexer(s): [RuTracker.RU] for Term: [Dept Q] for Season / Episode:[S01], Offset: 0, Limit: 100, Categories: [5000, 5040, 5010, 5045, 5030]
+2025-06-08 20:28:42.2|Info|ReleaseSearchService|Searching indexer(s): [AniLibria] for Term: [Mickey 17 2025], Offset: 0, Limit: 100, Categories: [2000, 2020]
+2025-06-08 20:28:42.2|Info|ReleaseSearchService|Searching indexer(s): [BitRu] for Term: [Mickey 17 2025], Offset: 0, Limit: 100, Categories: [2000]
+2025-06-08 20:28:42.2|Info|ReleaseSearchService|Searching indexer(s): [NoNaMe Club] for Term: [Mickey 17 2025], Offset: 0, Limit: 100, Categories: [2000]
+2025-06-08 20:28:42.2|Info|ReleaseSearchService|Searching indexer(s): [RuTracker.RU] for Term: [Mickey 17 2025], Offset: 0, Limit: 100, Categories: [2000, 2040, 2070, 2060]
+2025-06-08 20:28:42.3|Info|ReleaseSearchService|Searching indexer(s): [BigFANGroup] for Term: [Mickey 17 2025], Offset: 0, Limit: 100, Categories: [2000, 2060, 2010, 2040, 2070]
+2025-06-08 20:28:44.2|Info|ReleaseSearchService|Searching indexer(s): [BitRu] for Term: [Микки 17 2025], Offset: 0, Limit: 100, Categories: [2000]
+2025-06-08 20:28:44.2|Info|ReleaseSearchService|Searching indexer(s): [BigFANGroup] for Term: [Микки 17 2025], Offset: 0, Limit: 100, Categories: [2000, 2060, 2010, 2040, 2070]
+2025-06-08 20:28:44.2|Info|ReleaseSearchService|Searching indexer(s): [NoNaMe Club] for Term: [Микки 17 2025], Offset: 0, Limit: 100, Categories: [2000]
+2025-06-08 20:28:45.3|Info|ReleaseSearchService|Searching indexer(s): [RuTracker.RU] for Term: [Ginny & Georgia] for Season / Episode:[S03], Offset: 0, Limit: 100, Categories: [5000, 5040, 5010, 5045, 5030]
+2025-06-08 20:28:47.5|Info|ReleaseSearchService|Searching indexer(s): [AniLibria] for Term: [Микки 17 2025], Offset: 0, Limit: 100, Categories: [2000, 2020]
+2025-06-08 20:28:53.3|Info|ReleaseSearchService|Searching indexer(s): [RuTracker.RU] for Term: [Микки 17 2025], Offset: 0, Limit: 100, Categories: [2000, 2040, 2070, 2060]
+2025-06-08 20:28:57.6|Info|ReleaseSearchService|Searching indexer(s): [RuTracker.RU] for Term: [Ginny and Georgia] for Season / Episode:[S03], Offset: 0, Limit: 100, Categories: [5000, 5040, 5010, 5045, 5030]
+2025-06-08 20:30:00.6|Warn|Cardigann|RuTracker.RU server is currently unavailable. http://rutracker.ru/tracker.php?f[]=1748&f[]=1757&f[]=1749&f[]=1758&f[]=1735&f[]=1736&f[]=1737&f[]=1738&f[]=1739&f[]=1695&f[]=1697&f[]=1696&f[]=1698&f[]=1699&f[]=1701&f[]=1702&f[]=1671&f[]=1677&f[]=1676&f[]=1675&f[]=1674&f[]=1673&f[]=1672&f[]=1656&f[]=1662&f[]=1661&f[]=1660&f[]=1659&f[]=1658&f[]=1657&f[]=1730&f[]=1731&f[]=1732&f[]=1733&f[]=1725&f[]=1726&f[]=1727&f[]=1728&f[]=1719&f[]=1720&f[]=1721&f[]=1722&f[]=1715&f[]=1734&f[]=1716&f[]=820&f[]=840&f[]=841&f[]=825&f[]=830&f[]=1317&f[]=838&f[]=845&f[]=1560&f[]=798&f[]=802&f[]=801&f[]=1318&prev_allw=1&prev_a=0&prev_dla=0&prev_dlc=0&prev_dld=0&prev_dlw=0&prev_my=0&prev_new=0&prev_sd=0&prev_da=1&prev_dc=0&prev_df=1&prev_ds=0&prev_tor_type=0&o=1&s=2&dc=0&df=1&da=1&ds=0&tm=-1&sns=-1&srg=-1&nm=%D0%93%D1%80%D0%B5%D1%88%D0%BD%D0%B8%D0%BA%D0%B8+2025&allw=0 Http request timed out
+
+[v1.37.0.5076] System.Net.WebException: Http request timed out
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Http.HttpConnection.InitialFillAsync(Boolean async)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 120
+   --- End of inner exception stack trace ---
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 170
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Core.Indexers.IndexerHttpClient.ExecuteProxiedAsync(HttpRequest request, ProviderDefinition definition) in ./Prowlarr.Core/Indexers/IndexerHttpClient.cs:line 44
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.<>c.<<FetchIndexerResponse>b__57_0>d.MoveNext() in ./Prowlarr.Core/Indexers/HttpIndexerBase.cs:line 665
+--- End of stack trace from previous location ---
+   at Polly.ResiliencePipeline.<>c__9`2.<<ExecuteAsync>b__9_0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Polly.Outcome`1.GetResultOrRethrow()
+   at Polly.ResiliencePipeline.ExecuteAsync[TResult,TState](Func`3 callback, TState state, CancellationToken cancellationToken)
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchIndexerResponse(IndexerRequest request) in ./Prowlarr.Core/Indexers/HttpIndexerBase.cs:line 664
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchPage(IndexerRequest request, IParseIndexerResponse parser) in ./Prowlarr.Core/Indexers/HttpIndexerBase.cs:line 610
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchReleases(Func`2 pageableRequestChainSelector, SearchCriteriaBase searchCriteria, Boolean isRecent) in ./Prowlarr.Core/Indexers/HttpIndexerBase.cs:line 428
+
+
+2025-06-08 20:30:51.1|Info|Prowlarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-08 20:30:51.2|Info|Prowlarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-08 20:31:37.1|Info|Prowlarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-08 20:31:37.1|Info|Prowlarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-08 20:34:34.7|Info|ReleaseSearchService|Searching indexer(s): [AniLibria] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2025-06-08 20:34:34.7|Info|ReleaseSearchService|Searching indexer(s): [RuTracker.RU] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5040, 5010, 5045, 5030, 5070]
+2025-06-08 20:34:34.7|Info|ReleaseSearchService|Searching indexer(s): [NoNaMe Club] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2025-06-08 20:34:34.7|Info|ReleaseSearchService|Searching indexer(s): [BigFANGroup] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2025-06-08 20:34:34.7|Info|ReleaseSearchService|Searching indexer(s): [BitRu] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]

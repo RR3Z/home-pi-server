@@ -7546,3 +7546,233 @@
 2025-06-08 19:59:43.9|Info|ManagedHttpDispatcher|IPv4 is available: True, IPv6 will be disabled
 2025-06-08 19:59:48.5|Info|Radarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
 2025-06-08 19:59:48.6|Info|Radarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-08 20:07:47.1|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from qBittorrent
+
+[v5.25.0.10024] System.Net.Http.HttpRequestException: Network unreachable (172.25.0.3:8081)
+ ---> System.Net.Sockets.SocketException (101): Network unreachable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.CreateException(SocketError error, Boolean forAsyncThrow)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ConnectAsync(Socket socket)
+   at System.Net.Sockets.Socket.ConnectAsync(EndPoint remoteEP, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Radarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 326
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Radarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 312
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Net.Http.HttpConnectionPool.<>c__DisplayClass75_0.<CheckForHttp11ConnectionInjection>b__0()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+   at System.Threading.Tasks.Task.ExecuteEntryUnsafe(Thread threadPoolThread)
+   at System.Threading.Tasks.Task.ExecuteFromThreadPool(Thread threadPoolThread)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+--- End of stack trace from previous location ---
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Radarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 326
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Radarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 312
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Radarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Radarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Radarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Radarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.ProcessRequest(HttpRequestBuilder requestBuilder, QBittorrentSettings settings) in ./Radarr.Core/Download/Clients/QBittorrent/QBittorrentProxyV2.cs:line 388
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.GetApiVersion(QBittorrentSettings settings) in ./Radarr.Core/Download/Clients/QBittorrent/QBittorrentProxyV2.cs:line 74
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetItems() in ./Radarr.Core/Download/Clients/QBittorrent/QBittorrent.cs:line 220
+   at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads(IDownloadClient downloadClient) in ./Radarr.Core/Download/TrackedDownloads/DownloadMonitoringService.cs:line 90
+
+
+2025-06-08 20:09:14.2|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from qBittorrent
+
+[v5.25.0.10024] System.Net.Http.HttpRequestException: Network unreachable (172.25.0.3:8081)
+ ---> System.Net.Sockets.SocketException (101): Network unreachable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.CreateException(SocketError error, Boolean forAsyncThrow)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ConnectAsync(Socket socket)
+   at System.Net.Sockets.Socket.ConnectAsync(EndPoint remoteEP, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Radarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 326
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Radarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 312
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Runtime.CompilerServices.AsyncMethodBuilderCore.Start[TStateMachine](TStateMachine& stateMachine)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Net.Http.HttpConnectionPool.<>c__DisplayClass75_0.<CheckForHttp11ConnectionInjection>b__0()
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+   at System.Threading.Tasks.Task.ExecuteEntryUnsafe(Thread threadPoolThread)
+   at System.Threading.Tasks.Task.ExecuteFromThreadPool(Thread threadPoolThread)
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+--- End of stack trace from previous location ---
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Radarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 326
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Radarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 312
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Radarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Radarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Radarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Radarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.ProcessRequest(HttpRequestBuilder requestBuilder, QBittorrentSettings settings) in ./Radarr.Core/Download/Clients/QBittorrent/QBittorrentProxyV2.cs:line 388
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.GetApiVersion(QBittorrentSettings settings) in ./Radarr.Core/Download/Clients/QBittorrent/QBittorrentProxyV2.cs:line 74
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetItems() in ./Radarr.Core/Download/Clients/QBittorrent/QBittorrent.cs:line 220
+   at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads(IDownloadClient downloadClient) in ./Radarr.Core/Download/TrackedDownloads/DownloadMonitoringService.cs:line 90
+
+
+2025-06-08 20:09:44.2|Info|Bootstrap|Starting Radarr - /app/bin/Radarr - Version 5.25.0.10024
+2025-06-08 20:09:44.4|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-06-08 20:09:44.4|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-06-08 20:09:44.8|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-06-08 20:09:45.1|Info|MigrationController|*** Migrating data source=/config/radarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-06-08 20:09:45.2|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-06-08 20:09:45.2|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-06-08 20:09:45.2|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-06-08 20:09:45.3|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-06-08 20:09:45.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0647332s
+2025-06-08 20:09:45.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-06-08 20:09:45.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0672641s
+2025-06-08 20:09:45.3|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-06-08 20:09:45.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-06-08 20:09:45.3|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-06-08 20:09:45.3|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-06-08 20:09:45.3|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-06-08 20:09:45.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0016684s
+2025-06-08 20:09:45.3|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-06-08 20:09:45.3|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0020122s
+2025-06-08 20:09:45.8|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:7878
+2025-06-08 20:09:46.2|Info|Radarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-08 20:09:46.3|Info|CommandExecutor|Starting 2 threads for tasks.
+2025-06-08 20:09:46.4|Info|Radarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-08 20:09:46.4|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-06-08 20:09:46.4|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2025-06-08 20:09:46.4|Info|Microsoft.Hosting.Lifetime|Content root path: /app/bin
+2025-06-08 20:09:46.8|Info|ManagedHttpDispatcher|IPv4 is available: True, IPv6 will be disabled
+2025-06-08 20:18:16.5|Info|RssSyncService|Starting RSS Sync
+2025-06-08 20:18:28.0|Info|DownloadDecisionMaker|Processing 132 releases
+2025-06-08 20:18:29.9|Info|RssSyncService|RSS Sync Completed. Reports found: 132, Reports grabbed: 0
+2025-06-08 20:21:22.8|Info|Radarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-08 20:21:22.8|Info|Radarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-08 20:28:00.6|Info|AddMovieService|Adding Movie [Ballerina (2025)][tt7181546, 541671] Path: [/media/Ballerina (2025)]
+2025-06-08 20:28:00.7|Info|RefreshMovieService|Updating info for Ballerina
+2025-06-08 20:28:00.9|Info|AddMovieCollectionService|Adding Collection Ballerina Collection[1494663]
+2025-06-08 20:28:00.9|Info|RefreshCollectionService|Updating info for Ballerina Collection
+2025-06-08 20:28:01.0|Info|MediaCoverService|Downloading Poster for [Ballerina (2025)][tt7181546, 541671] https://image.tmdb.org/t/p/original/mKp4euM5Cv3m2U1Vmby3OGwcD5y.jpg
+2025-06-08 20:28:01.0|Warn|DiskScanService|Movie's root folder (/media) is empty. Rescan will not update movies as a failsafe.
+2025-06-08 20:28:01.0|Info|MovieScannedHandler|[Ballerina] was recently added, performing post-add actions
+2025-06-08 20:28:01.1|Info|MovieSearchService|Performing search for 0 movies
+2025-06-08 20:28:01.1|Info|MovieSearchService|Completed search for 0 movies. 0 reports downloaded.
+2025-06-08 20:28:02.0|Info|MediaCoverService|Downloading Fanart for [Ballerina (2025)][tt7181546, 541671] https://image.tmdb.org/t/p/original/oPgXVSdGR9dGwbmvIToOCMmsdc2.jpg
+2025-06-08 20:28:04.0|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2025-06-08 20:28:06.2|Info|AddMovieService|Adding Movie [Sinners (2025)][tt31193180, 1233413] Path: [/media/Sinners (2025)]
+2025-06-08 20:28:06.3|Info|RefreshMovieService|Updating info for Sinners
+2025-06-08 20:28:06.5|Info|AddMovieCollectionService|Adding Collection Sinners Collection[1489663]
+2025-06-08 20:28:06.5|Info|RefreshCollectionService|Updating info for Sinners Collection
+2025-06-08 20:28:06.5|Info|MediaCoverService|Downloading Poster for [Sinners (2025)][tt31193180, 1233413] https://image.tmdb.org/t/p/original/jYfMTSiFFK7ffbY2lay4zyvTkEk.jpg
+2025-06-08 20:28:06.5|Warn|DiskScanService|Movie's root folder (/media) is empty. Rescan will not update movies as a failsafe.
+2025-06-08 20:28:06.5|Info|MovieScannedHandler|[Sinners] was recently added, performing post-add actions
+2025-06-08 20:28:06.6|Info|MovieSearchService|Performing search for 1 movies
+2025-06-08 20:28:06.6|Info|ReleaseSearchService|Searching indexers for [Sinners]. 5 active indexers
+2025-06-08 20:28:06.9|Info|MediaCoverService|Downloading Fanart for [Sinners (2025)][tt31193180, 1233413] https://image.tmdb.org/t/p/original/nAxGnGHOsfzufThz20zgmRwKur3.jpg
+2025-06-08 20:28:08.8|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2025-06-08 20:28:15.7|Info|AddMovieService|Adding Movie [Lilo & Stitch (2025)][tt11655566, 552524] Path: [/media/Lilo & Stitch (2025)]
+2025-06-08 20:28:15.8|Info|RefreshMovieService|Updating info for Lilo & Stitch
+2025-06-08 20:28:15.9|Info|MediaCoverService|Downloading Poster for [Lilo & Stitch (2025)][tt11655566, 552524] https://image.tmdb.org/t/p/original/tUae3mefrDVTgm5mRzqWnZK6fOP.jpg
+2025-06-08 20:28:15.9|Warn|DiskScanService|Movie's root folder (/media) is empty. Rescan will not update movies as a failsafe.
+2025-06-08 20:28:15.9|Info|MovieScannedHandler|[Lilo & Stitch] was recently added, performing post-add actions
+2025-06-08 20:28:15.9|Info|MovieSearchService|Performing search for 0 movies
+2025-06-08 20:28:15.9|Info|MovieSearchService|Completed search for 0 movies. 0 reports downloaded.
+2025-06-08 20:28:16.3|Info|MediaCoverService|Downloading Fanart for [Lilo & Stitch (2025)][tt11655566, 552524] https://image.tmdb.org/t/p/original/7Zx3wDG5bBtcfk8lcnCWDOLM4Y4.jpg
+2025-06-08 20:28:17.8|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2025-06-08 20:28:18.1|Info|AddMovieService|Adding Movie [A Minecraft Movie (2025)][tt3566834, 950387] Path: [/media/A Minecraft Movie (2025)]
+2025-06-08 20:28:18.1|Info|RefreshMovieService|Updating info for A Minecraft Movie
+2025-06-08 20:28:18.3|Info|AddMovieCollectionService|Adding Collection The Minecraft Movie Collection[1461530]
+2025-06-08 20:28:18.4|Info|RefreshCollectionService|Updating info for The Minecraft Movie Collection
+2025-06-08 20:28:18.5|Info|MediaCoverService|Downloading Poster for [A Minecraft Movie (2025)][tt3566834, 950387] https://image.tmdb.org/t/p/original/yFHHfHcUgGAxziP1C3lLt0q2T4s.jpg
+2025-06-08 20:28:18.5|Warn|DiskScanService|Movie's root folder (/media) is empty. Rescan will not update movies as a failsafe.
+2025-06-08 20:28:18.5|Info|MovieScannedHandler|[A Minecraft Movie] was recently added, performing post-add actions
+2025-06-08 20:28:18.5|Info|MovieSearchService|Performing search for 1 movies
+2025-06-08 20:28:18.5|Info|ReleaseSearchService|Searching indexers for [A Minecraft Movie]. 5 active indexers
+2025-06-08 20:28:18.9|Info|MediaCoverService|Downloading Fanart for [A Minecraft Movie (2025)][tt3566834, 950387] https://image.tmdb.org/t/p/original/2Nti3gYAX513wvhp8IiLL6ZDyOm.jpg
+2025-06-08 20:28:20.5|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2025-06-08 20:28:39.5|Info|AddMovieService|Adding Movie [Superman (2025)][tt5950044, 1061474] Path: [/media/Superman (2025)]
+2025-06-08 20:28:39.5|Info|RefreshMovieService|Updating info for Superman
+2025-06-08 20:28:39.6|Warn|DiskScanService|Movie's root folder (/media) is empty. Rescan will not update movies as a failsafe.
+2025-06-08 20:28:39.6|Info|MediaCoverService|Downloading Poster for [Superman (2025)][tt5950044, 1061474] https://image.tmdb.org/t/p/original/ombsmhYUqR4qqOLOxAyr5V8hbyv.jpg
+2025-06-08 20:28:39.6|Info|MovieScannedHandler|[Superman] was recently added, performing post-add actions
+2025-06-08 20:28:39.7|Info|MovieSearchService|Performing search for 0 movies
+2025-06-08 20:28:39.7|Info|MovieSearchService|Completed search for 0 movies. 0 reports downloaded.
+2025-06-08 20:28:39.9|Info|MediaCoverService|Downloading Fanart for [Superman (2025)][tt5950044, 1061474] https://image.tmdb.org/t/p/original/mMS24Uh4AsgkchTFFQaOwFnFDnO.jpg
+2025-06-08 20:28:40.9|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2025-06-08 20:28:42.0|Info|AddMovieService|Adding Movie [Mickey 17 (2025)][tt12299608, 696506] Path: [/media/Mickey 17 (2025)]
+2025-06-08 20:28:42.0|Info|RefreshMovieService|Updating info for Mickey 17
+2025-06-08 20:28:42.2|Info|MediaCoverService|Downloading Poster for [Mickey 17 (2025)][tt12299608, 696506] https://image.tmdb.org/t/p/original/edKpE9B5qN3e559OuMCLZdW1iBZ.jpg
+2025-06-08 20:28:42.2|Warn|DiskScanService|Movie's root folder (/media) is empty. Rescan will not update movies as a failsafe.
+2025-06-08 20:28:42.2|Info|MovieScannedHandler|[Mickey 17] was recently added, performing post-add actions
+2025-06-08 20:28:42.2|Info|MovieSearchService|Performing search for 1 movies
+2025-06-08 20:28:42.2|Info|ReleaseSearchService|Searching indexers for [Mickey 17]. 5 active indexers
+2025-06-08 20:28:42.4|Info|MediaCoverService|Downloading Fanart for [Mickey 17 (2025)][tt12299608, 696506] https://image.tmdb.org/t/p/original/pkZ8SaIQwjBuS1fcJJE7Are7IrL.jpg
+2025-06-08 20:28:43.6|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2025-06-08 20:28:44.4|Info|AddMovieService|Adding Movie [The Fantastic Four: First Steps (2025)][tt10676052, 617126] Path: [/media/The Fantastic Four - First Steps (2025)]
+2025-06-08 20:28:44.5|Info|DownloadDecisionMaker|Processing 34 releases
+2025-06-08 20:28:46.4|Info|DownloadService|Report for A Minecraft Movie (2025) sent to qBittorrent from indexer NoNaMe Club (Prowlarr). Minecraft   / A Minecraft Movie (2025) WEB-DL [H.264/1080p] [MVO] RUS
+2025-06-08 20:28:46.5|Info|MovieSearchService|Completed search for 1 movies. 1 reports downloaded.
+2025-06-08 20:28:46.5|Info|RefreshMovieService|Updating info for The Fantastic Four: First Steps
+2025-06-08 20:28:46.6|Info|MediaCoverService|Downloading Poster for [The Fantastic Four: First Steps (2025)][tt10676052, 617126] https://image.tmdb.org/t/p/original/x26MtUlwtWD26d0G0FXcppxCJio.jpg
+2025-06-08 20:28:46.6|Warn|DiskScanService|Movie's root folder (/media) is empty. Rescan will not update movies as a failsafe.
+2025-06-08 20:28:46.6|Info|MovieScannedHandler|[The Fantastic Four: First Steps] was recently added, performing post-add actions
+2025-06-08 20:28:46.7|Info|MovieSearchService|Performing search for 0 movies
+2025-06-08 20:28:46.7|Info|MovieSearchService|Completed search for 0 movies. 0 reports downloaded.
+2025-06-08 20:28:47.0|Info|MediaCoverService|Downloading Fanart for [The Fantastic Four: First Steps (2025)][tt10676052, 617126] https://image.tmdb.org/t/p/original/unthV1mq9llhEinIMPcCUImFodt.jpg
+2025-06-08 20:28:48.2|Info|MetadataService|Movie folder does not exist, skipping metadata image creation
+2025-06-08 20:29:04.8|Info|DownloadDecisionMaker|Processing 64 releases
+2025-06-08 20:29:06.1|Info|DownloadService|Report for Mickey 17 (2025) sent to qBittorrent from indexer BigFANGroup (Prowlarr). Mickey 17 (2025) BDRip 1080p- RUS
+2025-06-08 20:29:06.2|Info|MovieSearchService|Completed search for 1 movies. 1 reports downloaded.
+2025-06-08 20:30:00.5|Warn|Torznab|RuTracker.RU (Prowlarr) server is currently unavailable. http://172.25.0.2:9696/6/api?t=search&cat=2000,2040,2070,2060&extended=1&apikey=(removed)&offset=0&limit=100&q=%D0%93%D1%80%D0%B5%D1%88%D0%BD%D0%B8%D0%BA%D0%B8%202025 Http request timed out
+2025-06-08 20:30:00.6|Info|DownloadDecisionMaker|Processing 21 releases
+2025-06-08 20:30:01.3|Info|DownloadService|Report for Sinners (2025) sent to qBittorrent from indexer NoNaMe Club (Prowlarr). Sinners (2025) WEB-DL [H.264/1080p] RUS
+2025-06-08 20:30:01.3|Info|MovieSearchService|Completed search for 1 movies. 1 reports downloaded.
+2025-06-08 20:31:17.3|Info|Radarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-08 20:31:17.3|Info|Radarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
