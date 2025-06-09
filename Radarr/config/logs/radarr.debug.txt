@@ -4995,3 +4995,132 @@ disk I/O error
 2025-06-09 09:05:02.7|Debug|Parser|Edition parsed: 
 2025-06-09 09:05:02.7|Debug|ParsingService|No matching movie for titles 'The Accountant (2016)'
 2025-06-09 09:05:02.7|Debug|AggregateLanguages|Unable to aggregate languages, using parsed values: Russian, English
+2025-06-09 09:06:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-09 09:06:00.0|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (2 ms)
+2025-06-09 09:06:32.7|Debug|Parser|Parsing string 'The.Wild.Robot.2024.1080p.BluRay.x264-ZoroSenpai_EniaHD.mkv'
+2025-06-09 09:06:32.7|Debug|Parser|Movie Parsed. The Wild Robot - 2024 
+2025-06-09 09:06:32.7|Debug|Parser|Release Group parsed: ZoroSenpai
+2025-06-09 09:06:32.7|Debug|Parser|Languages parsed: Unknown
+2025-06-09 09:06:32.7|Debug|QualityParser|Trying to parse quality for 'The.Wild.Robot.2024.1080p.BluRay.x264-ZoroSenpai_EniaHD.mkv'
+2025-06-09 09:06:32.7|Debug|Parser|Quality parsed: Bluray-1080p v1
+2025-06-09 09:06:32.7|Debug|Parser|Edition parsed: 
+2025-06-09 09:06:32.7|Debug|ParsingService|No matching movie for titles 'The Wild Robot (2024)'
+2025-06-09 09:06:32.7|Debug|AggregateLanguages|Unable to aggregate languages, using parsed values: Unknown
+2025-06-09 09:06:32.7|Debug|Parser|Parsing string 'The.Accountant.2016.1080p.BluRay.Rus.Eng.HDCLUB.mkv'
+2025-06-09 09:06:32.7|Debug|Parser|Movie Parsed. The Accountant - 2016 
+2025-06-09 09:06:32.7|Debug|Parser|Release Group parsed: 
+2025-06-09 09:06:32.7|Debug|Parser|Languages parsed: Russian, English
+2025-06-09 09:06:32.7|Debug|QualityParser|Trying to parse quality for 'The.Accountant.2016.1080p.BluRay.Rus.Eng.HDCLUB.mkv'
+2025-06-09 09:06:32.7|Debug|Parser|Quality parsed: Bluray-1080p v1
+2025-06-09 09:06:32.7|Debug|Parser|Edition parsed: 
+2025-06-09 09:06:32.7|Debug|ParsingService|No matching movie for titles 'The Accountant (2016)'
+2025-06-09 09:06:32.7|Debug|AggregateLanguages|Unable to aggregate languages, using parsed values: Russian, English
+2025-06-09 09:07:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-09 09:07:00.0|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (3 ms)
+2025-06-09 09:07:49.7|Info|Radarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 09:08:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-09 09:08:00.0|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (2 ms)
+2025-06-09 09:08:02.7|Debug|Parser|Parsing string 'The.Wild.Robot.2024.1080p.BluRay.x264-ZoroSenpai_EniaHD.mkv'
+2025-06-09 09:08:02.7|Debug|Parser|Movie Parsed. The Wild Robot - 2024 
+2025-06-09 09:08:02.7|Debug|Parser|Release Group parsed: ZoroSenpai
+2025-06-09 09:08:02.7|Debug|Parser|Languages parsed: Unknown
+2025-06-09 09:08:02.7|Debug|QualityParser|Trying to parse quality for 'The.Wild.Robot.2024.1080p.BluRay.x264-ZoroSenpai_EniaHD.mkv'
+2025-06-09 09:08:02.7|Debug|Parser|Quality parsed: Bluray-1080p v1
+2025-06-09 09:08:02.7|Debug|Parser|Edition parsed: 
+2025-06-09 09:08:02.7|Debug|ParsingService|No matching movie for titles 'The Wild Robot (2024)'
+2025-06-09 09:08:02.7|Debug|AggregateLanguages|Unable to aggregate languages, using parsed values: Unknown
+2025-06-09 09:08:02.7|Debug|Parser|Parsing string 'The.Accountant.2016.1080p.BluRay.Rus.Eng.HDCLUB.mkv'
+2025-06-09 09:08:02.7|Debug|Parser|Movie Parsed. The Accountant - 2016 
+2025-06-09 09:08:02.7|Debug|Parser|Release Group parsed: 
+2025-06-09 09:08:02.7|Debug|Parser|Languages parsed: Russian, English
+2025-06-09 09:08:02.7|Debug|QualityParser|Trying to parse quality for 'The.Accountant.2016.1080p.BluRay.Rus.Eng.HDCLUB.mkv'
+2025-06-09 09:08:02.7|Debug|Parser|Quality parsed: Bluray-1080p v1
+2025-06-09 09:08:02.7|Debug|Parser|Edition parsed: 
+2025-06-09 09:08:02.7|Debug|ParsingService|No matching movie for titles 'The Accountant (2016)'
+2025-06-09 09:08:02.7|Debug|AggregateLanguages|Unable to aggregate languages, using parsed values: Russian, English
+2025-06-09 09:09:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-09 09:09:00.0|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (6 ms)
+2025-06-09 09:09:02.7|Debug|ImportListSyncService|No enabled import lists, skipping sync and cleaning
+2025-06-09 09:09:32.7|Debug|Parser|Parsing string 'The.Wild.Robot.2024.1080p.BluRay.x264-ZoroSenpai_EniaHD.mkv'
+2025-06-09 09:09:32.7|Debug|Parser|Movie Parsed. The Wild Robot - 2024 
+2025-06-09 09:09:32.7|Debug|Parser|Release Group parsed: ZoroSenpai
+2025-06-09 09:09:32.7|Debug|Parser|Languages parsed: Unknown
+2025-06-09 09:09:32.7|Debug|QualityParser|Trying to parse quality for 'The.Wild.Robot.2024.1080p.BluRay.x264-ZoroSenpai_EniaHD.mkv'
+2025-06-09 09:09:32.7|Debug|Parser|Quality parsed: Bluray-1080p v1
+2025-06-09 09:09:32.7|Debug|Parser|Edition parsed: 
+2025-06-09 09:09:32.7|Debug|ParsingService|No matching movie for titles 'The Wild Robot (2024)'
+2025-06-09 09:09:32.7|Debug|AggregateLanguages|Unable to aggregate languages, using parsed values: Unknown
+2025-06-09 09:09:32.7|Debug|Parser|Parsing string 'The.Accountant.2016.1080p.BluRay.Rus.Eng.HDCLUB.mkv'
+2025-06-09 09:09:32.7|Debug|Parser|Movie Parsed. The Accountant - 2016 
+2025-06-09 09:09:32.7|Debug|Parser|Release Group parsed: 
+2025-06-09 09:09:32.7|Debug|Parser|Languages parsed: Russian, English
+2025-06-09 09:09:32.7|Debug|QualityParser|Trying to parse quality for 'The.Accountant.2016.1080p.BluRay.Rus.Eng.HDCLUB.mkv'
+2025-06-09 09:09:32.7|Debug|Parser|Quality parsed: Bluray-1080p v1
+2025-06-09 09:09:32.7|Debug|Parser|Edition parsed: 
+2025-06-09 09:09:32.7|Debug|ParsingService|No matching movie for titles 'The Accountant (2016)'
+2025-06-09 09:09:32.7|Debug|AggregateLanguages|Unable to aggregate languages, using parsed values: Russian, English
+2025-06-09 09:10:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-09 09:10:00.0|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (2 ms)
+2025-06-09 09:11:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-09 09:11:00.0|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (5 ms)
+2025-06-09 09:11:02.7|Debug|Parser|Parsing string 'The.Wild.Robot.2024.1080p.BluRay.x264-ZoroSenpai_EniaHD.mkv'
+2025-06-09 09:11:02.7|Debug|Parser|Movie Parsed. The Wild Robot - 2024 
+2025-06-09 09:11:02.7|Debug|Parser|Release Group parsed: ZoroSenpai
+2025-06-09 09:11:02.7|Debug|Parser|Languages parsed: Unknown
+2025-06-09 09:11:02.7|Debug|QualityParser|Trying to parse quality for 'The.Wild.Robot.2024.1080p.BluRay.x264-ZoroSenpai_EniaHD.mkv'
+2025-06-09 09:11:02.7|Debug|Parser|Quality parsed: Bluray-1080p v1
+2025-06-09 09:11:02.7|Debug|Parser|Edition parsed: 
+2025-06-09 09:11:02.7|Debug|ParsingService|No matching movie for titles 'The Wild Robot (2024)'
+2025-06-09 09:11:02.7|Debug|AggregateLanguages|Unable to aggregate languages, using parsed values: Unknown
+2025-06-09 09:11:02.7|Debug|Parser|Parsing string 'The.Accountant.2016.1080p.BluRay.Rus.Eng.HDCLUB.mkv'
+2025-06-09 09:11:02.7|Debug|Parser|Movie Parsed. The Accountant - 2016 
+2025-06-09 09:11:02.7|Debug|Parser|Release Group parsed: 
+2025-06-09 09:11:02.7|Debug|Parser|Languages parsed: Russian, English
+2025-06-09 09:11:02.7|Debug|QualityParser|Trying to parse quality for 'The.Accountant.2016.1080p.BluRay.Rus.Eng.HDCLUB.mkv'
+2025-06-09 09:11:02.7|Debug|Parser|Quality parsed: Bluray-1080p v1
+2025-06-09 09:11:02.7|Debug|Parser|Edition parsed: 
+2025-06-09 09:11:02.7|Debug|ParsingService|No matching movie for titles 'The Accountant (2016)'
+2025-06-09 09:11:02.8|Debug|AggregateLanguages|Unable to aggregate languages, using parsed values: Russian, English
+2025-06-09 09:12:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-09 09:12:00.0|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (6 ms)
+2025-06-09 09:12:32.8|Debug|Parser|Parsing string 'The.Wild.Robot.2024.1080p.BluRay.x264-ZoroSenpai_EniaHD.mkv'
+2025-06-09 09:12:32.8|Debug|Parser|Movie Parsed. The Wild Robot - 2024 
+2025-06-09 09:12:32.8|Debug|Parser|Release Group parsed: ZoroSenpai
+2025-06-09 09:12:32.8|Debug|Parser|Languages parsed: Unknown
+2025-06-09 09:12:32.8|Debug|QualityParser|Trying to parse quality for 'The.Wild.Robot.2024.1080p.BluRay.x264-ZoroSenpai_EniaHD.mkv'
+2025-06-09 09:12:32.8|Debug|Parser|Quality parsed: Bluray-1080p v1
+2025-06-09 09:12:32.8|Debug|Parser|Edition parsed: 
+2025-06-09 09:12:32.8|Debug|ParsingService|No matching movie for titles 'The Wild Robot (2024)'
+2025-06-09 09:12:32.8|Debug|AggregateLanguages|Unable to aggregate languages, using parsed values: Unknown
+2025-06-09 09:12:32.8|Debug|Parser|Parsing string 'The.Accountant.2016.1080p.BluRay.Rus.Eng.HDCLUB.mkv'
+2025-06-09 09:12:32.8|Debug|Parser|Movie Parsed. The Accountant - 2016 
+2025-06-09 09:12:32.8|Debug|Parser|Release Group parsed: 
+2025-06-09 09:12:32.8|Debug|Parser|Languages parsed: Russian, English
+2025-06-09 09:12:32.8|Debug|QualityParser|Trying to parse quality for 'The.Accountant.2016.1080p.BluRay.Rus.Eng.HDCLUB.mkv'
+2025-06-09 09:12:32.8|Debug|Parser|Quality parsed: Bluray-1080p v1
+2025-06-09 09:12:32.8|Debug|Parser|Edition parsed: 
+2025-06-09 09:12:32.8|Debug|ParsingService|No matching movie for titles 'The Accountant (2016)'
+2025-06-09 09:12:32.8|Debug|AggregateLanguages|Unable to aggregate languages, using parsed values: Russian, English
+2025-06-09 09:13:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-09 09:13:00.0|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (3 ms)
+2025-06-09 09:14:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-09 09:14:00.0|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (2 ms)
+2025-06-09 09:14:02.8|Debug|ImportListSyncService|No enabled import lists, skipping sync and cleaning
+2025-06-09 09:14:02.8|Debug|Parser|Parsing string 'The.Wild.Robot.2024.1080p.BluRay.x264-ZoroSenpai_EniaHD.mkv'
+2025-06-09 09:14:02.8|Debug|Parser|Movie Parsed. The Wild Robot - 2024 
+2025-06-09 09:14:02.8|Debug|Parser|Release Group parsed: ZoroSenpai
+2025-06-09 09:14:02.8|Debug|Parser|Languages parsed: Unknown
+2025-06-09 09:14:02.8|Debug|QualityParser|Trying to parse quality for 'The.Wild.Robot.2024.1080p.BluRay.x264-ZoroSenpai_EniaHD.mkv'
+2025-06-09 09:14:02.8|Debug|Parser|Quality parsed: Bluray-1080p v1
+2025-06-09 09:14:02.8|Debug|Parser|Edition parsed: 
+2025-06-09 09:14:02.8|Debug|ParsingService|No matching movie for titles 'The Wild Robot (2024)'
+2025-06-09 09:14:02.8|Debug|AggregateLanguages|Unable to aggregate languages, using parsed values: Unknown
+2025-06-09 09:14:02.8|Debug|Parser|Parsing string 'The.Accountant.2016.1080p.BluRay.Rus.Eng.HDCLUB.mkv'
+2025-06-09 09:14:02.8|Debug|Parser|Movie Parsed. The Accountant - 2016 
+2025-06-09 09:14:02.8|Debug|Parser|Release Group parsed: 
+2025-06-09 09:14:02.8|Debug|Parser|Languages parsed: Russian, English
+2025-06-09 09:14:02.8|Debug|QualityParser|Trying to parse quality for 'The.Accountant.2016.1080p.BluRay.Rus.Eng.HDCLUB.mkv'
+2025-06-09 09:14:02.8|Debug|Parser|Quality parsed: Bluray-1080p v1
+2025-06-09 09:14:02.8|Debug|Parser|Edition parsed: 
+2025-06-09 09:14:02.8|Debug|ParsingService|No matching movie for titles 'The Accountant (2016)'
+2025-06-09 09:14:02.8|Debug|AggregateLanguages|Unable to aggregate languages, using parsed values: Russian, English

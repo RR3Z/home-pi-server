@@ -2470,3 +2470,106 @@
 2025-06-09 09:04:02.9|Debug|AggregateLanguages|Selected languages: English
 2025-06-09 09:05:00.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
 2025-06-09 09:05:00.0|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (4 ms)
+2025-06-09 09:05:32.9|Debug|Parser|Parsing string 'Гангстерленд (MobLand) Сезон 1'
+2025-06-09 09:05:32.9|Debug|Parser|Unable to parse Гангстерленд (MobLand) Сезон 1
+2025-06-09 09:05:32.9|Debug|Parser|Parsing string 'Отдел нераскрытых дел (Dept. Q) Сезон 1'
+2025-06-09 09:05:32.9|Debug|Parser|Unable to parse Отдел нераскрытых дел (Dept. Q) Сезон 1
+2025-06-09 09:05:32.9|Debug|Parser|Parsing string 'Dept. Q (2025) WEB-DL 1080p | AVC S1E1-9 of 9 RUS'
+2025-06-09 09:05:32.9|Debug|Parser|Episode Parsed. Dept  Q (2025) WEB-DL  | AVC - S01E01-02-03-04-05-06-07-08-09 
+2025-06-09 09:05:32.9|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:05:32.9|Debug|QualityParser|Trying to parse quality for 'Dept. Q (2025) WEB-DL 1080p | AVC S1E1-9 of 9 RUS'
+2025-06-09 09:05:32.9|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2025-06-09 09:05:32.9|Debug|Parser|Release Group parsed: 
+2025-06-09 09:05:33.0|Debug|AggregateLanguages|Selected languages: Russian
+2025-06-09 09:05:33.0|Debug|Parser|Parsing string 'Mobland.S01.Jetvis'
+2025-06-09 09:05:33.0|Debug|Parser|Episode Parsed. Mobland - Season 01 
+2025-06-09 09:05:33.0|Debug|Parser|Languages parsed: Unknown
+2025-06-09 09:05:33.0|Debug|QualityParser|Trying to parse quality for 'Mobland.S01.Jetvis'
+2025-06-09 09:05:33.0|Debug|Parser|Quality parsed: Unknown v1
+2025-06-09 09:05:33.0|Debug|Parser|Release Group parsed: 
+2025-06-09 09:05:33.0|Debug|AggregateLanguages|Language couldn't be parsed from release, fallback to series original language: English
+2025-06-09 09:05:33.0|Debug|AggregateLanguages|Selected languages: English
+2025-06-09 09:06:00.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-09 09:06:00.0|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (6 ms)
+2025-06-09 09:07:00.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-09 09:07:00.0|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (3 ms)
+2025-06-09 09:07:02.9|Debug|Parser|Parsing string 'Гангстерленд (MobLand) Сезон 1'
+2025-06-09 09:07:02.9|Debug|Parser|Unable to parse Гангстерленд (MobLand) Сезон 1
+2025-06-09 09:07:03.0|Debug|Parser|Parsing string 'Отдел нераскрытых дел (Dept. Q) Сезон 1'
+2025-06-09 09:07:03.0|Debug|Parser|Unable to parse Отдел нераскрытых дел (Dept. Q) Сезон 1
+2025-06-09 09:07:03.0|Debug|Parser|Parsing string 'Dept. Q (2025) WEB-DL 1080p | AVC S1E1-9 of 9 RUS'
+2025-06-09 09:07:03.0|Debug|Parser|Episode Parsed. Dept  Q (2025) WEB-DL  | AVC - S01E01-02-03-04-05-06-07-08-09 
+2025-06-09 09:07:03.0|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:07:03.0|Debug|QualityParser|Trying to parse quality for 'Dept. Q (2025) WEB-DL 1080p | AVC S1E1-9 of 9 RUS'
+2025-06-09 09:07:03.0|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2025-06-09 09:07:03.0|Debug|Parser|Release Group parsed: 
+2025-06-09 09:07:03.0|Debug|AggregateLanguages|Selected languages: Russian
+2025-06-09 09:07:03.0|Debug|Parser|Parsing string 'Mobland.S01.Jetvis'
+2025-06-09 09:07:03.0|Debug|Parser|Episode Parsed. Mobland - Season 01 
+2025-06-09 09:07:03.0|Debug|Parser|Languages parsed: Unknown
+2025-06-09 09:07:03.0|Debug|QualityParser|Trying to parse quality for 'Mobland.S01.Jetvis'
+2025-06-09 09:07:03.0|Debug|Parser|Quality parsed: Unknown v1
+2025-06-09 09:07:03.0|Debug|Parser|Release Group parsed: 
+2025-06-09 09:07:03.0|Debug|AggregateLanguages|Language couldn't be parsed from release, fallback to series original language: English
+2025-06-09 09:07:03.0|Debug|AggregateLanguages|Selected languages: English
+2025-06-09 09:07:49.7|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 09:08:00.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-09 09:08:00.0|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (4 ms)
+2025-06-09 09:08:33.0|Debug|Parser|Parsing string 'Гангстерленд (MobLand) Сезон 1'
+2025-06-09 09:08:33.0|Debug|Parser|Unable to parse Гангстерленд (MobLand) Сезон 1
+2025-06-09 09:08:33.0|Debug|Parser|Parsing string 'Отдел нераскрытых дел (Dept. Q) Сезон 1'
+2025-06-09 09:08:33.0|Debug|Parser|Unable to parse Отдел нераскрытых дел (Dept. Q) Сезон 1
+2025-06-09 09:08:33.0|Debug|Parser|Parsing string 'Dept. Q (2025) WEB-DL 1080p | AVC S1E1-9 of 9 RUS'
+2025-06-09 09:08:33.0|Debug|ImportListSyncService|No import lists with automatic add enabled
+2025-06-09 09:08:33.0|Debug|Parser|Episode Parsed. Dept  Q (2025) WEB-DL  | AVC - S01E01-02-03-04-05-06-07-08-09 
+2025-06-09 09:08:33.0|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:08:33.0|Debug|QualityParser|Trying to parse quality for 'Dept. Q (2025) WEB-DL 1080p | AVC S1E1-9 of 9 RUS'
+2025-06-09 09:08:33.0|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2025-06-09 09:08:33.0|Debug|Parser|Release Group parsed: 
+2025-06-09 09:08:33.0|Debug|AggregateLanguages|Selected languages: Russian
+2025-06-09 09:09:00.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-09 09:09:00.0|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (5 ms)
+2025-06-09 09:10:00.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-09 09:10:00.0|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (3 ms)
+2025-06-09 09:10:03.0|Debug|Parser|Parsing string 'Гангстерленд (MobLand) Сезон 1'
+2025-06-09 09:10:03.0|Debug|Parser|Unable to parse Гангстерленд (MobLand) Сезон 1
+2025-06-09 09:10:03.0|Debug|Parser|Parsing string 'Отдел нераскрытых дел (Dept. Q) Сезон 1'
+2025-06-09 09:10:03.0|Debug|Parser|Unable to parse Отдел нераскрытых дел (Dept. Q) Сезон 1
+2025-06-09 09:10:03.0|Debug|Parser|Parsing string 'Dept. Q (2025) WEB-DL 1080p | AVC S1E1-9 of 9 RUS'
+2025-06-09 09:10:03.0|Debug|Parser|Episode Parsed. Dept  Q (2025) WEB-DL  | AVC - S01E01-02-03-04-05-06-07-08-09 
+2025-06-09 09:10:03.0|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:10:03.0|Debug|QualityParser|Trying to parse quality for 'Dept. Q (2025) WEB-DL 1080p | AVC S1E1-9 of 9 RUS'
+2025-06-09 09:10:03.0|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2025-06-09 09:10:03.0|Debug|Parser|Release Group parsed: 
+2025-06-09 09:10:03.0|Debug|AggregateLanguages|Selected languages: Russian
+2025-06-09 09:11:00.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-09 09:11:00.0|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (4 ms)
+2025-06-09 09:11:33.0|Debug|Parser|Parsing string 'Гангстерленд (MobLand) Сезон 1'
+2025-06-09 09:11:33.0|Debug|Parser|Unable to parse Гангстерленд (MobLand) Сезон 1
+2025-06-09 09:11:33.0|Debug|Parser|Parsing string 'Отдел нераскрытых дел (Dept. Q) Сезон 1'
+2025-06-09 09:11:33.0|Debug|Parser|Unable to parse Отдел нераскрытых дел (Dept. Q) Сезон 1
+2025-06-09 09:11:33.0|Debug|Parser|Parsing string 'Dept. Q (2025) WEB-DL 1080p | AVC S1E1-9 of 9 RUS'
+2025-06-09 09:11:33.0|Debug|Parser|Episode Parsed. Dept  Q (2025) WEB-DL  | AVC - S01E01-02-03-04-05-06-07-08-09 
+2025-06-09 09:11:33.0|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:11:33.0|Debug|QualityParser|Trying to parse quality for 'Dept. Q (2025) WEB-DL 1080p | AVC S1E1-9 of 9 RUS'
+2025-06-09 09:11:33.0|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2025-06-09 09:11:33.0|Debug|Parser|Release Group parsed: 
+2025-06-09 09:11:33.0|Debug|AggregateLanguages|Selected languages: Russian
+2025-06-09 09:12:00.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-09 09:12:00.0|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (4 ms)
+2025-06-09 09:13:00.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-09 09:13:00.0|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (3 ms)
+2025-06-09 09:13:03.0|Debug|Parser|Parsing string 'Гангстерленд (MobLand) Сезон 1'
+2025-06-09 09:13:03.0|Debug|Parser|Unable to parse Гангстерленд (MobLand) Сезон 1
+2025-06-09 09:13:03.0|Debug|Parser|Parsing string 'Отдел нераскрытых дел (Dept. Q) Сезон 1'
+2025-06-09 09:13:03.0|Debug|Parser|Unable to parse Отдел нераскрытых дел (Dept. Q) Сезон 1
+2025-06-09 09:13:03.0|Debug|Parser|Parsing string 'Dept. Q (2025) WEB-DL 1080p | AVC S1E1-9 of 9 RUS'
+2025-06-09 09:13:03.0|Debug|Parser|Episode Parsed. Dept  Q (2025) WEB-DL  | AVC - S01E01-02-03-04-05-06-07-08-09 
+2025-06-09 09:13:03.0|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:13:03.0|Debug|QualityParser|Trying to parse quality for 'Dept. Q (2025) WEB-DL 1080p | AVC S1E1-9 of 9 RUS'
+2025-06-09 09:13:03.0|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2025-06-09 09:13:03.0|Debug|Parser|Release Group parsed: 
+2025-06-09 09:13:03.0|Debug|AggregateLanguages|Selected languages: Russian
+2025-06-09 09:13:33.0|Debug|ImportListSyncService|No import lists with automatic add enabled
+2025-06-09 09:14:00.0|Debug|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-09 09:14:00.0|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (6 ms)

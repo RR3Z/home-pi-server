@@ -7143,3 +7143,4 @@ RequestUri: https://megapeer.vip/browse.php?search=2025&cat=0&stype=0&sort=0&asc
 2025-06-09 09:02:33.3|Debug|ReleaseSearchService|Total of 15 reports were found for Term: [], Offset: 0, Limit: 100, Categories: [2000] from 1 indexer(s)
 2025-06-09 09:02:33.9|Debug|ReleaseSearchService|Total of 50 reports were found for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2040, 2070, 2060] from 1 indexer(s)
 2025-06-09 09:02:39.4|Debug|ReleaseSearchService|Total of 6 reports were found for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2020] from 1 indexer(s)
+2025-06-09 09:07:49.7|Info|Prowlarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.

@@ -3186,3 +3186,30 @@
 2025-06-09T09:05:00.031Z [info][Plex Scan]: Beginning to process recently added for library: Films {"lastScan":1749459600044}
 2025-06-09T09:05:00.037Z [info][Plex Scan]: Beginning to process recently added for library: TV Shows {"lastScan":1749459600049}
 2025-06-09T09:05:00.043Z [info][Plex Scan]: Recently Added Scan Complete 
+2025-06-09T09:06:00.010Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-09T09:06:00.017Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-09T09:06:00.022Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: Sonarr 
+2025-06-09T09:06:27.855Z [error][Plex.TV Metadata API]: Failed to retrieve watchlist items {"errorMessage":"Request failed with status code 401"}
+2025-06-09T09:07:00.011Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-09T09:07:00.024Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: Sonarr 
+2025-06-09T09:08:00.008Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-09T09:08:00.020Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: Sonarr 
+2025-06-09T09:09:00.010Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-09T09:09:00.018Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-09T09:09:00.027Z [debug][Download Tracker]: Found 9 item(s) in progress on Sonarr server: Sonarr 
+2025-06-09T09:10:00.012Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-09T09:10:00.023Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2025-06-09T09:10:00.024Z [info][Plex Scan]: Scan starting {"sessionId":"4e10545b-94d4-44da-89c9-d41903de65e7"}
+2025-06-09T09:10:00.031Z [debug][Download Tracker]: Found 9 item(s) in progress on Sonarr server: Sonarr 
+2025-06-09T09:10:00.042Z [info][Plex Scan]: Beginning to process recently added for library: Films {"lastScan":1749459900037}
+2025-06-09T09:10:00.049Z [info][Plex Scan]: Beginning to process recently added for library: TV Shows {"lastScan":1749459900042}
+2025-06-09T09:10:00.058Z [info][Plex Scan]: Recently Added Scan Complete 
+2025-06-09T09:11:00.006Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-09T09:11:00.022Z [debug][Download Tracker]: Found 9 item(s) in progress on Sonarr server: Sonarr 
+2025-06-09T09:12:00.014Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-09T09:12:00.025Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-09T09:12:00.030Z [debug][Download Tracker]: Found 9 item(s) in progress on Sonarr server: Sonarr 
+2025-06-09T09:13:00.011Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-09T09:13:00.024Z [debug][Download Tracker]: Found 9 item(s) in progress on Sonarr server: Sonarr 
+2025-06-09T09:14:00.012Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-09T09:14:00.026Z [debug][Download Tracker]: Found 9 item(s) in progress on Sonarr server: Sonarr 

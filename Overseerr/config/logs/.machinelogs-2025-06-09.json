@@ -3186,3 +3186,30 @@
 {"label":"Plex Scan","lastScan":1749459600044,"level":"info","message":"Beginning to process recently added for library: Films","timestamp":"2025-06-09T09:05:00.031Z"}
 {"label":"Plex Scan","lastScan":1749459600049,"level":"info","message":"Beginning to process recently added for library: TV Shows","timestamp":"2025-06-09T09:05:00.037Z"}
 {"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2025-06-09T09:05:00.043Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T09:06:00.010Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T09:06:00.017Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: Sonarr","timestamp":"2025-06-09T09:06:00.022Z"}
+{"errorMessage":"Request failed with status code 401","label":"Plex.TV Metadata API","level":"error","message":"Failed to retrieve watchlist items","timestamp":"2025-06-09T09:06:27.855Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T09:07:00.011Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: Sonarr","timestamp":"2025-06-09T09:07:00.024Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T09:08:00.008Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: Sonarr","timestamp":"2025-06-09T09:08:00.020Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T09:09:00.010Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T09:09:00.018Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 9 item(s) in progress on Sonarr server: Sonarr","timestamp":"2025-06-09T09:09:00.027Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T09:10:00.012Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2025-06-09T09:10:00.023Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"4e10545b-94d4-44da-89c9-d41903de65e7","timestamp":"2025-06-09T09:10:00.024Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 9 item(s) in progress on Sonarr server: Sonarr","timestamp":"2025-06-09T09:10:00.031Z"}
+{"label":"Plex Scan","lastScan":1749459900037,"level":"info","message":"Beginning to process recently added for library: Films","timestamp":"2025-06-09T09:10:00.042Z"}
+{"label":"Plex Scan","lastScan":1749459900042,"level":"info","message":"Beginning to process recently added for library: TV Shows","timestamp":"2025-06-09T09:10:00.049Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2025-06-09T09:10:00.058Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T09:11:00.006Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 9 item(s) in progress on Sonarr server: Sonarr","timestamp":"2025-06-09T09:11:00.022Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T09:12:00.014Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T09:12:00.025Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 9 item(s) in progress on Sonarr server: Sonarr","timestamp":"2025-06-09T09:12:00.030Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T09:13:00.011Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 9 item(s) in progress on Sonarr server: Sonarr","timestamp":"2025-06-09T09:13:00.024Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T09:14:00.012Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 9 item(s) in progress on Sonarr server: Sonarr","timestamp":"2025-06-09T09:14:00.026Z"}

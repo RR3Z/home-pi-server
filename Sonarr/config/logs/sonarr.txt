@@ -6582,3 +6582,4 @@ UNIQUE constraint failed: Indexers.Name
    at NzbDrone.Core.Download.ProcessDownloadDecisions.ProcessDecisionInternal(DownloadDecision decision, Nullable`1 downloadClientId) in ./Sonarr.Core/Download/ProcessDownloadDecisions.cs:line 204
 
 2025-06-09 09:02:10.7|Info|RssSyncService|RSS Sync Completed. Reports found: 346, Reports grabbed: 0
+2025-06-09 09:07:49.7|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
