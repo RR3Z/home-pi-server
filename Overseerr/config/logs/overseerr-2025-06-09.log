@@ -3172,3 +3172,17 @@
 2025-06-09T09:00:00.050Z [info][Plex Scan]: Recently Added Scan Complete 
 2025-06-09T09:01:00.010Z [debug][Jobs]: Starting scheduled job: Download Sync 
 2025-06-09T09:01:00.018Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: Sonarr 
+2025-06-09T09:02:00.011Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-09T09:02:00.019Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: Sonarr 
+2025-06-09T09:03:00.010Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-09T09:03:00.016Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-09T09:03:00.024Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: Sonarr 
+2025-06-09T09:04:00.011Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-09T09:04:00.021Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: Sonarr 
+2025-06-09T09:05:00.010Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-09T09:05:00.020Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2025-06-09T09:05:00.020Z [info][Plex Scan]: Scan starting {"sessionId":"5a31bb98-e7b7-48ab-ab73-19fd7873d087"}
+2025-06-09T09:05:00.026Z [debug][Download Tracker]: Found 10 item(s) in progress on Sonarr server: Sonarr 
+2025-06-09T09:05:00.031Z [info][Plex Scan]: Beginning to process recently added for library: Films {"lastScan":1749459600044}
+2025-06-09T09:05:00.037Z [info][Plex Scan]: Beginning to process recently added for library: TV Shows {"lastScan":1749459600049}
+2025-06-09T09:05:00.043Z [info][Plex Scan]: Recently Added Scan Complete 

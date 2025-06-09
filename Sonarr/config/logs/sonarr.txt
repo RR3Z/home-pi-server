@@ -6568,3 +6568,17 @@ UNIQUE constraint failed: Indexers.Name
 2025-06-09 08:57:36.8|Info|MetadataService|Series folder does not exist, skipping metadata creation
 2025-06-09 08:58:15.9|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
 2025-06-09 08:59:06.3|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 09:02:02.7|Info|RssSyncService|Starting RSS Sync
+2025-06-09 09:02:08.8|Info|DownloadDecisionMaker|Processing 346 releases
+2025-06-09 09:02:10.7|Warn|ProcessDownloadDecisions|Couldn't add release 'MobLand (2025) WEB-DL 1080p | AVC S1E1-10 of 10 RUS' from Indexer BitRu (Prowlarr) to download queue.
+
+[v4.0.14.2939] NzbDrone.Core.Download.Clients.DownloadClientException: Download client failed to add torrent
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.AddTorrentFromFile(String fileName, Byte[] fileContent, TorrentSeedConfiguration seedConfiguration, QBittorrentSettings settings) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxyV2.cs:line 186
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.AddFromTorrentFile(RemoteEpisode remoteEpisode, String hash, String filename, Byte[] fileContent) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrent.cs:line 141
+   at NzbDrone.Core.Download.TorrentClientBase`1.DownloadFromWebUrl(RemoteEpisode remoteEpisode, IIndexer indexer, String torrentUrl) in ./Sonarr.Core/Download/TorrentClientBase.cs:line 204
+   at NzbDrone.Core.Download.TorrentClientBase`1.Download(RemoteEpisode remoteEpisode, IIndexer indexer) in ./Sonarr.Core/Download/TorrentClientBase.cs:line 124
+   at NzbDrone.Core.Download.DownloadService.DownloadReport(RemoteEpisode remoteEpisode, IDownloadClient downloadClient) in ./Sonarr.Core/Download/DownloadService.cs:line 98
+   at NzbDrone.Core.Download.DownloadService.DownloadReport(RemoteEpisode remoteEpisode, Nullable`1 downloadClientId) in ./Sonarr.Core/Download/DownloadService.cs:line 63
+   at NzbDrone.Core.Download.ProcessDownloadDecisions.ProcessDecisionInternal(DownloadDecision decision, Nullable`1 downloadClientId) in ./Sonarr.Core/Download/ProcessDownloadDecisions.cs:line 204
+
+2025-06-09 09:02:10.7|Info|RssSyncService|RSS Sync Completed. Reports found: 346, Reports grabbed: 0

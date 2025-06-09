@@ -7864,3 +7864,7 @@ disk I/O error
 2025-06-09 08:56:50.0|Info|Radarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
 2025-06-09 08:58:15.9|Info|Radarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
 2025-06-09 08:59:06.3|Info|Radarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 09:02:32.6|Info|RssSyncService|Starting RSS Sync
+2025-06-09 09:02:33.3|Warn|Torznab|Indexer BitRu (Prowlarr) rss sync didn't cover the period between 6/8/2025 8:19:00PM and 6/9/2025 9:02:33AM UTC. Search may be required.
+2025-06-09 09:02:39.4|Info|DownloadDecisionMaker|Processing 125 releases
+2025-06-09 09:02:40.0|Info|RssSyncService|RSS Sync Completed. Reports found: 125, Reports grabbed: 0

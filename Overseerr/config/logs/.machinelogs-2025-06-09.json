@@ -3172,3 +3172,17 @@
 {"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2025-06-09T09:00:00.050Z"}
 {"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T09:01:00.010Z"}
 {"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: Sonarr","timestamp":"2025-06-09T09:01:00.018Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T09:02:00.011Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: Sonarr","timestamp":"2025-06-09T09:02:00.019Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T09:03:00.010Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T09:03:00.016Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: Sonarr","timestamp":"2025-06-09T09:03:00.024Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T09:04:00.011Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: Sonarr","timestamp":"2025-06-09T09:04:00.021Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T09:05:00.010Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2025-06-09T09:05:00.020Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"5a31bb98-e7b7-48ab-ab73-19fd7873d087","timestamp":"2025-06-09T09:05:00.020Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 10 item(s) in progress on Sonarr server: Sonarr","timestamp":"2025-06-09T09:05:00.026Z"}
+{"label":"Plex Scan","lastScan":1749459600044,"level":"info","message":"Beginning to process recently added for library: Films","timestamp":"2025-06-09T09:05:00.031Z"}
+{"label":"Plex Scan","lastScan":1749459600049,"level":"info","message":"Beginning to process recently added for library: TV Shows","timestamp":"2025-06-09T09:05:00.037Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2025-06-09T09:05:00.043Z"}

@@ -6475,3 +6475,13 @@ RequestUri: https://megapeer.vip/browse.php?search=2025&cat=0&stype=0&sort=0&asc
 2025-06-09 08:58:04.0|Info|Prowlarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
 2025-06-09 08:58:15.9|Info|Prowlarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
 2025-06-09 08:59:06.3|Info|Prowlarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 09:02:02.8|Info|ReleaseSearchService|Searching indexer(s): [NoNaMe Club] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2025-06-09 09:02:02.8|Info|ReleaseSearchService|Searching indexer(s): [AniLibria] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2025-06-09 09:02:02.8|Info|ReleaseSearchService|Searching indexer(s): [BigFANGroup] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2025-06-09 09:02:02.8|Info|ReleaseSearchService|Searching indexer(s): [BitRu] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2025-06-09 09:02:02.8|Info|ReleaseSearchService|Searching indexer(s): [RuTracker.RU] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5040, 5010, 5045, 5030, 5070]
+2025-06-09 09:02:32.7|Info|ReleaseSearchService|Searching indexer(s): [AniLibria] for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2020]
+2025-06-09 09:02:32.7|Info|ReleaseSearchService|Searching indexer(s): [BitRu] for Term: [], Offset: 0, Limit: 100, Categories: [2000]
+2025-06-09 09:02:32.7|Info|ReleaseSearchService|Searching indexer(s): [NoNaMe Club] for Term: [], Offset: 0, Limit: 100, Categories: [2000]
+2025-06-09 09:02:32.7|Info|ReleaseSearchService|Searching indexer(s): [BigFANGroup] for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2060, 2010, 2040, 2070]
+2025-06-09 09:02:32.8|Info|ReleaseSearchService|Searching indexer(s): [RuTracker.RU] for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2040, 2070, 2060]

@@ -3697,3 +3697,1301 @@ disk I/O error
 2025-06-09 09:00:32.6|Debug|AggregateLanguages|Unable to aggregate languages, using parsed values: Russian, English
 2025-06-09 09:01:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
 2025-06-09 09:01:00.0|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (2 ms)
+2025-06-09 09:02:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-09 09:02:00.0|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (1 ms)
+2025-06-09 09:02:02.6|Debug|Parser|Parsing string 'The.Wild.Robot.2024.1080p.BluRay.x264-ZoroSenpai_EniaHD.mkv'
+2025-06-09 09:02:02.6|Debug|Parser|Movie Parsed. The Wild Robot - 2024 
+2025-06-09 09:02:02.6|Debug|Parser|Release Group parsed: ZoroSenpai
+2025-06-09 09:02:02.6|Debug|Parser|Languages parsed: Unknown
+2025-06-09 09:02:02.6|Debug|QualityParser|Trying to parse quality for 'The.Wild.Robot.2024.1080p.BluRay.x264-ZoroSenpai_EniaHD.mkv'
+2025-06-09 09:02:02.6|Debug|Parser|Quality parsed: Bluray-1080p v1
+2025-06-09 09:02:02.6|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:02.6|Debug|ParsingService|No matching movie for titles 'The Wild Robot (2024)'
+2025-06-09 09:02:02.6|Debug|AggregateLanguages|Unable to aggregate languages, using parsed values: Unknown
+2025-06-09 09:02:02.6|Debug|Parser|Parsing string 'The.Accountant.2016.1080p.BluRay.Rus.Eng.HDCLUB.mkv'
+2025-06-09 09:02:02.6|Debug|Parser|Movie Parsed. The Accountant - 2016 
+2025-06-09 09:02:02.6|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:02.6|Debug|Parser|Languages parsed: Russian, English
+2025-06-09 09:02:02.6|Debug|QualityParser|Trying to parse quality for 'The.Accountant.2016.1080p.BluRay.Rus.Eng.HDCLUB.mkv'
+2025-06-09 09:02:02.6|Debug|Parser|Quality parsed: Bluray-1080p v1
+2025-06-09 09:02:02.6|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:02.6|Debug|ParsingService|No matching movie for titles 'The Accountant (2016)'
+2025-06-09 09:02:02.6|Debug|AggregateLanguages|Unable to aggregate languages, using parsed values: Russian, English
+2025-06-09 09:02:32.6|Info|RssSyncService|Starting RSS Sync
+2025-06-09 09:02:32.6|Debug|FetchAndParseRssService|Available indexers 5
+2025-06-09 09:02:32.6|Debug|Torznab|Downloading Feed http://172.25.0.2:9696/1/api?t=movie&cat=2000,2020&extended=1&apikey=(removed)&offset=0&limit=100
+2025-06-09 09:02:32.6|Debug|Torznab|Downloading Feed http://172.25.0.2:9696/2/api?t=movie&cat=2000,2060,2010,2040,2070&extended=1&apikey=(removed)&offset=0&limit=100
+2025-06-09 09:02:32.6|Debug|Torznab|Downloading Feed http://172.25.0.2:9696/3/api?t=movie&cat=2000&extended=1&apikey=(removed)&offset=0&limit=100
+2025-06-09 09:02:32.7|Debug|Torznab|Downloading Feed http://172.25.0.2:9696/4/api?t=movie&cat=2000&extended=1&apikey=(removed)&offset=0&limit=100
+2025-06-09 09:02:32.7|Debug|Torznab|Downloading Feed http://172.25.0.2:9696/6/api?t=movie&cat=2000,2040,2070,2060&extended=1&apikey=(removed)&offset=0&limit=100
+2025-06-09 09:02:33.3|Warn|Torznab|Indexer BitRu (Prowlarr) rss sync didn't cover the period between 6/8/2025 8:19:00PM and 6/9/2025 9:02:33AM UTC. Search may be required.
+2025-06-09 09:02:39.4|Debug|FetchAndParseRssService|Found 125 reports
+2025-06-09 09:02:39.4|Info|DownloadDecisionMaker|Processing 125 releases
+2025-06-09 09:02:39.4|Debug|DownloadDecisionMaker|Processing release 'The Witcher: Sirens of the Deep (2025) MOVIE [WEB-DLRip 1080p x264] - RUS' from 'AniLibria (Prowlarr)'
+2025-06-09 09:02:39.4|Debug|Parser|Parsing string 'The Witcher: Sirens of the Deep (2025) MOVIE [WEB-DLRip 1080p x264] - RUS'
+2025-06-09 09:02:39.4|Debug|Parser|Movie Parsed. The Witcher: Sirens of the Deep - 2025 
+2025-06-09 09:02:39.4|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.4|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.4|Debug|QualityParser|Trying to parse quality for 'The Witcher: Sirens of the Deep (2025) MOVIE [WEB-DLRip 1080p x264] - RUS'
+2025-06-09 09:02:39.4|Debug|Parser|Quality parsed: HDTV-1080p v1
+2025-06-09 09:02:39.4|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.4|Debug|ParsingService|No matching movie for titles 'The Witcher: Sirens of the Deep (2025)'
+2025-06-09 09:02:39.4|Debug|DownloadDecisionMaker|Release 'The Witcher: Sirens of the Deep (2025) MOVIE [WEB-DLRip 1080p x264] - RUS' from 'AniLibria (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.4|Debug|DownloadDecisionMaker|Processing release 'The Witcher: Sirens of the Deep (2025) MOVIE [WEB-DLRip 1080p x265] - RUS' from 'AniLibria (Prowlarr)'
+2025-06-09 09:02:39.4|Debug|Parser|Parsing string 'The Witcher: Sirens of the Deep (2025) MOVIE [WEB-DLRip 1080p x265] - RUS'
+2025-06-09 09:02:39.4|Debug|Parser|Movie Parsed. The Witcher: Sirens of the Deep - 2025 
+2025-06-09 09:02:39.4|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.4|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.4|Debug|QualityParser|Trying to parse quality for 'The Witcher: Sirens of the Deep (2025) MOVIE [WEB-DLRip 1080p x265] - RUS'
+2025-06-09 09:02:39.4|Debug|Parser|Quality parsed: HDTV-1080p v1
+2025-06-09 09:02:39.4|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.4|Debug|ParsingService|No matching movie for titles 'The Witcher: Sirens of the Deep (2025)'
+2025-06-09 09:02:39.4|Debug|DownloadDecisionMaker|Release 'The Witcher: Sirens of the Deep (2025) MOVIE [WEB-DLRip 1080p x265] - RUS' from 'AniLibria (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.4|Debug|DownloadDecisionMaker|Processing release 'Suu-funkan no Yell wo (2024) MOVIE [WEBRip 1080p x264] - RUS' from 'AniLibria (Prowlarr)'
+2025-06-09 09:02:39.4|Debug|Parser|Parsing string 'Suu-funkan no Yell wo (2024) MOVIE [WEBRip 1080p x264] - RUS'
+2025-06-09 09:02:39.4|Debug|Parser|Movie Parsed. Suu-funkan no Yell wo - 2024 
+2025-06-09 09:02:39.4|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.4|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.4|Debug|QualityParser|Trying to parse quality for 'Suu-funkan no Yell wo (2024) MOVIE [WEBRip 1080p x264] - RUS'
+2025-06-09 09:02:39.4|Debug|Parser|Quality parsed: WEBRip-1080p v1
+2025-06-09 09:02:39.4|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.4|Debug|ParsingService|No matching movie for titles 'Suu-funkan no Yell wo (2024)'
+2025-06-09 09:02:39.4|Debug|DownloadDecisionMaker|Release 'Suu-funkan no Yell wo (2024) MOVIE [WEBRip 1080p x264] - RUS' from 'AniLibria (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.4|Debug|DownloadDecisionMaker|Processing release 'Suu-funkan no Yell wo (2024) MOVIE [WEBRip 1080p x265] - RUS' from 'AniLibria (Prowlarr)'
+2025-06-09 09:02:39.4|Debug|Parser|Parsing string 'Suu-funkan no Yell wo (2024) MOVIE [WEBRip 1080p x265] - RUS'
+2025-06-09 09:02:39.4|Debug|Parser|Movie Parsed. Suu-funkan no Yell wo - 2024 
+2025-06-09 09:02:39.4|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.4|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.4|Debug|QualityParser|Trying to parse quality for 'Suu-funkan no Yell wo (2024) MOVIE [WEBRip 1080p x265] - RUS'
+2025-06-09 09:02:39.4|Debug|Parser|Quality parsed: WEBRip-1080p v1
+2025-06-09 09:02:39.4|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.4|Debug|ParsingService|No matching movie for titles 'Suu-funkan no Yell wo (2024)'
+2025-06-09 09:02:39.4|Debug|DownloadDecisionMaker|Release 'Suu-funkan no Yell wo (2024) MOVIE [WEBRip 1080p x265] - RUS' from 'AniLibria (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.4|Debug|DownloadDecisionMaker|Processing release 'The Lord of the Rings: The War of the Rohirrim (2025) MOVIE [WEBRip 1080p x264] - RUS' from 'AniLibria (Prowlarr)'
+2025-06-09 09:02:39.4|Debug|Parser|Parsing string 'The Lord of the Rings: The War of the Rohirrim (2025) MOVIE [WEBRip 1080p x264] - RUS'
+2025-06-09 09:02:39.4|Debug|Parser|Movie Parsed. The Lord of the Rings: The War of the Rohirrim - 2025 
+2025-06-09 09:02:39.4|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.4|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.4|Debug|QualityParser|Trying to parse quality for 'The Lord of the Rings: The War of the Rohirrim (2025) MOVIE [WEBRip 1080p x264] - RUS'
+2025-06-09 09:02:39.4|Debug|Parser|Quality parsed: WEBRip-1080p v1
+2025-06-09 09:02:39.4|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.4|Debug|ParsingService|No matching movie for titles 'The Lord of the Rings: The War of the Rohirrim (2025)'
+2025-06-09 09:02:39.4|Debug|DownloadDecisionMaker|Release 'The Lord of the Rings: The War of the Rohirrim (2025) MOVIE [WEBRip 1080p x264] - RUS' from 'AniLibria (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.4|Debug|DownloadDecisionMaker|Processing release 'The Lord of the Rings: The War of the Rohirrim (2025) MOVIE [WEBRip 1080p x265] - RUS' from 'AniLibria (Prowlarr)'
+2025-06-09 09:02:39.4|Debug|Parser|Parsing string 'The Lord of the Rings: The War of the Rohirrim (2025) MOVIE [WEBRip 1080p x265] - RUS'
+2025-06-09 09:02:39.4|Debug|Parser|Movie Parsed. The Lord of the Rings: The War of the Rohirrim - 2025 
+2025-06-09 09:02:39.4|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.4|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.4|Debug|QualityParser|Trying to parse quality for 'The Lord of the Rings: The War of the Rohirrim (2025) MOVIE [WEBRip 1080p x265] - RUS'
+2025-06-09 09:02:39.4|Debug|Parser|Quality parsed: WEBRip-1080p v1
+2025-06-09 09:02:39.4|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.4|Debug|ParsingService|No matching movie for titles 'The Lord of the Rings: The War of the Rohirrim (2025)'
+2025-06-09 09:02:39.4|Debug|DownloadDecisionMaker|Release 'The Lord of the Rings: The War of the Rohirrim (2025) MOVIE [WEBRip 1080p x265] - RUS' from 'AniLibria (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.4|Debug|DownloadDecisionMaker|Processing release 'Bastarden (The Promised Land) (2023) BDRip 1080p RUS' from 'BigFANGroup (Prowlarr)'
+2025-06-09 09:02:39.4|Debug|Parser|Parsing string 'Bastarden (The Promised Land) (2023) BDRip 1080p RUS'
+2025-06-09 09:02:39.4|Debug|Parser|Movie Parsed. Bastarden (The Promised Land) - 2023 
+2025-06-09 09:02:39.4|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.4|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.4|Debug|QualityParser|Trying to parse quality for 'Bastarden (The Promised Land) (2023) BDRip 1080p RUS'
+2025-06-09 09:02:39.4|Debug|Parser|Quality parsed: Bluray-1080p v1
+2025-06-09 09:02:39.4|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.4|Debug|ParsingService|No matching movie for titles 'Bastarden (The Promised Land) (2023)'
+2025-06-09 09:02:39.4|Debug|DownloadDecisionMaker|Release 'Bastarden (The Promised Land) (2023) BDRip 1080p RUS' from 'BigFANGroup (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.4|Debug|DownloadDecisionMaker|Processing release 'The Accountant 2 (2025) WEB-DL 1080p | HDRezka Studio RUS' from 'BigFANGroup (Prowlarr)'
+2025-06-09 09:02:39.4|Debug|Parser|Parsing string 'The Accountant 2 (2025) WEB-DL 1080p | HDRezka Studio RUS'
+2025-06-09 09:02:39.4|Debug|Parser|Movie Parsed. The Accountant 2 - 2025 
+2025-06-09 09:02:39.4|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.4|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.4|Debug|QualityParser|Trying to parse quality for 'The Accountant 2 (2025) WEB-DL 1080p | HDRezka Studio RUS'
+2025-06-09 09:02:39.4|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2025-06-09 09:02:39.4|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.4|Debug|ParsingService|No matching movie for titles 'The Accountant 2 (2025)'
+2025-06-09 09:02:39.4|Debug|DownloadDecisionMaker|Release 'The Accountant 2 (2025) WEB-DL 1080p | HDRezka Studio RUS' from 'BigFANGroup (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.4|Debug|DownloadDecisionMaker|Processing release 'Hurry Up Tomorrow (2025) WEB-DL 1080p | HDRezka Studio RUS' from 'BigFANGroup (Prowlarr)'
+2025-06-09 09:02:39.4|Debug|Parser|Parsing string 'Hurry Up Tomorrow (2025) WEB-DL 1080p | HDRezka Studio RUS'
+2025-06-09 09:02:39.4|Debug|Parser|Movie Parsed. Hurry Up Tomorrow - 2025 
+2025-06-09 09:02:39.4|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.4|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.4|Debug|QualityParser|Trying to parse quality for 'Hurry Up Tomorrow (2025) WEB-DL 1080p | HDRezka Studio RUS'
+2025-06-09 09:02:39.4|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2025-06-09 09:02:39.4|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.4|Debug|ParsingService|No matching movie for titles 'Hurry Up Tomorrow (2025)'
+2025-06-09 09:02:39.4|Debug|DownloadDecisionMaker|Release 'Hurry Up Tomorrow (2025) WEB-DL 1080p | HDRezka Studio RUS' from 'BigFANGroup (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.4|Debug|DownloadDecisionMaker|Processing release 'The Surfer (2024) WEB-DL 1080p | HDRezka Studio RUS' from 'BigFANGroup (Prowlarr)'
+2025-06-09 09:02:39.4|Debug|Parser|Parsing string 'The Surfer (2024) WEB-DL 1080p | HDRezka Studio RUS'
+2025-06-09 09:02:39.4|Debug|Parser|Movie Parsed. The Surfer - 2024 
+2025-06-09 09:02:39.4|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.4|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.4|Debug|QualityParser|Trying to parse quality for 'The Surfer (2024) WEB-DL 1080p | HDRezka Studio RUS'
+2025-06-09 09:02:39.4|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2025-06-09 09:02:39.4|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.4|Debug|ParsingService|No matching movie for titles 'The Surfer (2024)'
+2025-06-09 09:02:39.4|Debug|DownloadDecisionMaker|Release 'The Surfer (2024) WEB-DL 1080p | HDRezka Studio RUS' from 'BigFANGroup (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.4|Debug|DownloadDecisionMaker|Processing release '№ 217 (1944) WEB-DL-New-Team RUS' from 'BitRu (Prowlarr)'
+2025-06-09 09:02:39.4|Debug|Parser|Parsing string '№ 217 (1944) WEB-DL-New-Team RUS'
+2025-06-09 09:02:39.4|Debug|Parser|Movie Parsed. № 217 - 1944 
+2025-06-09 09:02:39.4|Debug|Parser|Release Group parsed: New-Team
+2025-06-09 09:02:39.4|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.4|Debug|QualityParser|Trying to parse quality for '№ 217 (1944) WEB-DL-New-Team RUS'
+2025-06-09 09:02:39.4|Debug|Parser|Quality parsed: WEBDL-480p v1
+2025-06-09 09:02:39.4|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.4|Debug|ParsingService|No matching movie for titles '№ 217 (1944)'
+2025-06-09 09:02:39.4|Debug|DownloadDecisionMaker|Release '№ 217 (1944) WEB-DL-New-Team RUS' from 'BitRu (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.4|Debug|DownloadDecisionMaker|Processing release '№ 217 (1944) WEB-DL | AVC-New-Team RUS' from 'BitRu (Prowlarr)'
+2025-06-09 09:02:39.4|Debug|Parser|Parsing string '№ 217 (1944) WEB-DL | AVC-New-Team RUS'
+2025-06-09 09:02:39.4|Debug|Parser|Movie Parsed. № 217 - 1944 
+2025-06-09 09:02:39.4|Debug|Parser|Release Group parsed: New-Team
+2025-06-09 09:02:39.4|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.4|Debug|QualityParser|Trying to parse quality for '№ 217 (1944) WEB-DL | AVC-New-Team RUS'
+2025-06-09 09:02:39.4|Debug|Parser|Quality parsed: WEBDL-480p v1
+2025-06-09 09:02:39.4|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.4|Debug|ParsingService|No matching movie for titles '№ 217 (1944)'
+2025-06-09 09:02:39.4|Debug|DownloadDecisionMaker|Release '№ 217 (1944) WEB-DL | AVC-New-Team RUS' from 'BitRu (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.4|Debug|DownloadDecisionMaker|Processing release 'The chronicles of Riddick (2004) BDRip | AVC | ExKinoRay | Unrated Director's Cut RUS' from 'BitRu (Prowlarr)'
+2025-06-09 09:02:39.4|Debug|Parser|Parsing string 'The chronicles of Riddick (2004) BDRip | AVC | ExKinoRay | Unrated Director's Cut RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Movie Parsed. The chronicles of Riddick - 2004 
+2025-06-09 09:02:39.5|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.5|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.5|Debug|QualityParser|Trying to parse quality for 'The chronicles of Riddick (2004) BDRip | AVC | ExKinoRay | Unrated Director's Cut RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Quality parsed: Bluray-480p v1
+2025-06-09 09:02:39.5|Debug|Parser|Edition parsed: Unrated
+2025-06-09 09:02:39.5|Debug|ParsingService|No matching movie for titles 'The chronicles of Riddick (2004)'
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Release 'The chronicles of Riddick (2004) BDRip | AVC | ExKinoRay | Unrated Director's Cut RUS' from 'BitRu (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Processing release 'Hurry Up Tomorrow (2025) WEB-DL | AVC | DoMiNo & selezen RUS' from 'BitRu (Prowlarr)'
+2025-06-09 09:02:39.5|Debug|Parser|Parsing string 'Hurry Up Tomorrow (2025) WEB-DL | AVC | DoMiNo & selezen RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Movie Parsed. Hurry Up Tomorrow - 2025 
+2025-06-09 09:02:39.5|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.5|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.5|Debug|QualityParser|Trying to parse quality for 'Hurry Up Tomorrow (2025) WEB-DL | AVC | DoMiNo & selezen RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Quality parsed: WEBDL-480p v1
+2025-06-09 09:02:39.5|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.5|Debug|ParsingService|No matching movie for titles 'Hurry Up Tomorrow (2025)'
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Release 'Hurry Up Tomorrow (2025) WEB-DL | AVC | DoMiNo & selezen RUS' from 'BitRu (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Processing release 'The Surfer (2024) WEB-DL | HEVC | 4 HDR10+, Dolby Vision Profile 8.1, 10-bit RUS' from 'BitRu (Prowlarr)'
+2025-06-09 09:02:39.5|Debug|Parser|Parsing string 'The Surfer (2024) WEB-DL | HEVC | 4 HDR10+, Dolby Vision Profile 8.1, 10-bit RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Movie Parsed. The Surfer - 2024 
+2025-06-09 09:02:39.5|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.5|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.5|Debug|QualityParser|Trying to parse quality for 'The Surfer (2024) WEB-DL | HEVC | 4 HDR10+, Dolby Vision Profile 8.1, 10-bit RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Quality parsed: WEBDL-480p v1
+2025-06-09 09:02:39.5|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.5|Debug|ParsingService|No matching movie for titles 'The Surfer (2024)'
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Release 'The Surfer (2024) WEB-DL | HEVC | 4 HDR10+, Dolby Vision Profile 8.1, 10-bit RUS' from 'BitRu (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Processing release 'The Surfer (2024) WEB-DL | HEVC | 4 SDR, 10-bit RUS' from 'BitRu (Prowlarr)'
+2025-06-09 09:02:39.5|Debug|Parser|Parsing string 'The Surfer (2024) WEB-DL | HEVC | 4 SDR, 10-bit RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Movie Parsed. The Surfer - 2024 
+2025-06-09 09:02:39.5|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.5|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.5|Debug|QualityParser|Trying to parse quality for 'The Surfer (2024) WEB-DL | HEVC | 4 SDR, 10-bit RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Quality parsed: WEBDL-480p v1
+2025-06-09 09:02:39.5|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.5|Debug|ParsingService|No matching movie for titles 'The Surfer (2024)'
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Release 'The Surfer (2024) WEB-DL | HEVC | 4 SDR, 10-bit RUS' from 'BitRu (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Processing release 'Hurry Up Tomorrow (2025) WEB-DL 2160p | HEVC | 4 SDR, 8-bit RUS' from 'BitRu (Prowlarr)'
+2025-06-09 09:02:39.5|Debug|Parser|Parsing string 'Hurry Up Tomorrow (2025) WEB-DL 2160p | HEVC | 4 SDR, 8-bit RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Movie Parsed. Hurry Up Tomorrow - 2025 
+2025-06-09 09:02:39.5|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.5|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.5|Debug|QualityParser|Trying to parse quality for 'Hurry Up Tomorrow (2025) WEB-DL 2160p | HEVC | 4 SDR, 8-bit RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Quality parsed: WEBDL-2160p v1
+2025-06-09 09:02:39.5|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.5|Debug|ParsingService|No matching movie for titles 'Hurry Up Tomorrow (2025)'
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Release 'Hurry Up Tomorrow (2025) WEB-DL 2160p | HEVC | 4 SDR, 8-bit RUS' from 'BitRu (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Processing release 'WTA Roland Garros 2025. . .   [08.06] (2025) HDTV 1080p | AVC RUS' from 'BitRu (Prowlarr)'
+2025-06-09 09:02:39.5|Debug|Parser|Parsing string 'WTA Roland Garros 2025. . .   [08.06] (2025) HDTV 1080p | AVC RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Movie Parsed. WTA Roland Garros - 2025 
+2025-06-09 09:02:39.5|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.5|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.5|Debug|QualityParser|Trying to parse quality for 'WTA Roland Garros 2025. . .   [08.06] (2025) HDTV 1080p | AVC RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Quality parsed: HDTV-1080p v1
+2025-06-09 09:02:39.5|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.5|Debug|ParsingService|No matching movie for titles 'WTA Roland Garros (2025)'
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Release 'WTA Roland Garros 2025. . .   [08.06] (2025) HDTV 1080p | AVC RUS' from 'BitRu (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Processing release 'Predator: Killer of Killers (2025) WEB-DL 1080p | AVC RUS' from 'BitRu (Prowlarr)'
+2025-06-09 09:02:39.5|Debug|Parser|Parsing string 'Predator: Killer of Killers (2025) WEB-DL 1080p | AVC RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Movie Parsed. Predator: Killer of Killers - 2025 
+2025-06-09 09:02:39.5|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.5|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.5|Debug|QualityParser|Trying to parse quality for 'Predator: Killer of Killers (2025) WEB-DL 1080p | AVC RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2025-06-09 09:02:39.5|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.5|Debug|ParsingService|No matching movie for titles 'Predator: Killer of Killers (2025)'
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Release 'Predator: Killer of Killers (2025) WEB-DL 1080p | AVC RUS' from 'BitRu (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Processing release '(2025) TeleSynch | AVC RUS' from 'BitRu (Prowlarr)'
+2025-06-09 09:02:39.5|Debug|Parser|Parsing string '(2025) TeleSynch | AVC RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Unable to parse (2025) TeleSynch | AVC RUS
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Processing release 'Neighbors Who Kill (2024) WEB-DL 1080p | AVC RUS' from 'BitRu (Prowlarr)'
+2025-06-09 09:02:39.5|Debug|Parser|Parsing string 'Neighbors Who Kill (2024) WEB-DL 1080p | AVC RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Movie Parsed. Neighbors Who Kill - 2024 
+2025-06-09 09:02:39.5|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.5|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.5|Debug|QualityParser|Trying to parse quality for 'Neighbors Who Kill (2024) WEB-DL 1080p | AVC RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2025-06-09 09:02:39.5|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.5|Debug|ParsingService|No matching movie for titles 'Neighbors Who Kill (2024)'
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Release 'Neighbors Who Kill (2024) WEB-DL 1080p | AVC RUS' from 'BitRu (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Processing release 'Tom Sawyer & Huckleberry Finn (2014) DVB | AVC RUS' from 'BitRu (Prowlarr)'
+2025-06-09 09:02:39.5|Debug|Parser|Parsing string 'Tom Sawyer & Huckleberry Finn (2014) DVB | AVC RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Movie Parsed. Tom Sawyer & Huckleberry Finn - 2014 
+2025-06-09 09:02:39.5|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.5|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.5|Debug|QualityParser|Trying to parse quality for 'Tom Sawyer & Huckleberry Finn (2014) DVB | AVC RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Quality parsed: Unknown v1
+2025-06-09 09:02:39.5|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.5|Debug|ParsingService|No matching movie for titles 'Tom Sawyer & Huckleberry Finn (2014)'
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Release 'Tom Sawyer & Huckleberry Finn (2014) DVB | AVC RUS' from 'BitRu (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Processing release 'How to Train Your Dragon (2025) TeleCine 1080p | AVC RUS' from 'BitRu (Prowlarr)'
+2025-06-09 09:02:39.5|Debug|Parser|Parsing string 'How to Train Your Dragon (2025) TeleCine 1080p | AVC RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Movie Parsed. How to Train Your Dragon - 2025 
+2025-06-09 09:02:39.5|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.5|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.5|Debug|QualityParser|Trying to parse quality for 'How to Train Your Dragon (2025) TeleCine 1080p | AVC RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Quality parsed: TELECINE v1
+2025-06-09 09:02:39.5|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.5|Debug|ParsingService|No matching movie for titles 'How to Train Your Dragon (2025)'
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Release 'How to Train Your Dragon (2025) TeleCine 1080p | AVC RUS' from 'BitRu (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Processing release '(1971) HDTV 720p | AVC RUS' from 'BitRu (Prowlarr)'
+2025-06-09 09:02:39.5|Debug|Parser|Parsing string '(1971) HDTV 720p | AVC RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Unable to parse (1971) HDTV 720p | AVC RUS
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Processing release 'The Killer (2024) BDRip 720p | AVC-MegaPeer RUS' from 'BitRu (Prowlarr)'
+2025-06-09 09:02:39.5|Debug|Parser|Parsing string 'The Killer (2024) BDRip 720p | AVC-MegaPeer RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Movie Parsed. The Killer - 2024 
+2025-06-09 09:02:39.5|Debug|Parser|Release Group parsed: MegaPeer
+2025-06-09 09:02:39.5|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.5|Debug|QualityParser|Trying to parse quality for 'The Killer (2024) BDRip 720p | AVC-MegaPeer RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Quality parsed: Bluray-720p v1
+2025-06-09 09:02:39.5|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.5|Debug|ParsingService|No matching movie for titles 'The Killer (2024)'
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Release 'The Killer (2024) BDRip 720p | AVC-MegaPeer RUS' from 'BitRu (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Processing release 'The Surfer (2024) WEB-DL [H.265/2160p] [4K, SDR, 10-bit] [MVO] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.5|Debug|Parser|Parsing string 'The Surfer (2024) WEB-DL [H.265/2160p] [4K, SDR, 10-bit] [MVO] RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Movie Parsed. The Surfer - 2024 
+2025-06-09 09:02:39.5|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.5|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.5|Debug|QualityParser|Trying to parse quality for 'The Surfer (2024) WEB-DL [H.265/2160p] [4K, SDR, 10-bit] [MVO] RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Quality parsed: WEBDL-2160p v1
+2025-06-09 09:02:39.5|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.5|Debug|ParsingService|No matching movie for titles 'The Surfer (2024)'
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Release 'The Surfer (2024) WEB-DL [H.265/2160p] [4K, SDR, 10-bit] [MVO] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Processing release 'The Visual Bible: Acts (1994) DVDRip [H.264/1080p] [VO] [handmade upscale AI] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.5|Debug|Parser|Parsing string 'The Visual Bible: Acts (1994) DVDRip [H.264/1080p] [VO] [handmade upscale AI] RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Movie Parsed. The Visual Bible: Acts - 1994 
+2025-06-09 09:02:39.5|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.5|Debug|Parser|Languages parsed: French, Russian
+2025-06-09 09:02:39.5|Debug|QualityParser|Trying to parse quality for 'The Visual Bible: Acts (1994) DVDRip [H.264/1080p] [VO] [handmade upscale AI] RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Quality parsed: DVD v1
+2025-06-09 09:02:39.5|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.5|Debug|ParsingService|No matching movie for titles 'The Visual Bible: Acts (1994)'
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Release 'The Visual Bible: Acts (1994) DVDRip [H.264/1080p] [VO] [handmade upscale AI] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Processing release 'Turn Me On (2024) WEB-DL [H.264] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.5|Debug|Parser|Parsing string 'Turn Me On (2024) WEB-DL [H.264] RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Movie Parsed. Turn Me On - 2024 
+2025-06-09 09:02:39.5|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.5|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.5|Debug|QualityParser|Trying to parse quality for 'Turn Me On (2024) WEB-DL [H.264] RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Quality parsed: WEBDL-480p v1
+2025-06-09 09:02:39.5|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.5|Debug|ParsingService|No matching movie for titles 'Turn Me On (2024)'
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Release 'Turn Me On (2024) WEB-DL [H.264] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Processing release 'The Surfer (2024) WEB-DL [H.264/1080p] [MVO] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.5|Debug|Parser|Parsing string 'The Surfer (2024) WEB-DL [H.264/1080p] [MVO] RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Movie Parsed. The Surfer - 2024 
+2025-06-09 09:02:39.5|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.5|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.5|Debug|QualityParser|Trying to parse quality for 'The Surfer (2024) WEB-DL [H.264/1080p] [MVO] RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2025-06-09 09:02:39.5|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.5|Debug|ParsingService|No matching movie for titles 'The Surfer (2024)'
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Release 'The Surfer (2024) WEB-DL [H.264/1080p] [MVO] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Processing release 'Georukhan bam: demon heonteoseu / Holy Night: Demon Hunters (2025) WEB-DL [H.264] [AVO] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.5|Debug|Parser|Parsing string 'Georukhan bam: demon heonteoseu / Holy Night: Demon Hunters (2025) WEB-DL [H.264] [AVO] RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Movie Parsed. Georukhan bam: demon heonteoseu / Holy Night: Demon Hunters - 2025 
+2025-06-09 09:02:39.5|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.5|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.5|Debug|QualityParser|Trying to parse quality for 'Georukhan bam: demon heonteoseu / Holy Night: Demon Hunters (2025) WEB-DL [H.264] [AVO] RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Quality parsed: WEBDL-480p v1
+2025-06-09 09:02:39.5|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.5|Debug|ParsingService|No matching movie for titles 'Georukhan bam: demon heonteoseu / Holy Night: Demon Hunters, Georukhan bam: demon heonteoseu, Holy Night: Demon Hunters (2025)'
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Release 'Georukhan bam: demon heonteoseu / Holy Night: Demon Hunters (2025) WEB-DL [H.264] [AVO] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Processing release 'The Friend (2024) BDRemux [H.264/1080p] [MVO] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.5|Debug|Parser|Parsing string 'The Friend (2024) BDRemux [H.264/1080p] [MVO] RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Movie Parsed. The Friend - 2024 
+2025-06-09 09:02:39.5|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.5|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.5|Debug|QualityParser|Trying to parse quality for 'The Friend (2024) BDRemux [H.264/1080p] [MVO] RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Quality parsed: Remux-1080p v1
+2025-06-09 09:02:39.5|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.5|Debug|ParsingService|No matching movie for titles 'The Friend (2024)'
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Release 'The Friend (2024) BDRemux [H.264/1080p] [MVO] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Processing release 'Drop (2025) WEB-DL [H.264/1080p] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.5|Debug|Parser|Parsing string 'Drop (2025) WEB-DL [H.264/1080p] RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Movie Parsed. Drop - 2025 
+2025-06-09 09:02:39.5|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.5|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.5|Debug|QualityParser|Trying to parse quality for 'Drop (2025) WEB-DL [H.264/1080p] RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2025-06-09 09:02:39.5|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.5|Debug|ParsingService|No matching movie for titles 'Drop (2025)'
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Release 'Drop (2025) WEB-DL [H.264/1080p] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Processing release 'Abracadaver (2024) WEB-DL [H.264] [MVO] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.5|Debug|Parser|Parsing string 'Abracadaver (2024) WEB-DL [H.264] [MVO] RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Movie Parsed. Abracadaver - 2024 
+2025-06-09 09:02:39.5|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.5|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.5|Debug|QualityParser|Trying to parse quality for 'Abracadaver (2024) WEB-DL [H.264] [MVO] RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Quality parsed: WEBDL-480p v1
+2025-06-09 09:02:39.5|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.5|Debug|ParsingService|No matching movie for titles 'Abracadaver (2024)'
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Release 'Abracadaver (2024) WEB-DL [H.264] [MVO] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Processing release 'Epica: Live at The Symphonic Synergy (2024) BDRip [H.265/1080p] [10-bit] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.5|Debug|Parser|Parsing string 'Epica: Live at The Symphonic Synergy (2024) BDRip [H.265/1080p] [10-bit] RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Movie Parsed. Epica: Live at The Symphonic Synergy - 2024 
+2025-06-09 09:02:39.5|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.5|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.5|Debug|QualityParser|Trying to parse quality for 'Epica: Live at The Symphonic Synergy (2024) BDRip [H.265/1080p] [10-bit] RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Quality parsed: Bluray-1080p v1
+2025-06-09 09:02:39.5|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.5|Debug|ParsingService|No matching movie for titles 'Epica: Live at The Symphonic Synergy (2024)'
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Release 'Epica: Live at The Symphonic Synergy (2024) BDRip [H.265/1080p] [10-bit] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Processing release 'The Surfer (2024) WEB-DL [H.265/1080p] [HDR10+, Dolby Vision Profile 8.1, 10-bit] [MVO] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.5|Debug|Parser|Parsing string 'The Surfer (2024) WEB-DL [H.265/1080p] [HDR10+, Dolby Vision Profile 8.1, 10-bit] [MVO] RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Movie Parsed. The Surfer - 2024 
+2025-06-09 09:02:39.5|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.5|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.5|Debug|QualityParser|Trying to parse quality for 'The Surfer (2024) WEB-DL [H.265/1080p] [HDR10+, Dolby Vision Profile 8.1, 10-bit] [MVO] RUS'
+2025-06-09 09:02:39.5|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2025-06-09 09:02:39.5|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.5|Debug|ParsingService|No matching movie for titles 'The Surfer (2024)'
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Release 'The Surfer (2024) WEB-DL [H.265/1080p] [HDR10+, Dolby Vision Profile 8.1, 10-bit] [MVO] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.5|Debug|DownloadDecisionMaker|Processing release 'The Accountant 2 (2025) WEB-DL [H.265/2160p] [4K, HDR10+, Dolby Vision Profile 8.1, 10-bit] [MVO] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.6|Debug|Parser|Parsing string 'The Accountant 2 (2025) WEB-DL [H.265/2160p] [4K, HDR10+, Dolby Vision Profile 8.1, 10-bit] [MVO] RUS'
+2025-06-09 09:02:39.6|Debug|Parser|Movie Parsed. The Accountant 2 - 2025 
+2025-06-09 09:02:39.6|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.6|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.6|Debug|QualityParser|Trying to parse quality for 'The Accountant 2 (2025) WEB-DL [H.265/2160p] [4K, HDR10+, Dolby Vision Profile 8.1, 10-bit] [MVO] RUS'
+2025-06-09 09:02:39.6|Debug|Parser|Quality parsed: WEBDL-2160p v1
+2025-06-09 09:02:39.6|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.6|Debug|ParsingService|No matching movie for titles 'The Accountant 2 (2025)'
+2025-06-09 09:02:39.6|Debug|DownloadDecisionMaker|Release 'The Accountant 2 (2025) WEB-DL [H.265/2160p] [4K, HDR10+, Dolby Vision Profile 8.1, 10-bit] [MVO] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.6|Debug|DownloadDecisionMaker|Processing release 'Taming of the Shrew (1929) WEBRip [H.264/1080p] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.6|Debug|Parser|Parsing string 'Taming of the Shrew (1929) WEBRip [H.264/1080p] RUS'
+2025-06-09 09:02:39.6|Debug|Parser|Movie Parsed. Taming of the Shrew - 1929 
+2025-06-09 09:02:39.6|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.6|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.6|Debug|QualityParser|Trying to parse quality for 'Taming of the Shrew (1929) WEBRip [H.264/1080p] RUS'
+2025-06-09 09:02:39.6|Debug|Parser|Quality parsed: WEBRip-1080p v1
+2025-06-09 09:02:39.6|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.6|Debug|ParsingService|No matching movie for titles 'Taming of the Shrew (1929)'
+2025-06-09 09:02:39.6|Debug|DownloadDecisionMaker|Release 'Taming of the Shrew (1929) WEBRip [H.264/1080p] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.6|Debug|DownloadDecisionMaker|Processing release 'Drop Zone (1994) BDRip [H.265/1080p] [10-bit] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.6|Debug|Parser|Parsing string 'Drop Zone (1994) BDRip [H.265/1080p] [10-bit] RUS'
+2025-06-09 09:02:39.6|Debug|Parser|Movie Parsed. Drop Zone - 1994 
+2025-06-09 09:02:39.6|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.6|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.6|Debug|QualityParser|Trying to parse quality for 'Drop Zone (1994) BDRip [H.265/1080p] [10-bit] RUS'
+2025-06-09 09:02:39.6|Debug|Parser|Quality parsed: Bluray-1080p v1
+2025-06-09 09:02:39.6|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.6|Debug|ParsingService|No matching movie for titles 'Drop Zone (1994)'
+2025-06-09 09:02:39.6|Debug|DownloadDecisionMaker|Release 'Drop Zone (1994) BDRip [H.265/1080p] [10-bit] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.6|Debug|DownloadDecisionMaker|Processing release 'Tutto a posto e niente in ordine / All Screwed up (1974) BDRip [H.264/720p] [ITA / RU Sub] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.6|Debug|Parser|Parsing string 'Tutto a posto e niente in ordine / All Screwed up (1974) BDRip [H.264/720p] [ITA / RU Sub] RUS'
+2025-06-09 09:02:39.6|Debug|Parser|Movie Parsed. Tutto a posto e niente in ordine / All Screwed up - 1974 
+2025-06-09 09:02:39.6|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.6|Debug|Parser|Languages parsed: Italian, Russian
+2025-06-09 09:02:39.6|Debug|QualityParser|Trying to parse quality for 'Tutto a posto e niente in ordine / All Screwed up (1974) BDRip [H.264/720p] [ITA / RU Sub] RUS'
+2025-06-09 09:02:39.6|Debug|Parser|Quality parsed: Bluray-720p v1
+2025-06-09 09:02:39.6|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.6|Debug|ParsingService|No matching movie for titles 'Tutto a posto e niente in ordine / All Screwed up, Tutto a posto e niente in ordine, All Screwed up (1974)'
+2025-06-09 09:02:39.6|Debug|DownloadDecisionMaker|Release 'Tutto a posto e niente in ordine / All Screwed up (1974) BDRip [H.264/720p] [ITA / RU Sub] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.6|Debug|DownloadDecisionMaker|Processing release 'Brewster's Millions (1985) HDTV [H.264/1080i] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.6|Debug|Parser|Parsing string 'Brewster's Millions (1985) HDTV [H.264/1080i] RUS'
+2025-06-09 09:02:39.6|Debug|Parser|Movie Parsed. Brewster's Millions - 1985 
+2025-06-09 09:02:39.6|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.6|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.6|Debug|QualityParser|Trying to parse quality for 'Brewster's Millions (1985) HDTV [H.264/1080i] RUS'
+2025-06-09 09:02:39.6|Debug|Parser|Quality parsed: HDTV-1080p v1
+2025-06-09 09:02:39.6|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.6|Debug|ParsingService|No matching movie for titles 'Brewster's Millions (1985)'
+2025-06-09 09:02:39.6|Debug|DownloadDecisionMaker|Release 'Brewster's Millions (1985) HDTV [H.264/1080i] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.6|Debug|DownloadDecisionMaker|Processing release 'Mother Lode (1982) BDRip [H.264] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.6|Debug|Parser|Parsing string 'Mother Lode (1982) BDRip [H.264] RUS'
+2025-06-09 09:02:39.6|Debug|Parser|Movie Parsed. Mother Lode - 1982 
+2025-06-09 09:02:39.6|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.6|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.6|Debug|QualityParser|Trying to parse quality for 'Mother Lode (1982) BDRip [H.264] RUS'
+2025-06-09 09:02:39.6|Debug|Parser|Quality parsed: Bluray-480p v1
+2025-06-09 09:02:39.6|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.6|Debug|ParsingService|No matching movie for titles 'Mother Lode (1982)'
+2025-06-09 09:02:39.6|Debug|DownloadDecisionMaker|Release 'Mother Lode (1982) BDRip [H.264] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.6|Debug|DownloadDecisionMaker|Processing release 'A Quiet Place: Day One (2024) BDRip [H.265/2160p] [4K, HDR10, 10-bit] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.6|Debug|Parser|Parsing string 'A Quiet Place: Day One (2024) BDRip [H.265/2160p] [4K, HDR10, 10-bit] RUS'
+2025-06-09 09:02:39.6|Debug|Parser|Movie Parsed. A Quiet Place: Day One - 2024 
+2025-06-09 09:02:39.6|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.6|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.6|Debug|QualityParser|Trying to parse quality for 'A Quiet Place: Day One (2024) BDRip [H.265/2160p] [4K, HDR10, 10-bit] RUS'
+2025-06-09 09:02:39.6|Debug|Parser|Quality parsed: Bluray-2160p v1
+2025-06-09 09:02:39.6|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.6|Debug|ParsingService|No matching movie for titles 'A Quiet Place: Day One (2024)'
+2025-06-09 09:02:39.6|Debug|DownloadDecisionMaker|Release 'A Quiet Place: Day One (2024) BDRip [H.265/2160p] [4K, HDR10, 10-bit] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.6|Debug|DownloadDecisionMaker|Processing release 'Tutto a posto e niente in ordine / All Screwed up (1974) BDRip [H.264] [ITA / RU Sub] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.6|Debug|Parser|Parsing string 'Tutto a posto e niente in ordine / All Screwed up (1974) BDRip [H.264] [ITA / RU Sub] RUS'
+2025-06-09 09:02:39.6|Debug|Parser|Movie Parsed. Tutto a posto e niente in ordine / All Screwed up - 1974 
+2025-06-09 09:02:39.6|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.6|Debug|Parser|Languages parsed: Italian, Russian
+2025-06-09 09:02:39.6|Debug|QualityParser|Trying to parse quality for 'Tutto a posto e niente in ordine / All Screwed up (1974) BDRip [H.264] [ITA / RU Sub] RUS'
+2025-06-09 09:02:39.6|Debug|Parser|Quality parsed: Bluray-480p v1
+2025-06-09 09:02:39.6|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.6|Debug|ParsingService|No matching movie for titles 'Tutto a posto e niente in ordine / All Screwed up, Tutto a posto e niente in ordine, All Screwed up (1974)'
+2025-06-09 09:02:39.6|Debug|DownloadDecisionMaker|Release 'Tutto a posto e niente in ordine / All Screwed up (1974) BDRip [H.264] [ITA / RU Sub] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.6|Debug|DownloadDecisionMaker|Processing release '(1967) WEBRip [VP9/2160p] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.6|Debug|Parser|Parsing string '(1967) WEBRip [VP9/2160p] RUS'
+2025-06-09 09:02:39.6|Debug|Parser|Unable to parse (1967) WEBRip [VP9/2160p] RUS
+2025-06-09 09:02:39.6|Debug|DownloadDecisionMaker|Processing release 'Jungle Cruise (2021) BDRip [H.265/2160p] [4K, HDR10, 10-bit] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.6|Debug|Parser|Parsing string 'Jungle Cruise (2021) BDRip [H.265/2160p] [4K, HDR10, 10-bit] RUS'
+2025-06-09 09:02:39.6|Debug|Parser|Movie Parsed. Jungle Cruise - 2021 
+2025-06-09 09:02:39.6|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.6|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.6|Debug|QualityParser|Trying to parse quality for 'Jungle Cruise (2021) BDRip [H.265/2160p] [4K, HDR10, 10-bit] RUS'
+2025-06-09 09:02:39.6|Debug|Parser|Quality parsed: Bluray-2160p v1
+2025-06-09 09:02:39.6|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.6|Debug|ParsingService|No matching movie for titles 'Jungle Cruise (2021)'
+2025-06-09 09:02:39.6|Debug|DownloadDecisionMaker|Release 'Jungle Cruise (2021) BDRip [H.265/2160p] [4K, HDR10, 10-bit] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.6|Debug|DownloadDecisionMaker|Processing release 'Some Like It Hot (1959) BDRip [H.264] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.6|Debug|Parser|Parsing string 'Some Like It Hot (1959) BDRip [H.264] RUS'
+2025-06-09 09:02:39.6|Debug|Parser|Movie Parsed. Some Like It Hot - 1959 
+2025-06-09 09:02:39.6|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.6|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.6|Debug|QualityParser|Trying to parse quality for 'Some Like It Hot (1959) BDRip [H.264] RUS'
+2025-06-09 09:02:39.6|Debug|Parser|Quality parsed: Bluray-480p v1
+2025-06-09 09:02:39.6|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.6|Debug|ParsingService|No matching movie for titles 'Some Like It Hot (1959)'
+2025-06-09 09:02:39.6|Debug|DownloadDecisionMaker|Release 'Some Like It Hot (1959) BDRip [H.264] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.6|Debug|DownloadDecisionMaker|Processing release 'Now You See Me (2013 - 2016) BDRip [H.264/720p]  RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.6|Debug|Parser|Parsing string 'Now You See Me (2013 - 2016) BDRip [H.264/720p]  RUS'
+2025-06-09 09:02:39.6|Debug|Parser|Movie Parsed. Now You See Me - 2016 
+2025-06-09 09:02:39.6|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.6|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.6|Debug|QualityParser|Trying to parse quality for 'Now You See Me (2013 - 2016) BDRip [H.264/720p]  RUS'
+2025-06-09 09:02:39.6|Debug|Parser|Quality parsed: Bluray-720p v1
+2025-06-09 09:02:39.6|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.6|Debug|ParsingService|No matching movie for titles 'Now You See Me (2016)'
+2025-06-09 09:02:39.6|Debug|DownloadDecisionMaker|Release 'Now You See Me (2013 - 2016) BDRip [H.264/720p]  RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.6|Debug|DownloadDecisionMaker|Processing release 'Sei fratelli (2024) WEB-DL [H.264] [MVO] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.6|Debug|Parser|Parsing string 'Sei fratelli (2024) WEB-DL [H.264] [MVO] RUS'
+2025-06-09 09:02:39.6|Debug|Parser|Movie Parsed. Sei fratelli - 2024 
+2025-06-09 09:02:39.6|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.6|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.6|Debug|QualityParser|Trying to parse quality for 'Sei fratelli (2024) WEB-DL [H.264] [MVO] RUS'
+2025-06-09 09:02:39.6|Debug|Parser|Quality parsed: WEBDL-480p v1
+2025-06-09 09:02:39.6|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.6|Debug|ParsingService|No matching movie for titles 'Sei fratelli (2024)'
+2025-06-09 09:02:39.6|Debug|DownloadDecisionMaker|Release 'Sei fratelli (2024) WEB-DL [H.264] [MVO] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.6|Debug|DownloadDecisionMaker|Processing release 'McLintock! (1963) BDRip [H.264/720p] [DVO] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.6|Debug|Parser|Parsing string 'McLintock! (1963) BDRip [H.264/720p] [DVO] RUS'
+2025-06-09 09:02:39.6|Debug|Parser|Movie Parsed. McLintock! - 1963 
+2025-06-09 09:02:39.6|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.6|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.6|Debug|QualityParser|Trying to parse quality for 'McLintock! (1963) BDRip [H.264/720p] [DVO] RUS'
+2025-06-09 09:02:39.6|Debug|Parser|Quality parsed: Bluray-720p v1
+2025-06-09 09:02:39.6|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.6|Debug|ParsingService|No matching movie for titles 'McLintock! (1963)'
+2025-06-09 09:02:39.6|Debug|DownloadDecisionMaker|Release 'McLintock! (1963) BDRip [H.264/720p] [DVO] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.6|Debug|DownloadDecisionMaker|Processing release 'Tang tan 1900 / Detective Chinatown 1900 (2025) WEB-DL [H.264] [MVO] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.6|Debug|Parser|Parsing string 'Tang tan 1900 / Detective Chinatown 1900 (2025) WEB-DL [H.264] [MVO] RUS'
+2025-06-09 09:02:39.6|Debug|Parser|Movie Parsed. Tang tan - 1900 
+2025-06-09 09:02:39.6|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.6|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.6|Debug|QualityParser|Trying to parse quality for 'Tang tan 1900 / Detective Chinatown 1900 (2025) WEB-DL [H.264] [MVO] RUS'
+2025-06-09 09:02:39.6|Debug|Parser|Quality parsed: WEBDL-480p v1
+2025-06-09 09:02:39.6|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.6|Debug|ParsingService|No matching movie for titles 'Tang tan (1900)'
+2025-06-09 09:02:39.6|Debug|DownloadDecisionMaker|Release 'Tang tan 1900 / Detective Chinatown 1900 (2025) WEB-DL [H.264] [MVO] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.6|Debug|DownloadDecisionMaker|Processing release 'A Working Man (2025) UHD BDRip [H.265/1080p] [HDR10, Dolby Vision P 8.1, 10-bit] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.6|Debug|Parser|Parsing string 'A Working Man (2025) UHD BDRip [H.265/1080p] [HDR10, Dolby Vision P 8.1, 10-bit] RUS'
+2025-06-09 09:02:39.6|Debug|Parser|Movie Parsed. A Working Man - 2025 
+2025-06-09 09:02:39.6|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.6|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.6|Debug|QualityParser|Trying to parse quality for 'A Working Man (2025) UHD BDRip [H.265/1080p] [HDR10, Dolby Vision P 8.1, 10-bit] RUS'
+2025-06-09 09:02:39.6|Debug|Parser|Quality parsed: Bluray-1080p v1
+2025-06-09 09:02:39.6|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.6|Debug|ParsingService|No matching movie for titles 'A Working Man (2025)'
+2025-06-09 09:02:39.6|Debug|DownloadDecisionMaker|Release 'A Working Man (2025) UHD BDRip [H.265/1080p] [HDR10, Dolby Vision P 8.1, 10-bit] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.6|Debug|DownloadDecisionMaker|Processing release 'Freaky Tales (2024) UHD BDRip [H.265/1080p] [HDR10, Dolby Vision P 8.1, 10-bit] [MVO] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.6|Debug|Parser|Parsing string 'Freaky Tales (2024) UHD BDRip [H.265/1080p] [HDR10, Dolby Vision P 8.1, 10-bit] [MVO] RUS'
+2025-06-09 09:02:39.6|Debug|Parser|Movie Parsed. Freaky Tales - 2024 
+2025-06-09 09:02:39.6|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.6|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.6|Debug|QualityParser|Trying to parse quality for 'Freaky Tales (2024) UHD BDRip [H.265/1080p] [HDR10, Dolby Vision P 8.1, 10-bit] [MVO] RUS'
+2025-06-09 09:02:39.6|Debug|Parser|Quality parsed: Bluray-1080p v1
+2025-06-09 09:02:39.6|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.7|Debug|ParsingService|No matching movie for titles 'Freaky Tales (2024)'
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Release 'Freaky Tales (2024) UHD BDRip [H.265/1080p] [HDR10, Dolby Vision P 8.1, 10-bit] [MVO] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Processing release '(1938) WEBRip RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.7|Debug|Parser|Parsing string '(1938) WEBRip RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Unable to parse (1938) WEBRip RUS
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Processing release 'A Working Man (2025) BDRip [H.264/1080p] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.7|Debug|Parser|Parsing string 'A Working Man (2025) BDRip [H.264/1080p] RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Movie Parsed. A Working Man - 2025 
+2025-06-09 09:02:39.7|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.7|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.7|Debug|QualityParser|Trying to parse quality for 'A Working Man (2025) BDRip [H.264/1080p] RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Quality parsed: Bluray-1080p v1
+2025-06-09 09:02:39.7|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.7|Debug|ParsingService|No matching movie for titles 'A Working Man (2025)'
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Release 'A Working Man (2025) BDRip [H.264/1080p] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Processing release '(1985) WEBRip [VP9/2160p] ( 1-2  2)  RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.7|Debug|Parser|Parsing string '(1985) WEBRip [VP9/2160p] ( 1-2  2)  RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Unable to parse (1985) WEBRip [VP9/2160p] ( 1-2  2)  RUS
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Processing release 'McLintock! (1963) BDRip [H.264] [DVO] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.7|Debug|Parser|Parsing string 'McLintock! (1963) BDRip [H.264] [DVO] RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Movie Parsed. McLintock! - 1963 
+2025-06-09 09:02:39.7|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.7|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.7|Debug|QualityParser|Trying to parse quality for 'McLintock! (1963) BDRip [H.264] [DVO] RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Quality parsed: Bluray-480p v1
+2025-06-09 09:02:39.7|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.7|Debug|ParsingService|No matching movie for titles 'McLintock! (1963)'
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Release 'McLintock! (1963) BDRip [H.264] [DVO] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Processing release 'Kotoko (2011) BDRip [H.264/720p] [VO] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.7|Debug|Parser|Parsing string 'Kotoko (2011) BDRip [H.264/720p] [VO] RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Movie Parsed. Kotoko - 2011 
+2025-06-09 09:02:39.7|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.7|Debug|Parser|Languages parsed: French, Russian
+2025-06-09 09:02:39.7|Debug|QualityParser|Trying to parse quality for 'Kotoko (2011) BDRip [H.264/720p] [VO] RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Quality parsed: Bluray-720p v1
+2025-06-09 09:02:39.7|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.7|Debug|ParsingService|No matching movie for titles 'Kotoko (2011)'
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Release 'Kotoko (2011) BDRip [H.264/720p] [VO] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Processing release 'The Iron Mistress (1952) DVDRip [H.264] [VO] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.7|Debug|Parser|Parsing string 'The Iron Mistress (1952) DVDRip [H.264] [VO] RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Movie Parsed. The Iron Mistress - 1952 
+2025-06-09 09:02:39.7|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.7|Debug|Parser|Languages parsed: French, Russian
+2025-06-09 09:02:39.7|Debug|QualityParser|Trying to parse quality for 'The Iron Mistress (1952) DVDRip [H.264] [VO] RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Quality parsed: DVD v1
+2025-06-09 09:02:39.7|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.7|Debug|ParsingService|No matching movie for titles 'The Iron Mistress (1952)'
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Release 'The Iron Mistress (1952) DVDRip [H.264] [VO] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Processing release 'Bread and Roses (2000) BDRip [H.264/720p] [MVO] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.7|Debug|Parser|Parsing string 'Bread and Roses (2000) BDRip [H.264/720p] [MVO] RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Movie Parsed. Bread and Roses - 2000 
+2025-06-09 09:02:39.7|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.7|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.7|Debug|QualityParser|Trying to parse quality for 'Bread and Roses (2000) BDRip [H.264/720p] [MVO] RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Quality parsed: Bluray-720p v1
+2025-06-09 09:02:39.7|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.7|Debug|ParsingService|No matching movie for titles 'Bread and Roses (2000)'
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Release 'Bread and Roses (2000) BDRip [H.264/720p] [MVO] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Processing release '(1983) DVDRemux RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.7|Debug|Parser|Parsing string '(1983) DVDRemux RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Unable to parse (1983) DVDRemux RUS
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Processing release '(1983) DVDRip [H.264] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.7|Debug|Parser|Parsing string '(1983) DVDRip [H.264] RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Unable to parse (1983) DVDRip [H.264] RUS
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Processing release '(1987) DVDRemux RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.7|Debug|Parser|Parsing string '(1987) DVDRemux RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Unable to parse (1987) DVDRemux RUS
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Processing release '(1987) DVDRip RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.7|Debug|Parser|Parsing string '(1987) DVDRip RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Unable to parse (1987) DVDRip RUS
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Processing release 'Sinners (2025) WEB-DL [AV1/2160p] [4K, HDR10+, Dolby Vision Profile 10.1, 10-bit] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.7|Debug|Parser|Parsing string 'Sinners (2025) WEB-DL [AV1/2160p] [4K, HDR10+, Dolby Vision Profile 10.1, 10-bit] RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Movie Parsed. Sinners - 2025 
+2025-06-09 09:02:39.7|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.7|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.7|Debug|QualityParser|Trying to parse quality for 'Sinners (2025) WEB-DL [AV1/2160p] [4K, HDR10+, Dolby Vision Profile 10.1, 10-bit] RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Quality parsed: WEBDL-2160p v1
+2025-06-09 09:02:39.7|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.7|Debug|AggregateLanguages|Selected languages: Russian
+2025-06-09 09:02:39.7|Debug|AcceptableSizeSpecification|Beginning size check for: Sinners (2025) WEB-DL [AV1/2160p] [4K, HDR10+, Dolby Vision Profile 10.1, 10-bit] RUS
+2025-06-09 09:02:39.7|Debug|AcceptableSizeSpecification|Max size is unlimited, skipping check
+2025-06-09 09:02:39.7|Debug|AcceptableSizeSpecification|Item: Sinners (2025) WEB-DL [AV1/2160p] [4K, HDR10+, Dolby Vision Profile 10.1, 10-bit] RUS, meets size constraints
+2025-06-09 09:02:39.7|Debug|AlreadyImportedSpecification|Performing already imported check on report
+2025-06-09 09:02:39.7|Debug|AlreadyImportedSpecification|Skipping already imported check for movie without file
+2025-06-09 09:02:39.7|Debug|LanguageSpecification|Checking if report meets language requirements. Russian
+2025-06-09 09:02:39.7|Debug|MaximumSizeSpecification|Maximum size is not set.
+2025-06-09 09:02:39.7|Debug|MinimumAgeSpecification|Not checking minimum age requirement for non-usenet report
+2025-06-09 09:02:39.7|Debug|QualityAllowedByProfileSpecification|Checking if report meets quality requirements. WEBDL-2160p v1
+2025-06-09 09:02:39.7|Debug|QualityAllowedByProfileSpecification|Quality WEBDL-2160p v1 rejected by Movie's quality profile
+2025-06-09 09:02:39.7|Debug|ReleaseRestrictionsSpecification|Checking if release meets restrictions: Sinners (2025) WEB-DL [AV1/2160p] [4K, HDR10+, Dolby Vision Profile 10.1, 10-bit] RUS
+2025-06-09 09:02:39.7|Debug|ReleaseRestrictionsSpecification|[Sinners (2025) WEB-DL [AV1/2160p] [4K, HDR10+, Dolby Vision Profile 10.1, 10-bit] RUS] No restrictions apply, allowing
+2025-06-09 09:02:39.7|Debug|RetentionSpecification|Not checking retention requirement for non-usenet report
+2025-06-09 09:02:39.7|Debug|UpgradeDiskSpecification|File is no longer available, skipping this file.
+2025-06-09 09:02:39.7|Debug|DelaySpecification|Delay Profile does not require a waiting period before download for Torrent.
+2025-06-09 09:02:39.7|Debug|HistorySpecification|Performing history status check on report
+2025-06-09 09:02:39.7|Debug|HistorySpecification|Checking current status of movie [2] in history
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Release 'Sinners (2025) WEB-DL [AV1/2160p] [4K, HDR10+, Dolby Vision Profile 10.1, 10-bit] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] WEBDL-2160p is not wanted in profile
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Processing release 'Hasta despues de muerta (1916) WEBRip [H.264/720p] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.7|Debug|Parser|Parsing string 'Hasta despues de muerta (1916) WEBRip [H.264/720p] RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Movie Parsed. Hasta despues de muerta - 1916 
+2025-06-09 09:02:39.7|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.7|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.7|Debug|QualityParser|Trying to parse quality for 'Hasta despues de muerta (1916) WEBRip [H.264/720p] RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Quality parsed: WEBRip-720p v1
+2025-06-09 09:02:39.7|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.7|Debug|ParsingService|No matching movie for titles 'Hasta despues de muerta (1916)'
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Release 'Hasta despues de muerta (1916) WEBRip [H.264/720p] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Processing release 'Final Destination 5 (2011) BDRip [H.265/1080p] [10-bit] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.7|Debug|Parser|Parsing string 'Final Destination 5 (2011) BDRip [H.265/1080p] [10-bit] RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Movie Parsed. Final Destination 5 - 2011 
+2025-06-09 09:02:39.7|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.7|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.7|Debug|QualityParser|Trying to parse quality for 'Final Destination 5 (2011) BDRip [H.265/1080p] [10-bit] RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Quality parsed: Bluray-1080p v1
+2025-06-09 09:02:39.7|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.7|Debug|ParsingService|No matching movie for titles 'Final Destination 5 (2011)'
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Release 'Final Destination 5 (2011) BDRip [H.265/1080p] [10-bit] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Processing release 'The Final Destination (2009) BDRip [H.265/1080p] [10-bit] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.7|Debug|Parser|Parsing string 'The Final Destination (2009) BDRip [H.265/1080p] [10-bit] RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Movie Parsed. The Final Destination - 2009 
+2025-06-09 09:02:39.7|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.7|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.7|Debug|QualityParser|Trying to parse quality for 'The Final Destination (2009) BDRip [H.265/1080p] [10-bit] RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Quality parsed: Bluray-1080p v1
+2025-06-09 09:02:39.7|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.7|Debug|ParsingService|No matching movie for titles 'The Final Destination (2009)'
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Release 'The Final Destination (2009) BDRip [H.265/1080p] [10-bit] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Processing release 'Kotoko (2011) BDRip [H.264] [VO] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.7|Debug|Parser|Parsing string 'Kotoko (2011) BDRip [H.264] [VO] RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Movie Parsed. Kotoko - 2011 
+2025-06-09 09:02:39.7|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.7|Debug|Parser|Languages parsed: French, Russian
+2025-06-09 09:02:39.7|Debug|QualityParser|Trying to parse quality for 'Kotoko (2011) BDRip [H.264] [VO] RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Quality parsed: Bluray-480p v1
+2025-06-09 09:02:39.7|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.7|Debug|ParsingService|No matching movie for titles 'Kotoko (2011)'
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Release 'Kotoko (2011) BDRip [H.264] [VO] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Processing release 'Marvel / Alternative Marvel Universes (2000-2024) UHD BDRip [H.265/2160p-LQ] [4K, HDR, 10-bit] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.7|Debug|Parser|Parsing string 'Marvel / Alternative Marvel Universes (2000-2024) UHD BDRip [H.265/2160p-LQ] [4K, HDR, 10-bit] RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Movie Parsed. Marvel / Alternative Marvel Universes (2000 - 2024 
+2025-06-09 09:02:39.7|Debug|Parser|Release Group parsed: LQ
+2025-06-09 09:02:39.7|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.7|Debug|QualityParser|Trying to parse quality for 'Marvel / Alternative Marvel Universes (2000-2024) UHD BDRip [H.265/2160p-LQ] [4K, HDR, 10-bit] RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Quality parsed: Bluray-2160p v1
+2025-06-09 09:02:39.7|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.7|Debug|ParsingService|No matching movie for titles 'Marvel / Alternative Marvel Universes (2000, Marvel, Alternative Marvel Universes (2000 (2024)'
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Release 'Marvel / Alternative Marvel Universes (2000-2024) UHD BDRip [H.265/2160p-LQ] [4K, HDR, 10-bit] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Processing release 'Heart Eyes (2025) WEB-DL [H.264/1080p] [MVO] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.7|Debug|Parser|Parsing string 'Heart Eyes (2025) WEB-DL [H.264/1080p] [MVO] RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Movie Parsed. Heart Eyes - 2025 
+2025-06-09 09:02:39.7|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.7|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.7|Debug|QualityParser|Trying to parse quality for 'Heart Eyes (2025) WEB-DL [H.264/1080p] [MVO] RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2025-06-09 09:02:39.7|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.7|Debug|ParsingService|No matching movie for titles 'Heart Eyes (2025)'
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Release 'Heart Eyes (2025) WEB-DL [H.264/1080p] [MVO] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Processing release 'Bread and Roses (2000) BDRip [H.264] [MVO] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.7|Debug|Parser|Parsing string 'Bread and Roses (2000) BDRip [H.264] [MVO] RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Movie Parsed. Bread and Roses - 2000 
+2025-06-09 09:02:39.7|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.7|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.7|Debug|QualityParser|Trying to parse quality for 'Bread and Roses (2000) BDRip [H.264] [MVO] RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Quality parsed: Bluray-480p v1
+2025-06-09 09:02:39.7|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.7|Debug|ParsingService|No matching movie for titles 'Bread and Roses (2000)'
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Release 'Bread and Roses (2000) BDRip [H.264] [MVO] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Processing release 'Until Dawn (2025) WEB-DL [H.265/2160p] [4K, SDR 10-bit] [MVO] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.7|Debug|Parser|Parsing string 'Until Dawn (2025) WEB-DL [H.265/2160p] [4K, SDR 10-bit] [MVO] RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Movie Parsed. Until Dawn - 2025 
+2025-06-09 09:02:39.7|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.7|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.7|Debug|QualityParser|Trying to parse quality for 'Until Dawn (2025) WEB-DL [H.265/2160p] [4K, SDR 10-bit] [MVO] RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Quality parsed: WEBDL-2160p v1
+2025-06-09 09:02:39.7|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.7|Debug|ParsingService|No matching movie for titles 'Until Dawn (2025)'
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Release 'Until Dawn (2025) WEB-DL [H.265/2160p] [4K, SDR 10-bit] [MVO] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Processing release '(1943) WEBRip [H.264/1080p] [handmade upscale AI] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.7|Debug|Parser|Parsing string '(1943) WEBRip [H.264/1080p] [handmade upscale AI] RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Unable to parse (1943) WEBRip [H.264/1080p] [handmade upscale AI] RUS
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Processing release '(1935) BDRip [H.264/720p] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.7|Debug|Parser|Parsing string '(1935) BDRip [H.264/720p] RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Unable to parse (1935) BDRip [H.264/720p] RUS
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Processing release 'Vieni avanti cretino (1982) DVDRip [H.264] RUS' from 'NoNaMe Club (Prowlarr)'
+2025-06-09 09:02:39.7|Debug|Parser|Parsing string 'Vieni avanti cretino (1982) DVDRip [H.264] RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Movie Parsed. Vieni avanti cretino - 1982 
+2025-06-09 09:02:39.7|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.7|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.7|Debug|QualityParser|Trying to parse quality for 'Vieni avanti cretino (1982) DVDRip [H.264] RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Quality parsed: DVD v1
+2025-06-09 09:02:39.7|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.7|Debug|ParsingService|No matching movie for titles 'Vieni avanti cretino (1982)'
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Release 'Vieni avanti cretino (1982) DVDRip [H.264] RUS' from 'NoNaMe Club (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Processing release 'Home Sweet Home: Rebirth  [2025, BDRip-AVC] [DUB]  RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.7|Debug|Parser|Parsing string 'Home Sweet Home: Rebirth  [2025, BDRip-AVC] [DUB]  RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Movie Parsed. Home Sweet Home: Rebirth  [ - 2025 
+2025-06-09 09:02:39.7|Debug|Parser|Release Group parsed: AVC
+2025-06-09 09:02:39.7|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.7|Debug|QualityParser|Trying to parse quality for 'Home Sweet Home: Rebirth  [2025, BDRip-AVC] [DUB]  RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Quality parsed: Bluray-480p v1
+2025-06-09 09:02:39.7|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.7|Debug|ParsingService|No matching movie for titles 'Home Sweet Home: Rebirth  [ (2025)'
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Release 'Home Sweet Home: Rebirth  [2025, BDRip-AVC] [DUB]  RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Processing release 'A Working Man  [2025, BDRip | ] RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.7|Debug|Parser|Parsing string 'A Working Man  [2025, BDRip | ] RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Movie Parsed. A Working Man  [ - 2025 
+2025-06-09 09:02:39.7|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.7|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.7|Debug|QualityParser|Trying to parse quality for 'A Working Man  [2025, BDRip | ] RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Quality parsed: Bluray-480p v1
+2025-06-09 09:02:39.7|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.7|Debug|ParsingService|No matching movie for titles 'A Working Man  [ (2025)'
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Release 'A Working Man  [2025, BDRip | ] RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.7|Debug|DownloadDecisionMaker|Processing release 'Home Sweet Home: Rebirth  [2025, BDRip 1080p] [DUB]  RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.7|Debug|Parser|Parsing string 'Home Sweet Home: Rebirth  [2025, BDRip 1080p] [DUB]  RUS'
+2025-06-09 09:02:39.7|Debug|Parser|Movie Parsed. Home Sweet Home: Rebirth  [ - 2025 
+2025-06-09 09:02:39.7|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.7|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.7|Debug|QualityParser|Trying to parse quality for 'Home Sweet Home: Rebirth  [2025, BDRip 1080p] [DUB]  RUS'
+2025-06-09 09:02:39.8|Debug|Parser|Quality parsed: Bluray-1080p v1
+2025-06-09 09:02:39.8|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.8|Debug|ParsingService|No matching movie for titles 'Home Sweet Home: Rebirth  [ (2025)'
+2025-06-09 09:02:39.8|Debug|DownloadDecisionMaker|Release 'Home Sweet Home: Rebirth  [2025, BDRip 1080p] [DUB]  RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.8|Debug|DownloadDecisionMaker|Processing release 'Home Sweet Home: Rebirth  [2025, BDRip 720p] [DUB]  RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.8|Debug|Parser|Parsing string 'Home Sweet Home: Rebirth  [2025, BDRip 720p] [DUB]  RUS'
+2025-06-09 09:02:39.8|Debug|Parser|Movie Parsed. Home Sweet Home: Rebirth  [ - 2025 
+2025-06-09 09:02:39.8|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.8|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.8|Debug|QualityParser|Trying to parse quality for 'Home Sweet Home: Rebirth  [2025, BDRip 720p] [DUB]  RUS'
+2025-06-09 09:02:39.8|Debug|Parser|Quality parsed: Bluray-720p v1
+2025-06-09 09:02:39.8|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.8|Debug|ParsingService|No matching movie for titles 'Home Sweet Home: Rebirth  [ (2025)'
+2025-06-09 09:02:39.8|Debug|DownloadDecisionMaker|Release 'Home Sweet Home: Rebirth  [2025, BDRip 720p] [DUB]  RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.8|Debug|DownloadDecisionMaker|Processing release 'Home Sweet Home: Rebirth  [2025, BDRip] [DUB]  RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.8|Debug|Parser|Parsing string 'Home Sweet Home: Rebirth  [2025, BDRip] [DUB]  RUS'
+2025-06-09 09:02:39.8|Debug|Parser|Movie Parsed. Home Sweet Home: Rebirth  [ - 2025 
+2025-06-09 09:02:39.8|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.8|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.8|Debug|QualityParser|Trying to parse quality for 'Home Sweet Home: Rebirth  [2025, BDRip] [DUB]  RUS'
+2025-06-09 09:02:39.8|Debug|Parser|Quality parsed: Bluray-480p v1
+2025-06-09 09:02:39.8|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.8|Debug|ParsingService|No matching movie for titles 'Home Sweet Home: Rebirth  [ (2025)'
+2025-06-09 09:02:39.8|Debug|DownloadDecisionMaker|Release 'Home Sweet Home: Rebirth  [2025, BDRip] [DUB]  RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.8|Debug|DownloadDecisionMaker|Processing release '[2025, WEB-DL] RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.8|Debug|Parser|Parsing string '[2025, WEB-DL] RUS'
+2025-06-09 09:02:39.8|Debug|Parser|Movie Parsed. [ - 2025 
+2025-06-09 09:02:39.8|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.8|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.8|Debug|QualityParser|Trying to parse quality for '[2025, WEB-DL] RUS'
+2025-06-09 09:02:39.8|Debug|Parser|Quality parsed: WEBDL-480p v1
+2025-06-09 09:02:39.8|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.8|Debug|ParsingService|No matching movie for titles '[ (2025)'
+2025-06-09 09:02:39.8|Debug|DownloadDecisionMaker|Release '[2025, WEB-DL] RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.8|Debug|DownloadDecisionMaker|Processing release '[2025, WEB-DL 1080p] RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.8|Debug|Parser|Parsing string '[2025, WEB-DL 1080p] RUS'
+2025-06-09 09:02:39.8|Debug|Parser|Movie Parsed. [ - 2025 
+2025-06-09 09:02:39.8|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.8|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.8|Debug|QualityParser|Trying to parse quality for '[2025, WEB-DL 1080p] RUS'
+2025-06-09 09:02:39.8|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2025-06-09 09:02:39.8|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.8|Debug|ParsingService|No matching movie for titles '[ (2025)'
+2025-06-09 09:02:39.8|Debug|DownloadDecisionMaker|Release '[2025, WEB-DL 1080p] RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.8|Debug|DownloadDecisionMaker|Processing release '–   [2014, WEB-DL 1080p] RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.8|Debug|Parser|Parsing string '–   [2014, WEB-DL 1080p] RUS'
+2025-06-09 09:02:39.8|Debug|Parser|Movie Parsed. –   [ - 2014 
+2025-06-09 09:02:39.8|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.8|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.8|Debug|QualityParser|Trying to parse quality for '–   [2014, WEB-DL 1080p] RUS'
+2025-06-09 09:02:39.8|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2025-06-09 09:02:39.8|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.8|Debug|ParsingService|No matching movie for titles '–   [ (2014)'
+2025-06-09 09:02:39.8|Debug|DownloadDecisionMaker|Release '–   [2014, WEB-DL 1080p] RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.8|Debug|DownloadDecisionMaker|Processing release 'Sinners  [2025, WEB-DL 1080p] [DUB] [Movie Dubbing] RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.8|Debug|Parser|Parsing string 'Sinners  [2025, WEB-DL 1080p] [DUB] [Movie Dubbing] RUS'
+2025-06-09 09:02:39.8|Debug|Parser|Movie Parsed. Sinners  [ - 2025 
+2025-06-09 09:02:39.8|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.8|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.8|Debug|QualityParser|Trying to parse quality for 'Sinners  [2025, WEB-DL 1080p] [DUB] [Movie Dubbing] RUS'
+2025-06-09 09:02:39.8|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2025-06-09 09:02:39.8|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.8|Debug|AggregateLanguages|Selected languages: Russian
+2025-06-09 09:02:39.8|Debug|AcceptableSizeSpecification|Beginning size check for: Sinners  [2025, WEB-DL 1080p] [DUB] [Movie Dubbing] RUS
+2025-06-09 09:02:39.8|Debug|AcceptableSizeSpecification|Item: Sinners  [2025, WEB-DL 1080p] [DUB] [Movie Dubbing] RUS, meets size constraints
+2025-06-09 09:02:39.8|Debug|AlreadyImportedSpecification|Performing already imported check on report
+2025-06-09 09:02:39.8|Debug|AlreadyImportedSpecification|Skipping already imported check for movie without file
+2025-06-09 09:02:39.8|Debug|LanguageSpecification|Checking if report meets language requirements. Russian
+2025-06-09 09:02:39.8|Debug|MaximumSizeSpecification|Maximum size is not set.
+2025-06-09 09:02:39.8|Debug|MinimumAgeSpecification|Not checking minimum age requirement for non-usenet report
+2025-06-09 09:02:39.8|Debug|QualityAllowedByProfileSpecification|Checking if report meets quality requirements. WEBDL-1080p v1
+2025-06-09 09:02:39.8|Debug|ReleaseRestrictionsSpecification|Checking if release meets restrictions: Sinners  [2025, WEB-DL 1080p] [DUB] [Movie Dubbing] RUS
+2025-06-09 09:02:39.8|Debug|ReleaseRestrictionsSpecification|[Sinners  [2025, WEB-DL 1080p] [DUB] [Movie Dubbing] RUS] No restrictions apply, allowing
+2025-06-09 09:02:39.8|Debug|RetentionSpecification|Not checking retention requirement for non-usenet report
+2025-06-09 09:02:39.8|Debug|TorrentSeedingSpecification|Not enough seeders: 0. Minimum seeders: 1
+2025-06-09 09:02:39.8|Debug|UpgradeDiskSpecification|File is no longer available, skipping this file.
+2025-06-09 09:02:39.8|Debug|DelaySpecification|Delay Profile does not require a waiting period before download for Torrent.
+2025-06-09 09:02:39.8|Debug|HistorySpecification|Performing history status check on report
+2025-06-09 09:02:39.8|Debug|HistorySpecification|Checking current status of movie [2] in history
+2025-06-09 09:02:39.8|Debug|DownloadDecisionMaker|Release 'Sinners  [2025, WEB-DL 1080p] [DUB] [Movie Dubbing] RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Not enough seeders: 0. Minimum seeders: 1
+2025-06-09 09:02:39.8|Debug|DownloadDecisionMaker|Processing release 'Sinners  [2025, WEB-DL] [DUB] [Movie Dubbing] RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.8|Debug|Parser|Parsing string 'Sinners  [2025, WEB-DL] [DUB] [Movie Dubbing] RUS'
+2025-06-09 09:02:39.8|Debug|Parser|Movie Parsed. Sinners  [ - 2025 
+2025-06-09 09:02:39.8|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.8|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.8|Debug|QualityParser|Trying to parse quality for 'Sinners  [2025, WEB-DL] [DUB] [Movie Dubbing] RUS'
+2025-06-09 09:02:39.8|Debug|Parser|Quality parsed: WEBDL-480p v1
+2025-06-09 09:02:39.8|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.8|Debug|AggregateLanguages|Selected languages: Russian
+2025-06-09 09:02:39.8|Debug|AcceptableSizeSpecification|Beginning size check for: Sinners  [2025, WEB-DL] [DUB] [Movie Dubbing] RUS
+2025-06-09 09:02:39.8|Debug|AcceptableSizeSpecification|Item: Sinners  [2025, WEB-DL] [DUB] [Movie Dubbing] RUS, meets size constraints
+2025-06-09 09:02:39.8|Debug|AlreadyImportedSpecification|Performing already imported check on report
+2025-06-09 09:02:39.8|Debug|AlreadyImportedSpecification|Skipping already imported check for movie without file
+2025-06-09 09:02:39.8|Debug|LanguageSpecification|Checking if report meets language requirements. Russian
+2025-06-09 09:02:39.8|Debug|MaximumSizeSpecification|Maximum size is not set.
+2025-06-09 09:02:39.8|Debug|MinimumAgeSpecification|Not checking minimum age requirement for non-usenet report
+2025-06-09 09:02:39.8|Debug|QualityAllowedByProfileSpecification|Checking if report meets quality requirements. WEBDL-480p v1
+2025-06-09 09:02:39.8|Debug|QualityAllowedByProfileSpecification|Quality WEBDL-480p v1 rejected by Movie's quality profile
+2025-06-09 09:02:39.8|Debug|ReleaseRestrictionsSpecification|Checking if release meets restrictions: Sinners  [2025, WEB-DL] [DUB] [Movie Dubbing] RUS
+2025-06-09 09:02:39.8|Debug|ReleaseRestrictionsSpecification|[Sinners  [2025, WEB-DL] [DUB] [Movie Dubbing] RUS] No restrictions apply, allowing
+2025-06-09 09:02:39.8|Debug|RetentionSpecification|Not checking retention requirement for non-usenet report
+2025-06-09 09:02:39.8|Debug|TorrentSeedingSpecification|Not enough seeders: 0. Minimum seeders: 1
+2025-06-09 09:02:39.8|Debug|UpgradeDiskSpecification|File is no longer available, skipping this file.
+2025-06-09 09:02:39.8|Debug|DelaySpecification|Delay Profile does not require a waiting period before download for Torrent.
+2025-06-09 09:02:39.8|Debug|HistorySpecification|Performing history status check on report
+2025-06-09 09:02:39.8|Debug|HistorySpecification|Checking current status of movie [2] in history
+2025-06-09 09:02:39.8|Debug|DownloadDecisionMaker|Release 'Sinners  [2025, WEB-DL] [DUB] [Movie Dubbing] RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] WEBDL-480p is not wanted in profile, [Permanent] Not enough seeders: 0. Minimum seeders: 1
+2025-06-09 09:02:39.8|Debug|DownloadDecisionMaker|Processing release 'It Feeds  [2025, WEB-DL-AVC] [DUB] [Leff Sound] RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.8|Debug|Parser|Parsing string 'It Feeds  [2025, WEB-DL-AVC] [DUB] [Leff Sound] RUS'
+2025-06-09 09:02:39.8|Debug|Parser|Movie Parsed. It Feeds  [ - 2025 
+2025-06-09 09:02:39.8|Debug|Parser|Release Group parsed: AVC
+2025-06-09 09:02:39.8|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.8|Debug|QualityParser|Trying to parse quality for 'It Feeds  [2025, WEB-DL-AVC] [DUB] [Leff Sound] RUS'
+2025-06-09 09:02:39.8|Debug|Parser|Quality parsed: WEBDL-480p v1
+2025-06-09 09:02:39.8|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.8|Debug|ParsingService|No matching movie for titles 'It Feeds  [ (2025)'
+2025-06-09 09:02:39.8|Debug|DownloadDecisionMaker|Release 'It Feeds  [2025, WEB-DL-AVC] [DUB] [Leff Sound] RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.8|Debug|DownloadDecisionMaker|Processing release 'High Rollers  [2025, BDRip 1080p] [DUB] [Pride Production] RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.8|Debug|Parser|Parsing string 'High Rollers  [2025, BDRip 1080p] [DUB] [Pride Production] RUS'
+2025-06-09 09:02:39.8|Debug|Parser|Movie Parsed. High Rollers  [ - 2025 
+2025-06-09 09:02:39.8|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.8|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.8|Debug|QualityParser|Trying to parse quality for 'High Rollers  [2025, BDRip 1080p] [DUB] [Pride Production] RUS'
+2025-06-09 09:02:39.8|Debug|Parser|Quality parsed: Bluray-1080p v1
+2025-06-09 09:02:39.8|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.8|Debug|ParsingService|No matching movie for titles 'High Rollers  [ (2025)'
+2025-06-09 09:02:39.8|Debug|DownloadDecisionMaker|Release 'High Rollers  [2025, BDRip 1080p] [DUB] [Pride Production] RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.8|Debug|DownloadDecisionMaker|Processing release 'High Rollers  [2025, BDRip 720p] [DUB] [Pride Production] RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.8|Debug|Parser|Parsing string 'High Rollers  [2025, BDRip 720p] [DUB] [Pride Production] RUS'
+2025-06-09 09:02:39.8|Debug|Parser|Movie Parsed. High Rollers  [ - 2025 
+2025-06-09 09:02:39.8|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.8|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.8|Debug|QualityParser|Trying to parse quality for 'High Rollers  [2025, BDRip 720p] [DUB] [Pride Production] RUS'
+2025-06-09 09:02:39.8|Debug|Parser|Quality parsed: Bluray-720p v1
+2025-06-09 09:02:39.8|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.8|Debug|ParsingService|No matching movie for titles 'High Rollers  [ (2025)'
+2025-06-09 09:02:39.8|Debug|DownloadDecisionMaker|Release 'High Rollers  [2025, BDRip 720p] [DUB] [Pride Production] RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.8|Debug|DownloadDecisionMaker|Processing release 'High Rollers  [2025, BDRip] [DUB] [Pride Production] RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.8|Debug|Parser|Parsing string 'High Rollers  [2025, BDRip] [DUB] [Pride Production] RUS'
+2025-06-09 09:02:39.8|Debug|Parser|Movie Parsed. High Rollers  [ - 2025 
+2025-06-09 09:02:39.8|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.8|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.8|Debug|QualityParser|Trying to parse quality for 'High Rollers  [2025, BDRip] [DUB] [Pride Production] RUS'
+2025-06-09 09:02:39.8|Debug|Parser|Quality parsed: Bluray-480p v1
+2025-06-09 09:02:39.8|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.8|Debug|ParsingService|No matching movie for titles 'High Rollers  [ (2025)'
+2025-06-09 09:02:39.8|Debug|DownloadDecisionMaker|Release 'High Rollers  [2025, BDRip] [DUB] [Pride Production] RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.8|Debug|DownloadDecisionMaker|Processing release 'Le jardinier / The Gardener  [2025, WEB-DL 1080p] [DUB, MVO, DVO] [ TVShows, ViruseProject] RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.8|Debug|Parser|Parsing string 'Le jardinier / The Gardener  [2025, WEB-DL 1080p] [DUB, MVO, DVO] [ TVShows, ViruseProject] RUS'
+2025-06-09 09:02:39.8|Debug|Parser|Movie Parsed. Le jardinier / The Gardener  [ - 2025 
+2025-06-09 09:02:39.8|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.8|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.8|Debug|QualityParser|Trying to parse quality for 'Le jardinier / The Gardener  [2025, WEB-DL 1080p] [DUB, MVO, DVO] [ TVShows, ViruseProject] RUS'
+2025-06-09 09:02:39.8|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2025-06-09 09:02:39.8|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.8|Debug|ParsingService|No matching movie for titles 'Le jardinier / The Gardener  [, Le jardinier, The Gardener  [ (2025)'
+2025-06-09 09:02:39.8|Debug|DownloadDecisionMaker|Release 'Le jardinier / The Gardener  [2025, WEB-DL 1080p] [DUB, MVO, DVO] [ TVShows, ViruseProject] RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.8|Debug|DownloadDecisionMaker|Processing release 'Fountain of Youth  [2025, WEB-DL-AVC] [DUB] [Red Head Sound] RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.8|Debug|Parser|Parsing string 'Fountain of Youth  [2025, WEB-DL-AVC] [DUB] [Red Head Sound] RUS'
+2025-06-09 09:02:39.8|Debug|Parser|Movie Parsed. Fountain of Youth  [ - 2025 
+2025-06-09 09:02:39.8|Debug|Parser|Release Group parsed: AVC
+2025-06-09 09:02:39.8|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.8|Debug|QualityParser|Trying to parse quality for 'Fountain of Youth  [2025, WEB-DL-AVC] [DUB] [Red Head Sound] RUS'
+2025-06-09 09:02:39.8|Debug|Parser|Quality parsed: WEBDL-480p v1
+2025-06-09 09:02:39.8|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.8|Debug|ParsingService|No matching movie for titles 'Fountain of Youth  [ (2025)'
+2025-06-09 09:02:39.8|Debug|DownloadDecisionMaker|Release 'Fountain of Youth  [2025, WEB-DL-AVC] [DUB] [Red Head Sound] RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.8|Debug|DownloadDecisionMaker|Processing release 'Fountain of Youth  [2025, WEB-DL] [DUB] [Red Head Sound] RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.8|Debug|Parser|Parsing string 'Fountain of Youth  [2025, WEB-DL] [DUB] [Red Head Sound] RUS'
+2025-06-09 09:02:39.8|Debug|Parser|Movie Parsed. Fountain of Youth  [ - 2025 
+2025-06-09 09:02:39.8|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.8|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.8|Debug|QualityParser|Trying to parse quality for 'Fountain of Youth  [2025, WEB-DL] [DUB] [Red Head Sound] RUS'
+2025-06-09 09:02:39.8|Debug|Parser|Quality parsed: WEBDL-480p v1
+2025-06-09 09:02:39.8|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.8|Debug|ParsingService|No matching movie for titles 'Fountain of Youth  [ (2025)'
+2025-06-09 09:02:39.8|Debug|DownloadDecisionMaker|Release 'Fountain of Youth  [2025, WEB-DL] [DUB] [Red Head Sound] RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.8|Debug|DownloadDecisionMaker|Processing release 'Fountain of Youth  [2025, WEB-DL 1080p] [DUB] [Red Head Sound] RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.8|Debug|Parser|Parsing string 'Fountain of Youth  [2025, WEB-DL 1080p] [DUB] [Red Head Sound] RUS'
+2025-06-09 09:02:39.8|Debug|Parser|Movie Parsed. Fountain of Youth  [ - 2025 
+2025-06-09 09:02:39.8|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.8|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.8|Debug|QualityParser|Trying to parse quality for 'Fountain of Youth  [2025, WEB-DL 1080p] [DUB] [Red Head Sound] RUS'
+2025-06-09 09:02:39.8|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2025-06-09 09:02:39.8|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.9|Debug|ParsingService|No matching movie for titles 'Fountain of Youth  [ (2025)'
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Release 'Fountain of Youth  [2025, WEB-DL 1080p] [DUB] [Red Head Sound] RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Processing release 'Unsinkable  [2024, WEB-DL-AVC] [DUB] [Akimbo Production]  RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.9|Debug|Parser|Parsing string 'Unsinkable  [2024, WEB-DL-AVC] [DUB] [Akimbo Production]  RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Movie Parsed. Unsinkable  [ - 2024 
+2025-06-09 09:02:39.9|Debug|Parser|Release Group parsed: AVC
+2025-06-09 09:02:39.9|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.9|Debug|QualityParser|Trying to parse quality for 'Unsinkable  [2024, WEB-DL-AVC] [DUB] [Akimbo Production]  RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Quality parsed: WEBDL-480p v1
+2025-06-09 09:02:39.9|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.9|Debug|ParsingService|No matching movie for titles 'Unsinkable  [ (2024)'
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Release 'Unsinkable  [2024, WEB-DL-AVC] [DUB] [Akimbo Production]  RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Processing release 'Poison  [2024, WEB-DL] [DUB]  RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.9|Debug|Parser|Parsing string 'Poison  [2024, WEB-DL] [DUB]  RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Movie Parsed. Poison  [ - 2024 
+2025-06-09 09:02:39.9|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.9|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.9|Debug|QualityParser|Trying to parse quality for 'Poison  [2024, WEB-DL] [DUB]  RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Quality parsed: WEBDL-480p v1
+2025-06-09 09:02:39.9|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.9|Debug|ParsingService|No matching movie for titles 'Poison  [ (2024)'
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Release 'Poison  [2024, WEB-DL] [DUB]  RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Processing release 'Unsinkable  [2024, WEB-DL 1080p] [DUB] [Akimbo Production]  RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.9|Debug|Parser|Parsing string 'Unsinkable  [2024, WEB-DL 1080p] [DUB] [Akimbo Production]  RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Movie Parsed. Unsinkable  [ - 2024 
+2025-06-09 09:02:39.9|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.9|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.9|Debug|QualityParser|Trying to parse quality for 'Unsinkable  [2024, WEB-DL 1080p] [DUB] [Akimbo Production]  RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2025-06-09 09:02:39.9|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.9|Debug|ParsingService|No matching movie for titles 'Unsinkable  [ (2024)'
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Release 'Unsinkable  [2024, WEB-DL 1080p] [DUB] [Akimbo Production]  RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Processing release 'Unsinkable  [2024, WEB-DL] [DUB] [Akimbo Production]  RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.9|Debug|Parser|Parsing string 'Unsinkable  [2024, WEB-DL] [DUB] [Akimbo Production]  RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Movie Parsed. Unsinkable  [ - 2024 
+2025-06-09 09:02:39.9|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.9|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.9|Debug|QualityParser|Trying to parse quality for 'Unsinkable  [2024, WEB-DL] [DUB] [Akimbo Production]  RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Quality parsed: WEBDL-480p v1
+2025-06-09 09:02:39.9|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.9|Debug|ParsingService|No matching movie for titles 'Unsinkable  [ (2024)'
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Release 'Unsinkable  [2024, WEB-DL] [DUB] [Akimbo Production]  RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Processing release 'Princess Halle and the Jester  [2025, WEB-DL 1080p] [DUB]  RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.9|Debug|Parser|Parsing string 'Princess Halle and the Jester  [2025, WEB-DL 1080p] [DUB]  RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Movie Parsed. Princess Halle and the Jester  [ - 2025 
+2025-06-09 09:02:39.9|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.9|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.9|Debug|QualityParser|Trying to parse quality for 'Princess Halle and the Jester  [2025, WEB-DL 1080p] [DUB]  RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2025-06-09 09:02:39.9|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.9|Debug|ParsingService|No matching movie for titles 'Princess Halle and the Jester  [ (2025)'
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Release 'Princess Halle and the Jester  [2025, WEB-DL 1080p] [DUB]  RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Processing release 'Last Breath  [2025, BDRip 720p] [DUB, MVO] [Lucky Production, HDRezka Studio, WStudio] RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.9|Debug|Parser|Parsing string 'Last Breath  [2025, BDRip 720p] [DUB, MVO] [Lucky Production, HDRezka Studio, WStudio] RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Movie Parsed. Last Breath  [ - 2025 
+2025-06-09 09:02:39.9|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.9|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.9|Debug|QualityParser|Trying to parse quality for 'Last Breath  [2025, BDRip 720p] [DUB, MVO] [Lucky Production, HDRezka Studio, WStudio] RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Quality parsed: Bluray-720p v1
+2025-06-09 09:02:39.9|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.9|Debug|ParsingService|No matching movie for titles 'Last Breath  [ (2025)'
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Release 'Last Breath  [2025, BDRip 720p] [DUB, MVO] [Lucky Production, HDRezka Studio, WStudio] RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Processing release 'Last Breath  [2025, BDRip] [DUB] [Lucky Production] RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.9|Debug|Parser|Parsing string 'Last Breath  [2025, BDRip] [DUB] [Lucky Production] RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Movie Parsed. Last Breath  [ - 2025 
+2025-06-09 09:02:39.9|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.9|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.9|Debug|QualityParser|Trying to parse quality for 'Last Breath  [2025, BDRip] [DUB] [Lucky Production] RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Quality parsed: Bluray-480p v1
+2025-06-09 09:02:39.9|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.9|Debug|ParsingService|No matching movie for titles 'Last Breath  [ (2025)'
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Release 'Last Breath  [2025, BDRip] [DUB] [Lucky Production] RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Processing release '[2025, WEB-DL-AVC] RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.9|Debug|Parser|Parsing string '[2025, WEB-DL-AVC] RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Movie Parsed. [ - 2025 
+2025-06-09 09:02:39.9|Debug|Parser|Release Group parsed: AVC
+2025-06-09 09:02:39.9|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.9|Debug|QualityParser|Trying to parse quality for '[2025, WEB-DL-AVC] RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Quality parsed: WEBDL-480p v1
+2025-06-09 09:02:39.9|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.9|Debug|ParsingService|No matching movie for titles '[ (2025)'
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Release '[2025, WEB-DL-AVC] RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Processing release 'Final Destination: Bloodlines  [2025, WEBRip] [MVO] [LineFilm] RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.9|Debug|Parser|Parsing string 'Final Destination: Bloodlines  [2025, WEBRip] [MVO] [LineFilm] RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Movie Parsed. Final Destination: Bloodlines  [ - 2025 
+2025-06-09 09:02:39.9|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.9|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.9|Debug|QualityParser|Trying to parse quality for 'Final Destination: Bloodlines  [2025, WEBRip] [MVO] [LineFilm] RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Quality parsed: WEBRip-480p v1
+2025-06-09 09:02:39.9|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.9|Debug|ParsingService|No matching movie for titles 'Final Destination: Bloodlines  [ (2025)'
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Release 'Final Destination: Bloodlines  [2025, WEBRip] [MVO] [LineFilm] RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Processing release 'Take Cover  [2024, BDRip 1080p] [DUB, MVO] [OKKO, TVShows] RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.9|Debug|Parser|Parsing string 'Take Cover  [2024, BDRip 1080p] [DUB, MVO] [OKKO, TVShows] RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Movie Parsed. Take Cover  [ - 2024 
+2025-06-09 09:02:39.9|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.9|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.9|Debug|QualityParser|Trying to parse quality for 'Take Cover  [2024, BDRip 1080p] [DUB, MVO] [OKKO, TVShows] RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Quality parsed: Bluray-1080p v1
+2025-06-09 09:02:39.9|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.9|Debug|ParsingService|No matching movie for titles 'Take Cover  [ (2024)'
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Release 'Take Cover  [2024, BDRip 1080p] [DUB, MVO] [OKKO, TVShows] RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Processing release 'Take Cover  [2024, BDRip 720p] [DUB, MVO] [OKKO, TVShows] RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.9|Debug|Parser|Parsing string 'Take Cover  [2024, BDRip 720p] [DUB, MVO] [OKKO, TVShows] RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Movie Parsed. Take Cover  [ - 2024 
+2025-06-09 09:02:39.9|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.9|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.9|Debug|QualityParser|Trying to parse quality for 'Take Cover  [2024, BDRip 720p] [DUB, MVO] [OKKO, TVShows] RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Quality parsed: Bluray-720p v1
+2025-06-09 09:02:39.9|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.9|Debug|ParsingService|No matching movie for titles 'Take Cover  [ (2024)'
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Release 'Take Cover  [2024, BDRip 720p] [DUB, MVO] [OKKO, TVShows] RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Processing release 'Take Cover  [2024, BDRip] [DUB] [OKKO] RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.9|Debug|Parser|Parsing string 'Take Cover  [2024, BDRip] [DUB] [OKKO] RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Movie Parsed. Take Cover  [ - 2024 
+2025-06-09 09:02:39.9|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.9|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.9|Debug|QualityParser|Trying to parse quality for 'Take Cover  [2024, BDRip] [DUB] [OKKO] RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Quality parsed: Bluray-480p v1
+2025-06-09 09:02:39.9|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.9|Debug|ParsingService|No matching movie for titles 'Take Cover  [ (2024)'
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Release 'Take Cover  [2024, BDRip] [DUB] [OKKO] RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Processing release '[2025, WEB-DL 1080p] RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.9|Debug|Parser|Parsing string '[2025, WEB-DL 1080p] RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Movie Parsed. [ - 2025 
+2025-06-09 09:02:39.9|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.9|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.9|Debug|QualityParser|Trying to parse quality for '[2025, WEB-DL 1080p] RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2025-06-09 09:02:39.9|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.9|Debug|ParsingService|No matching movie for titles '[ (2025)'
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Release '[2025, WEB-DL 1080p] RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Processing release '[2025, WEB-DL] RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.9|Debug|Parser|Parsing string '[2025, WEB-DL] RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Movie Parsed. [ - 2025 
+2025-06-09 09:02:39.9|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.9|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.9|Debug|QualityParser|Trying to parse quality for '[2025, WEB-DL] RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Quality parsed: WEBDL-480p v1
+2025-06-09 09:02:39.9|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.9|Debug|ParsingService|No matching movie for titles '[ (2025)'
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Release '[2025, WEB-DL] RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Processing release 'In the Lost Lands  [2025, BDRip 1080p] [DUB]  RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.9|Debug|Parser|Parsing string 'In the Lost Lands  [2025, BDRip 1080p] [DUB]  RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Movie Parsed. In the Lost Lands  [ - 2025 
+2025-06-09 09:02:39.9|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.9|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.9|Debug|QualityParser|Trying to parse quality for 'In the Lost Lands  [2025, BDRip 1080p] [DUB]  RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Quality parsed: Bluray-1080p v1
+2025-06-09 09:02:39.9|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.9|Debug|ParsingService|No matching movie for titles 'In the Lost Lands  [ (2025)'
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Release 'In the Lost Lands  [2025, BDRip 1080p] [DUB]  RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Processing release 'In the Lost Lands  [2025, BDRip 720p] [DUB]  RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.9|Debug|Parser|Parsing string 'In the Lost Lands  [2025, BDRip 720p] [DUB]  RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Movie Parsed. In the Lost Lands  [ - 2025 
+2025-06-09 09:02:39.9|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.9|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.9|Debug|QualityParser|Trying to parse quality for 'In the Lost Lands  [2025, BDRip 720p] [DUB]  RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Quality parsed: Bluray-720p v1
+2025-06-09 09:02:39.9|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.9|Debug|ParsingService|No matching movie for titles 'In the Lost Lands  [ (2025)'
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Release 'In the Lost Lands  [2025, BDRip 720p] [DUB]  RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Processing release 'In the Lost Lands  [2025, BDRip] [DUB]  RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.9|Debug|Parser|Parsing string 'In the Lost Lands  [2025, BDRip] [DUB]  RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Movie Parsed. In the Lost Lands  [ - 2025 
+2025-06-09 09:02:39.9|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.9|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.9|Debug|QualityParser|Trying to parse quality for 'In the Lost Lands  [2025, BDRip] [DUB]  RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Quality parsed: Bluray-480p v1
+2025-06-09 09:02:39.9|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.9|Debug|ParsingService|No matching movie for titles 'In the Lost Lands  [ (2025)'
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Release 'In the Lost Lands  [2025, BDRip] [DUB]  RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Processing release 'Riff Raff  [2024, BDRip 1080p] [DUB]  RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.9|Debug|Parser|Parsing string 'Riff Raff  [2024, BDRip 1080p] [DUB]  RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Movie Parsed. Riff Raff  [ - 2024 
+2025-06-09 09:02:39.9|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.9|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.9|Debug|QualityParser|Trying to parse quality for 'Riff Raff  [2024, BDRip 1080p] [DUB]  RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Quality parsed: Bluray-1080p v1
+2025-06-09 09:02:39.9|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.9|Debug|ParsingService|No matching movie for titles 'Riff Raff  [ (2024)'
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Release 'Riff Raff  [2024, BDRip 1080p] [DUB]  RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Processing release 'Riff Raff  [2024, BDRip 720p] [DUB]  RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.9|Debug|Parser|Parsing string 'Riff Raff  [2024, BDRip 720p] [DUB]  RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Movie Parsed. Riff Raff  [ - 2024 
+2025-06-09 09:02:39.9|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.9|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.9|Debug|QualityParser|Trying to parse quality for 'Riff Raff  [2024, BDRip 720p] [DUB]  RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Quality parsed: Bluray-720p v1
+2025-06-09 09:02:39.9|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.9|Debug|ParsingService|No matching movie for titles 'Riff Raff  [ (2024)'
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Release 'Riff Raff  [2024, BDRip 720p] [DUB]  RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Processing release 'Riff Raff  [2024, BDRip] [DUB]  RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.9|Debug|Parser|Parsing string 'Riff Raff  [2024, BDRip] [DUB]  RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Movie Parsed. Riff Raff  [ - 2024 
+2025-06-09 09:02:39.9|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.9|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.9|Debug|QualityParser|Trying to parse quality for 'Riff Raff  [2024, BDRip] [DUB]  RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Quality parsed: Bluray-480p v1
+2025-06-09 09:02:39.9|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:39.9|Debug|ParsingService|No matching movie for titles 'Riff Raff  [ (2024)'
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Release 'Riff Raff  [2024, BDRip] [DUB]  RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:39.9|Debug|DownloadDecisionMaker|Processing release 'Until Dawn  [2025, WEB-DL] [DVO] [ViruseProject] RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:39.9|Debug|Parser|Parsing string 'Until Dawn  [2025, WEB-DL] [DVO] [ViruseProject] RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Movie Parsed. Until Dawn  [ - 2025 
+2025-06-09 09:02:39.9|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:39.9|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:39.9|Debug|QualityParser|Trying to parse quality for 'Until Dawn  [2025, WEB-DL] [DVO] [ViruseProject] RUS'
+2025-06-09 09:02:39.9|Debug|Parser|Quality parsed: WEBDL-480p v1
+2025-06-09 09:02:39.9|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:40.0|Debug|ParsingService|No matching movie for titles 'Until Dawn  [ (2025)'
+2025-06-09 09:02:40.0|Debug|DownloadDecisionMaker|Release 'Until Dawn  [2025, WEB-DL] [DVO] [ViruseProject] RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:40.0|Debug|DownloadDecisionMaker|Processing release 'Until Dawn  [2025, WEB-DL 720p] [DVO] [ViruseProject] RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:40.0|Debug|Parser|Parsing string 'Until Dawn  [2025, WEB-DL 720p] [DVO] [ViruseProject] RUS'
+2025-06-09 09:02:40.0|Debug|Parser|Movie Parsed. Until Dawn  [ - 2025 
+2025-06-09 09:02:40.0|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:40.0|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:40.0|Debug|QualityParser|Trying to parse quality for 'Until Dawn  [2025, WEB-DL 720p] [DVO] [ViruseProject] RUS'
+2025-06-09 09:02:40.0|Debug|Parser|Quality parsed: WEBDL-720p v1
+2025-06-09 09:02:40.0|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:40.0|Debug|ParsingService|No matching movie for titles 'Until Dawn  [ (2025)'
+2025-06-09 09:02:40.0|Debug|DownloadDecisionMaker|Release 'Until Dawn  [2025, WEB-DL 720p] [DVO] [ViruseProject] RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:40.0|Debug|DownloadDecisionMaker|Processing release 'Until Dawn  [2025, WEB-DL 1080p] [DVO] [ViruseProject] RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:40.0|Debug|Parser|Parsing string 'Until Dawn  [2025, WEB-DL 1080p] [DVO] [ViruseProject] RUS'
+2025-06-09 09:02:40.0|Debug|Parser|Movie Parsed. Until Dawn  [ - 2025 
+2025-06-09 09:02:40.0|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:40.0|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:40.0|Debug|QualityParser|Trying to parse quality for 'Until Dawn  [2025, WEB-DL 1080p] [DVO] [ViruseProject] RUS'
+2025-06-09 09:02:40.0|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2025-06-09 09:02:40.0|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:40.0|Debug|ParsingService|No matching movie for titles 'Until Dawn  [ (2025)'
+2025-06-09 09:02:40.0|Debug|DownloadDecisionMaker|Release 'Until Dawn  [2025, WEB-DL 1080p] [DVO] [ViruseProject] RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:40.0|Debug|DownloadDecisionMaker|Processing release '[2025, WEB-DL] RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:40.0|Debug|Parser|Parsing string '[2025, WEB-DL] RUS'
+2025-06-09 09:02:40.0|Debug|Parser|Movie Parsed. [ - 2025 
+2025-06-09 09:02:40.0|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:40.0|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:40.0|Debug|QualityParser|Trying to parse quality for '[2025, WEB-DL] RUS'
+2025-06-09 09:02:40.0|Debug|Parser|Quality parsed: WEBDL-480p v1
+2025-06-09 09:02:40.0|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:40.0|Debug|ParsingService|No matching movie for titles '[ (2025)'
+2025-06-09 09:02:40.0|Debug|DownloadDecisionMaker|Release '[2025, WEB-DL] RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:40.0|Debug|DownloadDecisionMaker|Processing release '[2025, WEB-DL 1080p] RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:40.0|Debug|Parser|Parsing string '[2025, WEB-DL 1080p] RUS'
+2025-06-09 09:02:40.0|Debug|Parser|Movie Parsed. [ - 2025 
+2025-06-09 09:02:40.0|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:40.0|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:40.0|Debug|QualityParser|Trying to parse quality for '[2025, WEB-DL 1080p] RUS'
+2025-06-09 09:02:40.0|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2025-06-09 09:02:40.0|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:40.0|Debug|ParsingService|No matching movie for titles '[ (2025)'
+2025-06-09 09:02:40.0|Debug|DownloadDecisionMaker|Release '[2025, WEB-DL 1080p] RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:40.0|Debug|DownloadDecisionMaker|Processing release '[2024, WEB-DL] RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:40.0|Debug|Parser|Parsing string '[2024, WEB-DL] RUS'
+2025-06-09 09:02:40.0|Debug|Parser|Movie Parsed. [ - 2024 
+2025-06-09 09:02:40.0|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:40.0|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:40.0|Debug|QualityParser|Trying to parse quality for '[2024, WEB-DL] RUS'
+2025-06-09 09:02:40.0|Debug|Parser|Quality parsed: WEBDL-480p v1
+2025-06-09 09:02:40.0|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:40.0|Debug|ParsingService|No matching movie for titles '[ (2024)'
+2025-06-09 09:02:40.0|Debug|DownloadDecisionMaker|Release '[2024, WEB-DL] RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:40.0|Debug|DownloadDecisionMaker|Processing release '[2024, WEB-DL 1080p] RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:40.0|Debug|Parser|Parsing string '[2024, WEB-DL 1080p] RUS'
+2025-06-09 09:02:40.0|Debug|Parser|Movie Parsed. [ - 2024 
+2025-06-09 09:02:40.0|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:40.0|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:40.0|Debug|QualityParser|Trying to parse quality for '[2024, WEB-DL 1080p] RUS'
+2025-06-09 09:02:40.0|Debug|Parser|Quality parsed: WEBDL-1080p v1
+2025-06-09 09:02:40.0|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:40.0|Debug|ParsingService|No matching movie for titles '[ (2024)'
+2025-06-09 09:02:40.0|Debug|DownloadDecisionMaker|Release '[2024, WEB-DL 1080p] RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:40.0|Debug|DownloadDecisionMaker|Processing release 'Black Cab  [2024, BDRip 1080p] [DUB]  RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:40.0|Debug|Parser|Parsing string 'Black Cab  [2024, BDRip 1080p] [DUB]  RUS'
+2025-06-09 09:02:40.0|Debug|Parser|Movie Parsed. Black Cab  [ - 2024 
+2025-06-09 09:02:40.0|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:40.0|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:40.0|Debug|QualityParser|Trying to parse quality for 'Black Cab  [2024, BDRip 1080p] [DUB]  RUS'
+2025-06-09 09:02:40.0|Debug|Parser|Quality parsed: Bluray-1080p v1
+2025-06-09 09:02:40.0|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:40.0|Debug|ParsingService|No matching movie for titles 'Black Cab  [ (2024)'
+2025-06-09 09:02:40.0|Debug|DownloadDecisionMaker|Release 'Black Cab  [2024, BDRip 1080p] [DUB]  RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:40.0|Debug|DownloadDecisionMaker|Processing release 'Black Cab  [2024, BDRip 720p] [DUB]  RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:40.0|Debug|Parser|Parsing string 'Black Cab  [2024, BDRip 720p] [DUB]  RUS'
+2025-06-09 09:02:40.0|Debug|Parser|Movie Parsed. Black Cab  [ - 2024 
+2025-06-09 09:02:40.0|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:40.0|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:40.0|Debug|QualityParser|Trying to parse quality for 'Black Cab  [2024, BDRip 720p] [DUB]  RUS'
+2025-06-09 09:02:40.0|Debug|Parser|Quality parsed: Bluray-720p v1
+2025-06-09 09:02:40.0|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:40.0|Debug|ParsingService|No matching movie for titles 'Black Cab  [ (2024)'
+2025-06-09 09:02:40.0|Debug|DownloadDecisionMaker|Release 'Black Cab  [2024, BDRip 720p] [DUB]  RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:40.0|Debug|DownloadDecisionMaker|Processing release 'Black Cab  [2024, BDRip-AVC] [DUB]  RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:40.0|Debug|Parser|Parsing string 'Black Cab  [2024, BDRip-AVC] [DUB]  RUS'
+2025-06-09 09:02:40.0|Debug|Parser|Movie Parsed. Black Cab  [ - 2024 
+2025-06-09 09:02:40.0|Debug|Parser|Release Group parsed: AVC
+2025-06-09 09:02:40.0|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:40.0|Debug|QualityParser|Trying to parse quality for 'Black Cab  [2024, BDRip-AVC] [DUB]  RUS'
+2025-06-09 09:02:40.0|Debug|Parser|Quality parsed: Bluray-480p v1
+2025-06-09 09:02:40.0|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:40.0|Debug|ParsingService|No matching movie for titles 'Black Cab  [ (2024)'
+2025-06-09 09:02:40.0|Debug|DownloadDecisionMaker|Release 'Black Cab  [2024, BDRip-AVC] [DUB]  RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:40.0|Debug|DownloadDecisionMaker|Processing release 'Black Cab  [2024, BDRip] [DUB]  RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:40.0|Debug|Parser|Parsing string 'Black Cab  [2024, BDRip] [DUB]  RUS'
+2025-06-09 09:02:40.0|Debug|Parser|Movie Parsed. Black Cab  [ - 2024 
+2025-06-09 09:02:40.0|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:40.0|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:40.0|Debug|QualityParser|Trying to parse quality for 'Black Cab  [2024, BDRip] [DUB]  RUS'
+2025-06-09 09:02:40.0|Debug|Parser|Quality parsed: Bluray-480p v1
+2025-06-09 09:02:40.0|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:40.0|Debug|ParsingService|No matching movie for titles 'Black Cab  [ (2024)'
+2025-06-09 09:02:40.0|Debug|DownloadDecisionMaker|Release 'Black Cab  [2024, BDRip] [DUB]  RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:40.0|Debug|DownloadDecisionMaker|Processing release 'Breakwater  [2023, BDRip 1080p] [DUB] [OKKO] RUS' from 'RuTracker.RU (Prowlarr)'
+2025-06-09 09:02:40.0|Debug|Parser|Parsing string 'Breakwater  [2023, BDRip 1080p] [DUB] [OKKO] RUS'
+2025-06-09 09:02:40.0|Debug|Parser|Movie Parsed. Breakwater  [ - 2023 
+2025-06-09 09:02:40.0|Debug|Parser|Release Group parsed: 
+2025-06-09 09:02:40.0|Debug|Parser|Languages parsed: Russian
+2025-06-09 09:02:40.0|Debug|QualityParser|Trying to parse quality for 'Breakwater  [2023, BDRip 1080p] [DUB] [OKKO] RUS'
+2025-06-09 09:02:40.0|Debug|Parser|Quality parsed: Bluray-1080p v1
+2025-06-09 09:02:40.0|Debug|Parser|Edition parsed: 
+2025-06-09 09:02:40.0|Debug|ParsingService|No matching movie for titles 'Breakwater  [ (2023)'
+2025-06-09 09:02:40.0|Debug|DownloadDecisionMaker|Release 'Breakwater  [2023, BDRip 1080p] [DUB] [OKKO] RUS' from 'RuTracker.RU (Prowlarr)' rejected for the following reasons: [Permanent] Unknown Movie. Unable to identify correct movie using release name.
+2025-06-09 09:02:40.0|Info|RssSyncService|RSS Sync Completed. Reports found: 125, Reports grabbed: 0
+2025-06-09 09:02:40.0|Debug|PendingReleaseService|Removing failed releases from pending
+2025-06-09 09:03:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-09 09:03:00.0|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (2 ms)
+2025-06-09 09:03:32.7|Debug|Parser|Parsing string 'The.Wild.Robot.2024.1080p.BluRay.x264-ZoroSenpai_EniaHD.mkv'
+2025-06-09 09:03:32.7|Debug|Parser|Movie Parsed. The Wild Robot - 2024 
+2025-06-09 09:03:32.7|Debug|Parser|Release Group parsed: ZoroSenpai
+2025-06-09 09:03:32.7|Debug|Parser|Languages parsed: Unknown
+2025-06-09 09:03:32.7|Debug|QualityParser|Trying to parse quality for 'The.Wild.Robot.2024.1080p.BluRay.x264-ZoroSenpai_EniaHD.mkv'
+2025-06-09 09:03:32.7|Debug|Parser|Quality parsed: Bluray-1080p v1
+2025-06-09 09:03:32.7|Debug|Parser|Edition parsed: 
+2025-06-09 09:03:32.7|Debug|ParsingService|No matching movie for titles 'The Wild Robot (2024)'
+2025-06-09 09:03:32.7|Debug|AggregateLanguages|Unable to aggregate languages, using parsed values: Unknown
+2025-06-09 09:03:32.7|Debug|Parser|Parsing string 'The.Accountant.2016.1080p.BluRay.Rus.Eng.HDCLUB.mkv'
+2025-06-09 09:03:32.7|Debug|Parser|Movie Parsed. The Accountant - 2016 
+2025-06-09 09:03:32.7|Debug|Parser|Release Group parsed: 
+2025-06-09 09:03:32.7|Debug|Parser|Languages parsed: Russian, English
+2025-06-09 09:03:32.7|Debug|QualityParser|Trying to parse quality for 'The.Accountant.2016.1080p.BluRay.Rus.Eng.HDCLUB.mkv'
+2025-06-09 09:03:32.7|Debug|Parser|Quality parsed: Bluray-1080p v1
+2025-06-09 09:03:32.7|Debug|Parser|Edition parsed: 
+2025-06-09 09:03:32.7|Debug|ParsingService|No matching movie for titles 'The Accountant (2016)'
+2025-06-09 09:03:32.7|Debug|AggregateLanguages|Unable to aggregate languages, using parsed values: Russian, English
+2025-06-09 09:04:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-09 09:04:00.0|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (2 ms)
+2025-06-09 09:04:02.7|Debug|ImportListSyncService|No enabled import lists, skipping sync and cleaning
+2025-06-09 09:05:00.0|Debug|Radarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was successfully authenticated.
+2025-06-09 09:05:00.0|Debug|Api|[GET] /api/v3/queue?apikey=(removed)&includeEpisode=true: 200.OK (4 ms)
+2025-06-09 09:05:02.7|Debug|Parser|Parsing string 'The.Wild.Robot.2024.1080p.BluRay.x264-ZoroSenpai_EniaHD.mkv'
+2025-06-09 09:05:02.7|Debug|Parser|Movie Parsed. The Wild Robot - 2024 
+2025-06-09 09:05:02.7|Debug|Parser|Release Group parsed: ZoroSenpai
+2025-06-09 09:05:02.7|Debug|Parser|Languages parsed: Unknown
+2025-06-09 09:05:02.7|Debug|QualityParser|Trying to parse quality for 'The.Wild.Robot.2024.1080p.BluRay.x264-ZoroSenpai_EniaHD.mkv'
+2025-06-09 09:05:02.7|Debug|Parser|Quality parsed: Bluray-1080p v1
+2025-06-09 09:05:02.7|Debug|Parser|Edition parsed: 
+2025-06-09 09:05:02.7|Debug|ParsingService|No matching movie for titles 'The Wild Robot (2024)'
+2025-06-09 09:05:02.7|Debug|AggregateLanguages|Unable to aggregate languages, using parsed values: Unknown
+2025-06-09 09:05:02.7|Debug|Parser|Parsing string 'The.Accountant.2016.1080p.BluRay.Rus.Eng.HDCLUB.mkv'
+2025-06-09 09:05:02.7|Debug|Parser|Movie Parsed. The Accountant - 2016 
+2025-06-09 09:05:02.7|Debug|Parser|Release Group parsed: 
+2025-06-09 09:05:02.7|Debug|Parser|Languages parsed: Russian, English
+2025-06-09 09:05:02.7|Debug|QualityParser|Trying to parse quality for 'The.Accountant.2016.1080p.BluRay.Rus.Eng.HDCLUB.mkv'
+2025-06-09 09:05:02.7|Debug|Parser|Quality parsed: Bluray-1080p v1
+2025-06-09 09:05:02.7|Debug|Parser|Edition parsed: 
+2025-06-09 09:05:02.7|Debug|ParsingService|No matching movie for titles 'The Accountant (2016)'
+2025-06-09 09:05:02.7|Debug|AggregateLanguages|Unable to aggregate languages, using parsed values: Russian, English
