@@ -6518,3 +6518,53 @@ UNIQUE constraint failed: Indexers.Name
 2025-06-08 20:31:47.6|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
 2025-06-08 20:31:47.7|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
 2025-06-08 20:34:34.7|Info|RssSyncService|Starting RSS Sync
+2025-06-09 08:31:02.4|Info|RssSyncService|Starting RSS Sync
+2025-06-09 08:31:03.3|Warn|Torznab|Indexer BigFANGroup (Prowlarr) rss sync didn't cover the period between 6/8/2025 4:06:29PM and 6/8/2025 6:43:49PM UTC. Search may be required.
+2025-06-09 08:31:03.4|Warn|Torznab|Indexer BitRu (Prowlarr) rss sync didn't cover the period between 6/8/2025 7:13:00PM and 6/9/2025 8:31:03AM UTC. Search may be required.
+2025-06-09 08:31:06.9|Info|DownloadDecisionMaker|Processing 346 releases
+2025-06-09 08:31:08.5|Info|DownloadService|Report sent to qBittorrent. Indexer BitRu (Prowlarr). MobLand (2025) WEB-DL 1080p | AVC S1E1-10 of 10 RUS
+2025-06-09 08:31:08.7|Info|RssSyncService|RSS Sync Completed. Reports found: 346, Reports grabbed: 1
+2025-06-09 08:46:32.6|Info|RssSyncService|Starting RSS Sync
+2025-06-09 08:46:34.2|Warn|Torznab|Indexer BigFANGroup (Prowlarr) rss sync didn't cover the period between 6/8/2025 4:06:29PM and 6/8/2025 6:43:49PM UTC. Search may be required.
+2025-06-09 08:46:34.4|Warn|Torznab|Indexer BitRu (Prowlarr) rss sync didn't cover the period between 6/8/2025 7:13:00PM and 6/9/2025 8:46:34AM UTC. Search may be required.
+2025-06-09 08:46:35.4|Info|DownloadDecisionMaker|Processing 346 releases
+2025-06-09 08:46:36.9|Warn|ProcessDownloadDecisions|Couldn't add release 'MobLand (2025) WEB-DL 1080p | AVC S1E1-10 of 10 RUS' from Indexer BitRu (Prowlarr) to download queue.
+
+[v4.0.14.2939] NzbDrone.Core.Download.Clients.DownloadClientException: Download client failed to add torrent
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.AddTorrentFromFile(String fileName, Byte[] fileContent, TorrentSeedConfiguration seedConfiguration, QBittorrentSettings settings) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxyV2.cs:line 186
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.AddFromTorrentFile(RemoteEpisode remoteEpisode, String hash, String filename, Byte[] fileContent) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrent.cs:line 141
+   at NzbDrone.Core.Download.TorrentClientBase`1.DownloadFromWebUrl(RemoteEpisode remoteEpisode, IIndexer indexer, String torrentUrl) in ./Sonarr.Core/Download/TorrentClientBase.cs:line 204
+   at NzbDrone.Core.Download.TorrentClientBase`1.Download(RemoteEpisode remoteEpisode, IIndexer indexer) in ./Sonarr.Core/Download/TorrentClientBase.cs:line 124
+   at NzbDrone.Core.Download.DownloadService.DownloadReport(RemoteEpisode remoteEpisode, IDownloadClient downloadClient) in ./Sonarr.Core/Download/DownloadService.cs:line 98
+   at NzbDrone.Core.Download.DownloadService.DownloadReport(RemoteEpisode remoteEpisode, Nullable`1 downloadClientId) in ./Sonarr.Core/Download/DownloadService.cs:line 63
+   at NzbDrone.Core.Download.ProcessDownloadDecisions.ProcessDecisionInternal(DownloadDecision decision, Nullable`1 downloadClientId) in ./Sonarr.Core/Download/ProcessDownloadDecisions.cs:line 204
+
+2025-06-09 08:46:37.0|Info|RssSyncService|RSS Sync Completed. Reports found: 346, Reports grabbed: 0
+2025-06-09 08:57:05.6|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 08:57:05.9|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 08:57:06.5|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 08:57:21.5|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 08:57:21.6|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 08:57:33.0|Info|SceneMappingService|Updating Scene mappings
+2025-06-09 08:57:35.2|Info|RefreshSeriesService|Updating Dept. Q
+2025-06-09 08:57:36.4|Info|RefreshEpisodeService|Starting episode info refresh for: [445802][Dept. Q]
+2025-06-09 08:57:36.5|Info|RefreshEpisodeService|Finished episode refresh for series: [445802][Dept. Q].
+2025-06-09 08:57:36.5|Info|DiskScanService|Scanning Dept. Q
+2025-06-09 08:57:36.5|Info|DiskScanService|Completed scanning disk for Dept. Q
+2025-06-09 08:57:36.5|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2025-06-09 08:57:36.6|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2025-06-09 08:57:36.6|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2025-06-09 08:57:36.6|Info|ExistingExtraFileService|Found 0 possible extra files, imported 0 files.
+2025-06-09 08:57:36.6|Info|MetadataService|Series folder does not exist, skipping metadata creation
+2025-06-09 08:57:36.6|Info|RefreshSeriesService|Updating MobLand
+2025-06-09 08:57:36.7|Info|RefreshEpisodeService|Starting episode info refresh for: [446831][MobLand]
+2025-06-09 08:57:36.8|Info|RefreshEpisodeService|Finished episode refresh for series: [446831][MobLand].
+2025-06-09 08:57:36.8|Info|DiskScanService|Scanning MobLand
+2025-06-09 08:57:36.8|Info|DiskScanService|Completed scanning disk for MobLand
+2025-06-09 08:57:36.8|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2025-06-09 08:57:36.8|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2025-06-09 08:57:36.8|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2025-06-09 08:57:36.8|Info|ExistingExtraFileService|Found 0 possible extra files, imported 0 files.
+2025-06-09 08:57:36.8|Info|MetadataService|Series folder does not exist, skipping metadata creation
+2025-06-09 08:58:15.9|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 08:59:06.3|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.

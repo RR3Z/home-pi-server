@@ -7776,3 +7776,91 @@
 2025-06-08 20:30:01.3|Info|MovieSearchService|Completed search for 1 movies. 1 reports downloaded.
 2025-06-08 20:31:17.3|Info|Radarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
 2025-06-08 20:31:17.3|Info|Radarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 08:31:32.2|Error|EventAggregator|TaskManager failed while processing [CommandExecutedEvent]
+
+[v5.25.0.10024] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteConnection.Open()
+   at NzbDrone.Core.Datastore.DbFactory.<>c__DisplayClass9_0.<Create>b__0() in ./Radarr.Core/Datastore/DbFactory.cs:line 105
+   at NzbDrone.Core.Datastore.BasicRepository`1.SetFields(TModel model, Expression`1[] properties) in ./Radarr.Core/Datastore/BasicRepository.cs:line 335
+   at NzbDrone.Core.Jobs.ScheduledTaskRepository.SetLastExecutionTime(Int32 id, DateTime executionTime, DateTime startTime) in ./Radarr.Core/Jobs/ScheduledTaskRepository.cs:line 28
+   at NzbDrone.Core.Jobs.TaskManager.Handle(CommandExecutedEvent message)
+   at NzbDrone.Core.Messaging.Events.EventAggregator.PublishEvent[TEvent](TEvent event)
+
+
+2025-06-09 08:31:32.2|Error|CommandExecutor|Error occurred while executing task ProcessMonitoredDownloads
+
+[v5.25.0.10024] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteConnection.Open()
+   at NzbDrone.Core.Datastore.DbFactory.<>c__DisplayClass9_0.<Create>b__0() in ./Radarr.Core/Datastore/DbFactory.cs:line 105
+   at NzbDrone.Core.Datastore.BasicRepository`1.SetFields(TModel model, Expression`1[] properties) in ./Radarr.Core/Datastore/BasicRepository.cs:line 335
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in ./Radarr.Core/Messaging/Commands/CommandExecutor.cs:line 113
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in ./Radarr.Core/Messaging/Commands/CommandExecutor.cs:line 44
+
+
+2025-06-09 08:32:02.3|Error|CommandExecutor|Error occurred while executing task MessagingCleanup
+
+[v5.25.0.10024] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteConnection.Open()
+   at NzbDrone.Core.Datastore.DbFactory.<>c__DisplayClass9_0.<Create>b__0() in ./Radarr.Core/Datastore/DbFactory.cs:line 105
+   at NzbDrone.Core.Datastore.BasicRepository`1.Delete(SqlBuilder builder) in ./Radarr.Core/Datastore/BasicRepository.cs:line 261
+   at NzbDrone.Core.Messaging.Commands.CommandRepository.Trim() in ./Radarr.Core/Messaging/Commands/CommandRepository.cs:line 29
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in ./Radarr.Core/Messaging/Commands/CommandExecutor.cs:line 113
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in ./Radarr.Core/Messaging/Commands/CommandExecutor.cs:line 44
+
+
+2025-06-09 08:32:02.3|Error|CommandExecutor|Error occurred while executing task RefreshMonitoredDownloads
+
+[v5.25.0.10024] code = IoErr (10), message = System.Data.SQLite.SQLiteException (0x800007FF): disk I/O error
+disk I/O error
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteConnection.Open()
+   at NzbDrone.Core.Datastore.DbFactory.<>c__DisplayClass9_0.<Create>b__0() in ./Radarr.Core/Datastore/DbFactory.cs:line 105
+   at NzbDrone.Core.Datastore.SqlMapperExtensions.Query[T](IDatabase db, String sql, Object param) in ./Radarr.Core/Datastore/Extensions/SqlMapperExtensions.cs:line 12
+   at NzbDrone.Core.Datastore.BasicRepository`1.Query(SqlBuilder builder) in ./Radarr.Core/Datastore/BasicRepository.cs:line 72
+   at NzbDrone.Core.ThingiProvider.Status.ProviderStatusRepository`1.FindByProviderId(Int32 providerId) in ./Radarr.Core/ThingiProvider/Status/ProviderStatusRepository.cs:line 24
+   at NzbDrone.Core.ThingiProvider.Status.ProviderStatusServiceBase`2.GetProviderStatus(Int32 providerId) in ./Radarr.Core/ThingiProvider/Status/ProviderStatusServiceBase.cs:line 50
+   at NzbDrone.Core.ThingiProvider.Status.ProviderStatusServiceBase`2.RecordFailure(Int32 providerId, TimeSpan minimumBackOff, Boolean escalate) in ./Radarr.Core/ThingiProvider/Status/ProviderStatusServiceBase.cs:line 94
+   at NzbDrone.Core.ThingiProvider.Status.ProviderStatusServiceBase`2.RecordFailure(Int32 providerId, TimeSpan minimumBackOff) in ./Radarr.Core/ThingiProvider/Status/ProviderStatusServiceBase.cs:line 144
+   at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads(IDownloadClient downloadClient) in ./Radarr.Core/Download/TrackedDownloads/DownloadMonitoringService.cs:line 101
+   at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.Refresh() in ./Radarr.Core/Download/TrackedDownloads/DownloadMonitoringService.cs:line 72
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommand[TCommand](TCommand command, CommandModel commandModel) in ./Radarr.Core/Messaging/Commands/CommandExecutor.cs:line 113
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid3[T0,T1,T2](CallSite site, T0 arg0, T1 arg1, T2 arg2)
+   at NzbDrone.Core.Messaging.Commands.CommandExecutor.ExecuteCommands() in ./Radarr.Core/Messaging/Commands/CommandExecutor.cs:line 44
+
+
+2025-06-09 08:32:02.3|Info|RssSyncService|Starting RSS Sync
+2025-06-09 08:32:02.8|Warn|Torznab|Indexer BitRu (Prowlarr) rss sync didn't cover the period between 6/8/2025 8:19:00PM and 6/9/2025 8:32:02AM UTC. Search may be required.
+2025-06-09 08:32:04.6|Info|DownloadDecisionMaker|Processing 125 releases
+2025-06-09 08:32:05.2|Info|RssSyncService|RSS Sync Completed. Reports found: 125, Reports grabbed: 0
+2025-06-09 08:56:49.9|Info|Radarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 08:56:50.0|Info|Radarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 08:58:15.9|Info|Radarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 08:59:06.3|Info|Radarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.

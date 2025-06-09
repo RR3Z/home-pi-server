@@ -6429,3 +6429,49 @@ RequestUri: https://megapeer.vip/browse.php?search=2025&cat=0&stype=0&sort=0&asc
 2025-06-08 20:34:34.7|Info|ReleaseSearchService|Searching indexer(s): [NoNaMe Club] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
 2025-06-08 20:34:34.7|Info|ReleaseSearchService|Searching indexer(s): [BigFANGroup] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
 2025-06-08 20:34:34.7|Info|ReleaseSearchService|Searching indexer(s): [BitRu] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2025-06-09 08:31:02.4|Info|ReleaseSearchService|Searching indexer(s): [AniLibria] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2025-06-09 08:31:02.4|Info|ReleaseSearchService|Searching indexer(s): [BitRu] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2025-06-09 08:31:02.4|Info|ReleaseSearchService|Searching indexer(s): [BigFANGroup] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2025-06-09 08:31:02.4|Info|ReleaseSearchService|Searching indexer(s): [NoNaMe Club] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2025-06-09 08:31:02.4|Info|ReleaseSearchService|Searching indexer(s): [RuTracker.RU] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5040, 5010, 5045, 5030, 5070]
+2025-06-09 08:32:02.3|Info|ReleaseSearchService|Searching indexer(s): [BigFANGroup] for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2060, 2010, 2040, 2070]
+2025-06-09 08:32:02.4|Info|ReleaseSearchService|Searching indexer(s): [AniLibria] for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2020]
+2025-06-09 08:32:02.4|Info|ReleaseSearchService|Searching indexer(s): [NoNaMe Club] for Term: [], Offset: 0, Limit: 100, Categories: [2000]
+2025-06-09 08:32:02.4|Info|ReleaseSearchService|Searching indexer(s): [RuTracker.RU] for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2040, 2070, 2060]
+2025-06-09 08:32:02.4|Info|ReleaseSearchService|Searching indexer(s): [BitRu] for Term: [], Offset: 0, Limit: 100, Categories: [2000]
+2025-06-09 08:46:32.6|Info|ReleaseSearchService|Searching indexer(s): [BigFANGroup] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2025-06-09 08:46:32.6|Info|ReleaseSearchService|Searching indexer(s): [AniLibria] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2025-06-09 08:46:32.6|Info|ReleaseSearchService|Searching indexer(s): [BitRu] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2025-06-09 08:46:32.6|Info|ReleaseSearchService|Searching indexer(s): [NoNaMe Club] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2025-06-09 08:46:32.6|Info|ReleaseSearchService|Searching indexer(s): [RuTracker.RU] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5040, 5010, 5045, 5030, 5070]
+2025-06-09 08:50:37.9|Warn|Cardigann|HTTP Error - Res: HTTP/2.0 [GET] https://megapeer.vip/browse.php?search=2025&cat=0&stype=0&sort=0&ascdesc=0: 403.Forbidden (146 bytes)
+2025-06-09 08:50:37.9|Warn|Cardigann|Unable to connect to indexer
+
+[v1.37.0.5076] NzbDrone.Core.Indexers.Exceptions.IndexerException: Unexpected response status Forbidden code from indexer request
+   at NzbDrone.Core.Indexers.Definitions.Cardigann.CardigannParser.ParseResponse(IndexerResponse indexerResponse) in ./Prowlarr.Core/Indexers/Definitions/Cardigann/CardigannParser.cs:line 58
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchPage(IndexerRequest request, IParseIndexerResponse parser) in ./Prowlarr.Core/Indexers/HttpIndexerBase.cs:line 610
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.TestConnection() in ./Prowlarr.Core/Indexers/HttpIndexerBase.cs:line 764
+RequestUri: https://megapeer.vip/browse.php?search=2025&cat=0&stype=0&sort=0&ascdesc=0;StatusCode: Forbidden;ContentType: text/html;ContentLength: 146;ContentSample: <html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+
+2025-06-09 08:50:38.0|Warn|ProwlarrErrorPipeline|Invalid request Validation failed: 
+ -- : Unable to connect to indexer. Unexpected response status Forbidden code from indexer request
+2025-06-09 08:52:44.7|Warn|RuTracker|Indexer returned result for RSS URL, Credentials appears to be invalid. Response: Вы ввели неверное/неактивное имя пользователя или неверный пароль
+2025-06-09 08:52:44.7|Warn|ProwlarrErrorPipeline|Invalid request Validation failed: 
+ -- : Indexer returned result for RSS URL, Credentials appears to be invalid. Response: Вы ввели неверное/неактивное имя пользователя или неверный пароль
+2025-06-09 08:53:01.4|Warn|RuTracker|Indexer returned result for RSS URL, Credentials appears to be invalid. Response: Пожалуйста, введите код подтверждения (символы, изображенные на картинке)
+2025-06-09 08:53:01.4|Warn|ProwlarrErrorPipeline|Invalid request Validation failed: 
+ -- : Indexer returned result for RSS URL, Credentials appears to be invalid. Response: Пожалуйста, введите код подтверждения (символы, изображенные на картинке)
+2025-06-09 08:53:09.6|Warn|RuTracker|Indexer returned result for RSS URL, Credentials appears to be invalid. Response: Пожалуйста, введите код подтверждения (символы, изображенные на картинке)
+2025-06-09 08:53:09.7|Warn|ProwlarrErrorPipeline|Invalid request Validation failed: 
+ -- : Indexer returned result for RSS URL, Credentials appears to be invalid. Response: Пожалуйста, введите код подтверждения (символы, изображенные на картинке)
+2025-06-09 08:58:03.9|Info|Prowlarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 08:58:04.0|Info|Prowlarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 08:58:15.9|Info|Prowlarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 08:59:06.3|Info|Prowlarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.

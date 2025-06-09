@@ -14,6 +14,32 @@
             - title: Glance
               url: http://192.168.0.111:8080
               icon: /assets/glance-logo.png
+            - title: qBitTorrent
+              url: http://192.168.0.111:8081
+              icon: /assets/qbittorrent-logo.png
+
+        - type: monitor
+          cache: 1m
+          title: Media Server
+          sites:
+            - title: Plex
+              url: http://192.168.0.111:32400
+              icon: /assets/plex-logo.jpg
+            - title: Radarr
+              url: http://192.168.0.111:7878
+              icon: /assets/radarr-logo.png
+            - title: Sonarr
+              url: http://192.168.0.111:8989
+              icon: /assets/sonarr-logo.png
+            - title: Prowlarr
+              url: http://192.168.0.111:9696
+              icon: /assets/prowlarr-logo.png
+            - title: Overseerr
+              url: http://192.168.0.111:5055
+              icon: /assets/overseerr-logo.png
+
+        - type: docker-containers
+          hide-by-default: false
 
     - size: small
       widgets:

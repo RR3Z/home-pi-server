@@ -9,6 +9,11 @@
             "date": 1749413297656,
             "name": "/app/config/logs/.machinelogs-2025-06-08.json",
             "hash": "f62f18bf5d81e72aac620335c050bb2863e10da2b4e3ca93fde02d74a4cf2d83"
+        },
+        {
+            "date": 1749416400011,
+            "name": "/app/config/logs/.machinelogs-2025-06-09.json",
+            "hash": "1a37b4ab4be6027c99cfda6e15b129509d4d7d817c494709f41440adb83f7d54"
         }
     ],
     "hashType": "sha256"
