@@ -3213,3 +3213,15 @@
 {"label":"Download Tracker","level":"debug","message":"Found 9 item(s) in progress on Sonarr server: Sonarr","timestamp":"2025-06-09T09:13:00.024Z"}
 {"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T09:14:00.012Z"}
 {"label":"Download Tracker","level":"debug","message":"Found 9 item(s) in progress on Sonarr server: Sonarr","timestamp":"2025-06-09T09:14:00.026Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T09:15:00.006Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T09:15:00.011Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2025-06-09T09:15:00.017Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"f3808df9-5c01-4688-aba8-3efdaab00fe0","timestamp":"2025-06-09T09:15:00.017Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 9 item(s) in progress on Sonarr server: Sonarr","timestamp":"2025-06-09T09:15:00.023Z"}
+{"label":"Plex Scan","lastScan":1749460200049,"level":"info","message":"Beginning to process recently added for library: Films","timestamp":"2025-06-09T09:15:00.026Z"}
+{"label":"Plex Scan","lastScan":1749460200058,"level":"info","message":"Beginning to process recently added for library: TV Shows","timestamp":"2025-06-09T09:15:00.031Z"}
+{"label":"Plex Scan","level":"info","message":"Recently Added Scan Complete","timestamp":"2025-06-09T09:15:00.036Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T09:16:00.011Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 9 item(s) in progress on Sonarr server: Sonarr","timestamp":"2025-06-09T09:16:00.029Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T09:17:00.010Z"}
+{"label":"Download Tracker","level":"debug","message":"Found 9 item(s) in progress on Sonarr server: Sonarr","timestamp":"2025-06-09T09:17:00.021Z"}

@@ -3213,3 +3213,15 @@
 2025-06-09T09:13:00.024Z [debug][Download Tracker]: Found 9 item(s) in progress on Sonarr server: Sonarr 
 2025-06-09T09:14:00.012Z [debug][Jobs]: Starting scheduled job: Download Sync 
 2025-06-09T09:14:00.026Z [debug][Download Tracker]: Found 9 item(s) in progress on Sonarr server: Sonarr 
+2025-06-09T09:15:00.006Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-09T09:15:00.011Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-09T09:15:00.017Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2025-06-09T09:15:00.017Z [info][Plex Scan]: Scan starting {"sessionId":"f3808df9-5c01-4688-aba8-3efdaab00fe0"}
+2025-06-09T09:15:00.023Z [debug][Download Tracker]: Found 9 item(s) in progress on Sonarr server: Sonarr 
+2025-06-09T09:15:00.026Z [info][Plex Scan]: Beginning to process recently added for library: Films {"lastScan":1749460200049}
+2025-06-09T09:15:00.031Z [info][Plex Scan]: Beginning to process recently added for library: TV Shows {"lastScan":1749460200058}
+2025-06-09T09:15:00.036Z [info][Plex Scan]: Recently Added Scan Complete 
+2025-06-09T09:16:00.011Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-09T09:16:00.029Z [debug][Download Tracker]: Found 9 item(s) in progress on Sonarr server: Sonarr 
+2025-06-09T09:17:00.010Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-09T09:17:00.021Z [debug][Download Tracker]: Found 9 item(s) in progress on Sonarr server: Sonarr 
