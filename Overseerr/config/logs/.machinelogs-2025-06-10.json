@@ -1,0 +1,480 @@
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:00:00.025Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T21:00:00.051Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:00:00.054Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:00:00.055Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2025-06-09T21:00:00.058Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"54959120-1aa4-4f1b-b19e-2c03cd1ecc8d","timestamp":"2025-06-09T21:00:00.059Z"}
+{"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2025-06-09T21:00:02.372Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:01:00.030Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:01:00.037Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:01:00.042Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:02:00.031Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:02:00.037Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:02:00.038Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:03:00.029Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T21:03:00.036Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:03:00.038Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:03:00.038Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:04:00.029Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:04:00.034Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:04:00.035Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:05:00.028Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2025-06-09T21:05:00.034Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"9febecaf-6680-4b9e-9c16-aa06d427dbe4","timestamp":"2025-06-09T21:05:00.034Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:05:00.037Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:05:00.037Z"}
+{"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2025-06-09T21:05:00.880Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:06:00.029Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T21:06:00.036Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:06:00.038Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:06:00.039Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:07:00.023Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:07:00.030Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:07:00.031Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:08:00.023Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:08:00.030Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:08:00.031Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:09:00.015Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T21:09:00.022Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:09:00.024Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:09:00.026Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:10:00.022Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2025-06-09T21:10:00.030Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"0066189f-9073-4218-808b-cce069263f58","timestamp":"2025-06-09T21:10:00.031Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:10:00.033Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:10:00.033Z"}
+{"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2025-06-09T21:10:00.820Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:11:00.016Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:11:00.022Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:11:00.023Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:12:00.021Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T21:12:00.027Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:12:00.030Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:12:00.031Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:13:00.012Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:13:00.018Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:13:00.019Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:14:00.030Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:14:00.036Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:14:00.037Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:15:00.030Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T21:15:00.036Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:15:00.038Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:15:00.039Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2025-06-09T21:15:00.042Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"4ae4d36d-8014-4bee-b636-30ca01f74a2d","timestamp":"2025-06-09T21:15:00.043Z"}
+{"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2025-06-09T21:15:00.679Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:16:00.015Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:16:00.023Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:16:00.024Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:17:00.019Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:17:00.029Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:17:00.030Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:18:00.021Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T21:18:00.030Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:18:00.032Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:18:00.033Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:19:00.029Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:19:00.034Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:19:00.035Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:20:00.012Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2025-06-09T21:20:00.018Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"fc6f0f39-54c0-45c1-910a-34b1e4f610f8","timestamp":"2025-06-09T21:20:00.018Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:20:00.021Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:20:00.022Z"}
+{"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2025-06-09T21:20:00.697Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:21:00.020Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T21:21:00.028Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:21:00.031Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:21:00.031Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:22:00.015Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:22:00.021Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:22:00.022Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:23:00.023Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:23:00.030Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:23:00.033Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:24:00.013Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T21:24:00.021Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:24:00.024Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:24:00.025Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:25:00.023Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2025-06-09T21:25:00.031Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"c2c96700-bf5b-48bc-a7b7-ff67dd3d54bc","timestamp":"2025-06-09T21:25:00.032Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:25:00.034Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:25:00.035Z"}
+{"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2025-06-09T21:25:00.589Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:26:00.029Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:26:00.035Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:26:00.037Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:27:00.022Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T21:27:00.030Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:27:00.032Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:27:00.033Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:28:00.022Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:28:00.029Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:28:00.031Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:29:00.008Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:29:00.013Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:29:00.014Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:30:00.027Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T21:30:00.034Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:30:00.036Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:30:00.037Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2025-06-09T21:30:00.040Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"00343d23-bf08-481b-a523-908dcddd642b","timestamp":"2025-06-09T21:30:00.040Z"}
+{"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2025-06-09T21:30:01.690Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:31:00.026Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:31:00.033Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:31:00.034Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:32:00.029Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:32:00.033Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:32:00.034Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:33:00.027Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T21:33:00.034Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:33:00.036Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:33:00.037Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:34:00.030Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:34:00.036Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:34:00.037Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:35:00.030Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2025-06-09T21:35:00.036Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"225ccd7e-8cf3-4909-b5c6-ebaf73b4b792","timestamp":"2025-06-09T21:35:00.037Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:35:00.038Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:35:00.039Z"}
+{"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2025-06-09T21:35:00.794Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:36:00.015Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T21:36:00.022Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:36:00.024Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:36:00.025Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:37:00.029Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:37:00.034Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:37:00.036Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:38:00.024Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:38:00.031Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:38:00.032Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:39:00.021Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T21:39:00.028Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:39:00.030Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:39:00.030Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:40:00.023Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2025-06-09T21:40:00.032Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"fca32bf6-74d7-4bd1-966a-2bb3b63fee53","timestamp":"2025-06-09T21:40:00.032Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:40:00.034Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:40:00.035Z"}
+{"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2025-06-09T21:40:00.618Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:41:00.029Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:41:00.035Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:41:00.036Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:42:00.013Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T21:42:00.019Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:42:00.021Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:42:00.022Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:43:00.031Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:43:00.036Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:43:00.038Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:44:00.029Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:44:00.035Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:44:00.036Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:45:00.027Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T21:45:00.034Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:45:00.037Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:45:00.037Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2025-06-09T21:45:00.042Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"ed92ff7a-aa27-4b74-9629-aadcb301a1ba","timestamp":"2025-06-09T21:45:00.042Z"}
+{"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2025-06-09T21:45:00.627Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:46:00.022Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:46:00.029Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:46:00.030Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:47:00.027Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:47:00.035Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:47:00.036Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:48:00.012Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T21:48:00.020Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:48:00.022Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:48:00.023Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:49:00.022Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:49:00.031Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:49:00.032Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:50:00.027Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2025-06-09T21:50:00.034Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"20c70471-0573-4b51-9faf-cdc313729d8b","timestamp":"2025-06-09T21:50:00.035Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:50:00.037Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:50:00.038Z"}
+{"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2025-06-09T21:50:00.710Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:51:00.012Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T21:51:00.019Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:51:00.021Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:51:00.022Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:52:00.022Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:52:00.029Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:52:00.031Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:53:00.027Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:53:00.034Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:53:00.035Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:54:00.008Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T21:54:00.016Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:54:00.018Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:54:00.018Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:55:00.030Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2025-06-09T21:55:00.036Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"1507d946-01de-489d-88d9-04bfe4bc4164","timestamp":"2025-06-09T21:55:00.037Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:55:00.039Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:55:00.039Z"}
+{"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2025-06-09T21:55:00.674Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:56:00.029Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:56:00.036Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:56:00.038Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:57:00.029Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T21:57:00.036Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:57:00.038Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:57:00.039Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:58:00.030Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:58:00.034Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:58:00.035Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T21:59:00.003Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T21:59:00.009Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T21:59:00.011Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:00:00.015Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T22:00:00.024Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:00:00.027Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:00:00.028Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2025-06-09T22:00:00.032Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"0170b14d-03b8-40e8-af6d-ebd2c17a7e4f","timestamp":"2025-06-09T22:00:00.033Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Download Sync Reset","timestamp":"2025-06-09T22:00:00.041Z"}
+{"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2025-06-09T22:00:03.835Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:01:00.022Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:01:00.028Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:01:00.029Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:02:00.031Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:02:00.037Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:02:00.038Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:03:00.015Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T22:03:00.021Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:03:00.023Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:03:00.023Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:04:00.024Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:04:00.031Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:04:00.032Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:05:00.029Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2025-06-09T22:05:00.036Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"ff5b286d-731a-4fca-a8c4-daf95bd7020c","timestamp":"2025-06-09T22:05:00.037Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:05:00.040Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:05:00.040Z"}
+{"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2025-06-09T22:05:00.668Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:06:00.029Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T22:06:00.037Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:06:00.038Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:06:00.039Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:07:00.029Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:07:00.033Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:07:00.034Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:08:00.029Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:08:00.035Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:08:00.036Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:09:00.028Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T22:09:00.034Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:09:00.035Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:09:00.035Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:10:00.020Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2025-06-09T22:10:00.030Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"815c0f5d-e7a0-4c70-8a50-5ef89261cd05","timestamp":"2025-06-09T22:10:00.030Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:10:00.032Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:10:00.033Z"}
+{"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2025-06-09T22:10:00.735Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:11:00.031Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:11:00.037Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:11:00.038Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:12:00.021Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T22:12:00.028Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:12:00.030Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:12:00.031Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:13:00.014Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:13:00.018Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:13:00.019Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:14:00.029Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:14:00.035Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:14:00.037Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:15:00.027Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T22:15:00.031Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:15:00.033Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:15:00.033Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2025-06-09T22:15:00.036Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"48c8d1d6-f999-4b40-9460-85247c4345b8","timestamp":"2025-06-09T22:15:00.036Z"}
+{"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2025-06-09T22:15:00.649Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:16:00.026Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:16:00.033Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:16:00.034Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:17:00.030Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:17:00.036Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:17:00.037Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:18:00.007Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T22:18:00.014Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:18:00.016Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:18:00.017Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:19:00.009Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:19:00.014Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:19:00.015Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:20:00.024Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2025-06-09T22:20:00.031Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"aa69de98-bfb9-4bd2-aa04-a937ba6ab9a1","timestamp":"2025-06-09T22:20:00.031Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:20:00.034Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:20:00.035Z"}
+{"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2025-06-09T22:20:00.786Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:21:00.022Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T22:21:00.031Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:21:00.033Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:21:00.034Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:22:00.026Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:22:00.035Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:22:00.037Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:23:00.029Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:23:00.035Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:23:00.036Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:24:00.020Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T22:24:00.029Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:24:00.031Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:24:00.032Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:25:00.029Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2025-06-09T22:25:00.037Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"b911bd03-c68b-4086-b99d-ad014cb22f18","timestamp":"2025-06-09T22:25:00.037Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:25:00.040Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:25:00.041Z"}
+{"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2025-06-09T22:25:00.789Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:26:00.029Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:26:00.035Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:26:00.036Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:27:00.029Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T22:27:00.036Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:27:00.038Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:27:00.039Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:28:00.023Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:28:00.031Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:28:00.032Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:29:00.023Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:29:00.030Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:29:00.032Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:30:00.007Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T22:30:00.014Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:30:00.016Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:30:00.017Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2025-06-09T22:30:00.021Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"124447e2-7fc7-47a0-ac9a-1a9635293cea","timestamp":"2025-06-09T22:30:00.021Z"}
+{"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2025-06-09T22:30:01.991Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:31:00.030Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:31:00.037Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:31:00.038Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:32:00.027Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:32:00.034Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:32:00.035Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:33:00.007Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T22:33:00.013Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:33:00.015Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:33:00.016Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:34:00.005Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:34:00.010Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:34:00.011Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:35:00.030Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2025-06-09T22:35:00.037Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"6487f0d3-d2f4-475d-ad7b-6b176ed70250","timestamp":"2025-06-09T22:35:00.038Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:35:00.041Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:35:00.041Z"}
+{"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2025-06-09T22:35:00.692Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:36:00.027Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T22:36:00.034Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:36:00.036Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:36:00.037Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:37:00.022Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:37:00.029Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:37:00.032Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:38:00.022Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:38:00.029Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:38:00.030Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:39:00.029Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T22:39:00.038Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:39:00.040Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:39:00.041Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:40:00.016Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2025-06-09T22:40:00.022Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"c5061625-519d-430f-b8bf-125e5ed49d05","timestamp":"2025-06-09T22:40:00.022Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:40:00.025Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:40:00.025Z"}
+{"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2025-06-09T22:40:00.664Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:41:00.022Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:41:00.031Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:41:00.032Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:42:00.022Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T22:42:00.031Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:42:00.033Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:42:00.034Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:43:00.019Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:43:00.028Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:43:00.029Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:44:00.014Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:44:00.020Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:44:00.021Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:45:00.030Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T22:45:00.037Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:45:00.039Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:45:00.039Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2025-06-09T22:45:00.042Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"7e6a814c-fea1-49d2-bda9-c61323fd2120","timestamp":"2025-06-09T22:45:00.042Z"}
+{"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2025-06-09T22:45:00.633Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:46:00.029Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:46:00.036Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:46:00.037Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:47:00.023Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:47:00.031Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:47:00.032Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:48:00.030Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T22:48:00.036Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:48:00.039Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:48:00.040Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:49:00.029Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:49:00.035Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:49:00.036Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:50:00.016Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2025-06-09T22:50:00.023Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"f74d28a3-bb27-466f-90ec-1ce2e349e5f1","timestamp":"2025-06-09T22:50:00.024Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:50:00.028Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:50:00.030Z"}
+{"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2025-06-09T22:50:00.659Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:51:00.009Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T22:51:00.018Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:51:00.020Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:51:00.022Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:52:00.021Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:52:00.029Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:52:00.030Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:53:00.021Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:53:00.030Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:53:00.032Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:54:00.023Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T22:54:00.031Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:54:00.035Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:54:00.036Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:55:00.005Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2025-06-09T22:55:00.013Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"e31a0165-d208-4ac4-9a86-81e40a099bf6","timestamp":"2025-06-09T22:55:00.013Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:55:00.016Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:55:00.017Z"}
+{"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2025-06-09T22:55:00.845Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:56:00.015Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:56:00.020Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:56:00.021Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:57:00.023Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T22:57:00.031Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:57:00.034Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:57:00.035Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:58:00.021Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:58:00.030Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:58:00.032Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T22:59:00.022Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T22:59:00.030Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T22:59:00.031Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-09T23:00:00.028Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-09T23:00:00.035Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-09T23:00:00.037Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-09T23:00:00.039Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Recently Added Scan","timestamp":"2025-06-09T23:00:00.042Z"}
+{"label":"Plex Scan","level":"info","message":"Scan starting","sessionId":"2c60d3c2-fccc-4f75-8d1c-b528a4941f60","timestamp":"2025-06-09T23:00:00.042Z"}
+{"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?","label":"Plex Scan","level":"error","message":"Scan interrupted","timestamp":"2025-06-09T23:00:01.886Z"}

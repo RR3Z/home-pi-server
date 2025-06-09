@@ -6583,3 +6583,969 @@ UNIQUE constraint failed: Indexers.Name
 
 2025-06-09 09:02:10.7|Info|RssSyncService|RSS Sync Completed. Reports found: 346, Reports grabbed: 0
 2025-06-09 09:07:49.7|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 09:17:33.0|Info|RssSyncService|Starting RSS Sync
+2025-06-09 09:17:35.6|Info|DownloadDecisionMaker|Processing 345 releases
+2025-06-09 09:17:37.0|Warn|ProcessDownloadDecisions|Couldn't add release 'MobLand (2025) WEB-DL 1080p | AVC S1E1-10 of 10 RUS' from Indexer BitRu (Prowlarr) to download queue.
+
+[v4.0.14.2939] NzbDrone.Core.Download.Clients.DownloadClientException: Download client failed to add torrent
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.AddTorrentFromFile(String fileName, Byte[] fileContent, TorrentSeedConfiguration seedConfiguration, QBittorrentSettings settings) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxyV2.cs:line 186
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.AddFromTorrentFile(RemoteEpisode remoteEpisode, String hash, String filename, Byte[] fileContent) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrent.cs:line 141
+   at NzbDrone.Core.Download.TorrentClientBase`1.DownloadFromWebUrl(RemoteEpisode remoteEpisode, IIndexer indexer, String torrentUrl) in ./Sonarr.Core/Download/TorrentClientBase.cs:line 204
+   at NzbDrone.Core.Download.TorrentClientBase`1.Download(RemoteEpisode remoteEpisode, IIndexer indexer) in ./Sonarr.Core/Download/TorrentClientBase.cs:line 124
+   at NzbDrone.Core.Download.DownloadService.DownloadReport(RemoteEpisode remoteEpisode, IDownloadClient downloadClient) in ./Sonarr.Core/Download/DownloadService.cs:line 98
+   at NzbDrone.Core.Download.DownloadService.DownloadReport(RemoteEpisode remoteEpisode, Nullable`1 downloadClientId) in ./Sonarr.Core/Download/DownloadService.cs:line 63
+   at NzbDrone.Core.Download.ProcessDownloadDecisions.ProcessDecisionInternal(DownloadDecision decision, Nullable`1 downloadClientId) in ./Sonarr.Core/Download/ProcessDownloadDecisions.cs:line 204
+
+2025-06-09 09:17:37.0|Info|RssSyncService|RSS Sync Completed. Reports found: 345, Reports grabbed: 0
+2025-06-09 09:17:57.0|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 09:24:03.1|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 09:25:07.2|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 09:25:22.8|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 09:27:09.3|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 09:29:23.1|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 09:33:04.3|Info|RssSyncService|Starting RSS Sync
+2025-06-09 09:33:08.3|Info|DownloadDecisionMaker|Processing 344 releases
+2025-06-09 09:33:09.8|Warn|ProcessDownloadDecisions|Couldn't add release 'MobLand (2025) WEB-DL 1080p | AVC S1E1-10 of 10 RUS' from Indexer BitRu (Prowlarr) to download queue.
+
+[v4.0.14.2939] NzbDrone.Core.Download.Clients.DownloadClientException: Download client failed to add torrent
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.AddTorrentFromFile(String fileName, Byte[] fileContent, TorrentSeedConfiguration seedConfiguration, QBittorrentSettings settings) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxyV2.cs:line 186
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.AddFromTorrentFile(RemoteEpisode remoteEpisode, String hash, String filename, Byte[] fileContent) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrent.cs:line 141
+   at NzbDrone.Core.Download.TorrentClientBase`1.DownloadFromWebUrl(RemoteEpisode remoteEpisode, IIndexer indexer, String torrentUrl) in ./Sonarr.Core/Download/TorrentClientBase.cs:line 204
+   at NzbDrone.Core.Download.TorrentClientBase`1.Download(RemoteEpisode remoteEpisode, IIndexer indexer) in ./Sonarr.Core/Download/TorrentClientBase.cs:line 124
+   at NzbDrone.Core.Download.DownloadService.DownloadReport(RemoteEpisode remoteEpisode, IDownloadClient downloadClient) in ./Sonarr.Core/Download/DownloadService.cs:line 98
+   at NzbDrone.Core.Download.DownloadService.DownloadReport(RemoteEpisode remoteEpisode, Nullable`1 downloadClientId) in ./Sonarr.Core/Download/DownloadService.cs:line 63
+   at NzbDrone.Core.Download.ProcessDownloadDecisions.ProcessDecisionInternal(DownloadDecision decision, Nullable`1 downloadClientId) in ./Sonarr.Core/Download/ProcessDownloadDecisions.cs:line 204
+
+2025-06-09 09:33:09.8|Info|RssSyncService|RSS Sync Completed. Reports found: 344, Reports grabbed: 0
+2025-06-09 09:33:20.8|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 09:48:34.5|Info|RssSyncService|Starting RSS Sync
+2025-06-09 09:48:36.7|Info|DownloadDecisionMaker|Processing 343 releases
+2025-06-09 09:48:38.1|Warn|ProcessDownloadDecisions|Couldn't add release 'MobLand (2025) WEB-DL 1080p | AVC S1E1-10 of 10 RUS' from Indexer BitRu (Prowlarr) to download queue.
+
+[v4.0.14.2939] NzbDrone.Core.Download.Clients.DownloadClientException: Download client failed to add torrent
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.AddTorrentFromFile(String fileName, Byte[] fileContent, TorrentSeedConfiguration seedConfiguration, QBittorrentSettings settings) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxyV2.cs:line 186
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.AddFromTorrentFile(RemoteEpisode remoteEpisode, String hash, String filename, Byte[] fileContent) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrent.cs:line 141
+   at NzbDrone.Core.Download.TorrentClientBase`1.DownloadFromWebUrl(RemoteEpisode remoteEpisode, IIndexer indexer, String torrentUrl) in ./Sonarr.Core/Download/TorrentClientBase.cs:line 204
+   at NzbDrone.Core.Download.TorrentClientBase`1.Download(RemoteEpisode remoteEpisode, IIndexer indexer) in ./Sonarr.Core/Download/TorrentClientBase.cs:line 124
+   at NzbDrone.Core.Download.DownloadService.DownloadReport(RemoteEpisode remoteEpisode, IDownloadClient downloadClient) in ./Sonarr.Core/Download/DownloadService.cs:line 98
+   at NzbDrone.Core.Download.DownloadService.DownloadReport(RemoteEpisode remoteEpisode, Nullable`1 downloadClientId) in ./Sonarr.Core/Download/DownloadService.cs:line 63
+   at NzbDrone.Core.Download.ProcessDownloadDecisions.ProcessDecisionInternal(DownloadDecision decision, Nullable`1 downloadClientId) in ./Sonarr.Core/Download/ProcessDownloadDecisions.cs:line 204
+
+2025-06-09 09:48:38.1|Info|RssSyncService|RSS Sync Completed. Reports found: 343, Reports grabbed: 0
+2025-06-09 10:04:04.7|Info|RssSyncService|Starting RSS Sync
+2025-06-09 10:04:06.7|Info|DownloadDecisionMaker|Processing 343 releases
+2025-06-09 10:04:08.2|Warn|ProcessDownloadDecisions|Couldn't add release 'MobLand (2025) WEB-DL 1080p | AVC S1E1-10 of 10 RUS' from Indexer BitRu (Prowlarr) to download queue.
+
+[v4.0.14.2939] NzbDrone.Core.Download.Clients.DownloadClientException: Download client failed to add torrent
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.AddTorrentFromFile(String fileName, Byte[] fileContent, TorrentSeedConfiguration seedConfiguration, QBittorrentSettings settings) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxyV2.cs:line 186
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.AddFromTorrentFile(RemoteEpisode remoteEpisode, String hash, String filename, Byte[] fileContent) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrent.cs:line 141
+   at NzbDrone.Core.Download.TorrentClientBase`1.DownloadFromWebUrl(RemoteEpisode remoteEpisode, IIndexer indexer, String torrentUrl) in ./Sonarr.Core/Download/TorrentClientBase.cs:line 204
+   at NzbDrone.Core.Download.TorrentClientBase`1.Download(RemoteEpisode remoteEpisode, IIndexer indexer) in ./Sonarr.Core/Download/TorrentClientBase.cs:line 124
+   at NzbDrone.Core.Download.DownloadService.DownloadReport(RemoteEpisode remoteEpisode, IDownloadClient downloadClient) in ./Sonarr.Core/Download/DownloadService.cs:line 98
+   at NzbDrone.Core.Download.DownloadService.DownloadReport(RemoteEpisode remoteEpisode, Nullable`1 downloadClientId) in ./Sonarr.Core/Download/DownloadService.cs:line 63
+   at NzbDrone.Core.Download.ProcessDownloadDecisions.ProcessDecisionInternal(DownloadDecision decision, Nullable`1 downloadClientId) in ./Sonarr.Core/Download/ProcessDownloadDecisions.cs:line 204
+
+2025-06-09 10:04:08.2|Info|RssSyncService|RSS Sync Completed. Reports found: 343, Reports grabbed: 0
+2025-06-09 10:19:34.9|Info|RssSyncService|Starting RSS Sync
+2025-06-09 10:20:01.9|Info|DownloadDecisionMaker|Processing 340 releases
+2025-06-09 10:20:03.2|Warn|ProcessDownloadDecisions|Couldn't add release 'MobLand (2025) WEB-DL 1080p | AVC S1E1-10 of 10 RUS' from Indexer BitRu (Prowlarr) to download queue.
+
+[v4.0.14.2939] NzbDrone.Core.Download.Clients.DownloadClientException: Download client failed to add torrent
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.AddTorrentFromFile(String fileName, Byte[] fileContent, TorrentSeedConfiguration seedConfiguration, QBittorrentSettings settings) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxyV2.cs:line 186
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.AddFromTorrentFile(RemoteEpisode remoteEpisode, String hash, String filename, Byte[] fileContent) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrent.cs:line 141
+   at NzbDrone.Core.Download.TorrentClientBase`1.DownloadFromWebUrl(RemoteEpisode remoteEpisode, IIndexer indexer, String torrentUrl) in ./Sonarr.Core/Download/TorrentClientBase.cs:line 204
+   at NzbDrone.Core.Download.TorrentClientBase`1.Download(RemoteEpisode remoteEpisode, IIndexer indexer) in ./Sonarr.Core/Download/TorrentClientBase.cs:line 124
+   at NzbDrone.Core.Download.DownloadService.DownloadReport(RemoteEpisode remoteEpisode, IDownloadClient downloadClient) in ./Sonarr.Core/Download/DownloadService.cs:line 98
+   at NzbDrone.Core.Download.DownloadService.DownloadReport(RemoteEpisode remoteEpisode, Nullable`1 downloadClientId) in ./Sonarr.Core/Download/DownloadService.cs:line 63
+   at NzbDrone.Core.Download.ProcessDownloadDecisions.ProcessDecisionInternal(DownloadDecision decision, Nullable`1 downloadClientId) in ./Sonarr.Core/Download/ProcessDownloadDecisions.cs:line 204
+
+2025-06-09 10:20:03.2|Info|RssSyncService|RSS Sync Completed. Reports found: 340, Reports grabbed: 0
+2025-06-09 10:35:05.1|Info|RssSyncService|Starting RSS Sync
+2025-06-09 10:35:15.1|Info|DownloadDecisionMaker|Processing 339 releases
+2025-06-09 10:35:16.8|Warn|ProcessDownloadDecisions|Couldn't add release 'MobLand (2025) WEB-DL 1080p | AVC S1E1-10 of 10 RUS' from Indexer BitRu (Prowlarr) to download queue.
+
+[v4.0.14.2939] NzbDrone.Core.Download.Clients.DownloadClientException: Download client failed to add torrent
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.AddTorrentFromFile(String fileName, Byte[] fileContent, TorrentSeedConfiguration seedConfiguration, QBittorrentSettings settings) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxyV2.cs:line 186
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.AddFromTorrentFile(RemoteEpisode remoteEpisode, String hash, String filename, Byte[] fileContent) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrent.cs:line 141
+   at NzbDrone.Core.Download.TorrentClientBase`1.DownloadFromWebUrl(RemoteEpisode remoteEpisode, IIndexer indexer, String torrentUrl) in ./Sonarr.Core/Download/TorrentClientBase.cs:line 204
+   at NzbDrone.Core.Download.TorrentClientBase`1.Download(RemoteEpisode remoteEpisode, IIndexer indexer) in ./Sonarr.Core/Download/TorrentClientBase.cs:line 124
+   at NzbDrone.Core.Download.DownloadService.DownloadReport(RemoteEpisode remoteEpisode, IDownloadClient downloadClient) in ./Sonarr.Core/Download/DownloadService.cs:line 98
+   at NzbDrone.Core.Download.DownloadService.DownloadReport(RemoteEpisode remoteEpisode, Nullable`1 downloadClientId) in ./Sonarr.Core/Download/DownloadService.cs:line 63
+   at NzbDrone.Core.Download.ProcessDownloadDecisions.ProcessDecisionInternal(DownloadDecision decision, Nullable`1 downloadClientId) in ./Sonarr.Core/Download/ProcessDownloadDecisions.cs:line 204
+
+2025-06-09 10:35:16.8|Info|RssSyncService|RSS Sync Completed. Reports found: 339, Reports grabbed: 0
+2025-06-09 10:50:35.3|Info|RssSyncService|Starting RSS Sync
+2025-06-09 10:50:41.7|Info|DownloadDecisionMaker|Processing 338 releases
+2025-06-09 10:50:43.4|Warn|ProcessDownloadDecisions|Couldn't add release 'MobLand (2025) WEB-DL 1080p | AVC S1E1-10 of 10 RUS' from Indexer BitRu (Prowlarr) to download queue.
+
+[v4.0.14.2939] NzbDrone.Core.Download.Clients.DownloadClientException: Download client failed to add torrent
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.AddTorrentFromFile(String fileName, Byte[] fileContent, TorrentSeedConfiguration seedConfiguration, QBittorrentSettings settings) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxyV2.cs:line 186
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.AddFromTorrentFile(RemoteEpisode remoteEpisode, String hash, String filename, Byte[] fileContent) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrent.cs:line 141
+   at NzbDrone.Core.Download.TorrentClientBase`1.DownloadFromWebUrl(RemoteEpisode remoteEpisode, IIndexer indexer, String torrentUrl) in ./Sonarr.Core/Download/TorrentClientBase.cs:line 204
+   at NzbDrone.Core.Download.TorrentClientBase`1.Download(RemoteEpisode remoteEpisode, IIndexer indexer) in ./Sonarr.Core/Download/TorrentClientBase.cs:line 124
+   at NzbDrone.Core.Download.DownloadService.DownloadReport(RemoteEpisode remoteEpisode, IDownloadClient downloadClient) in ./Sonarr.Core/Download/DownloadService.cs:line 98
+   at NzbDrone.Core.Download.DownloadService.DownloadReport(RemoteEpisode remoteEpisode, Nullable`1 downloadClientId) in ./Sonarr.Core/Download/DownloadService.cs:line 63
+   at NzbDrone.Core.Download.ProcessDownloadDecisions.ProcessDecisionInternal(DownloadDecision decision, Nullable`1 downloadClientId) in ./Sonarr.Core/Download/ProcessDownloadDecisions.cs:line 204
+
+2025-06-09 10:50:43.4|Info|RssSyncService|RSS Sync Completed. Reports found: 338, Reports grabbed: 0
+2025-06-09 10:57:35.4|Info|SceneMappingService|Updating Scene mappings
+2025-06-09 11:06:05.5|Info|RssSyncService|Starting RSS Sync
+2025-06-09 11:06:21.8|Info|DownloadDecisionMaker|Processing 337 releases
+2025-06-09 11:06:22.8|Info|RssSyncService|RSS Sync Completed. Reports found: 337, Reports grabbed: 0
+2025-06-09 11:13:33.7|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 11:21:39.0|Info|RssSyncService|Starting RSS Sync
+2025-06-09 11:21:44.7|Info|DownloadDecisionMaker|Processing 333 releases
+2025-06-09 11:21:45.7|Info|RssSyncService|RSS Sync Completed. Reports found: 333, Reports grabbed: 0
+2025-06-09 11:37:09.2|Info|RssSyncService|Starting RSS Sync
+2025-06-09 11:37:15.4|Info|DownloadDecisionMaker|Processing 330 releases
+2025-06-09 11:37:16.4|Info|RssSyncService|RSS Sync Completed. Reports found: 330, Reports grabbed: 0
+2025-06-09 11:37:20.5|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 11:52:39.3|Info|RssSyncService|Starting RSS Sync
+2025-06-09 11:52:52.5|Info|DownloadDecisionMaker|Processing 330 releases
+2025-06-09 11:52:53.6|Info|RssSyncService|RSS Sync Completed. Reports found: 330, Reports grabbed: 0
+2025-06-09 12:02:39.3|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 12:02:39.3|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 12:02:39.3|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 12:02:39.3|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 12:02:39.4|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 12:02:39.4|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 12:02:39.4|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 12:02:39.4|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 12:02:39.7|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 12:02:39.7|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 12:02:39.7|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 12:02:39.7|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 12:02:39.8|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 12:03:39.3|Info|Sonarr.Http.Authentication.BasicAuthenticationHandler|Basic was not authenticated. Failure message: Authorization header missing.
+2025-06-09 12:08:09.5|Info|RssSyncService|Starting RSS Sync
+2025-06-09 12:08:13.8|Info|DownloadDecisionMaker|Processing 330 releases
+2025-06-09 12:08:14.8|Info|RssSyncService|RSS Sync Completed. Reports found: 330, Reports grabbed: 0
+2025-06-09 12:23:39.8|Info|RssSyncService|Starting RSS Sync
+2025-06-09 12:23:47.2|Info|DownloadDecisionMaker|Processing 330 releases
+2025-06-09 12:23:48.2|Info|RssSyncService|RSS Sync Completed. Reports found: 330, Reports grabbed: 0
+2025-06-09 12:39:09.9|Info|RssSyncService|Starting RSS Sync
+2025-06-09 12:39:19.5|Info|DownloadDecisionMaker|Processing 330 releases
+2025-06-09 12:39:20.6|Info|RssSyncService|RSS Sync Completed. Reports found: 330, Reports grabbed: 0
+2025-06-09 12:54:40.1|Info|RssSyncService|Starting RSS Sync
+2025-06-09 12:55:07.0|Info|DownloadDecisionMaker|Processing 329 releases
+2025-06-09 12:55:08.1|Info|RssSyncService|RSS Sync Completed. Reports found: 329, Reports grabbed: 0
+2025-06-09 13:10:10.3|Info|RssSyncService|Starting RSS Sync
+2025-06-09 13:10:18.4|Info|DownloadDecisionMaker|Processing 330 releases
+2025-06-09 13:10:19.4|Info|RssSyncService|RSS Sync Completed. Reports found: 330, Reports grabbed: 0
+2025-06-09 13:25:40.5|Info|RssSyncService|Starting RSS Sync
+2025-06-09 13:25:47.3|Info|DownloadDecisionMaker|Processing 330 releases
+2025-06-09 13:25:48.4|Info|RssSyncService|RSS Sync Completed. Reports found: 330, Reports grabbed: 0
+2025-06-09 13:41:10.7|Info|RssSyncService|Starting RSS Sync
+2025-06-09 13:41:28.6|Info|DownloadDecisionMaker|Processing 329 releases
+2025-06-09 13:41:30.2|Info|RssSyncService|RSS Sync Completed. Reports found: 329, Reports grabbed: 0
+2025-06-09 13:56:40.9|Info|RssSyncService|Starting RSS Sync
+2025-06-09 13:56:43.7|Info|DownloadDecisionMaker|Processing 329 releases
+2025-06-09 13:56:44.7|Info|RssSyncService|RSS Sync Completed. Reports found: 329, Reports grabbed: 0
+2025-06-09 13:57:40.9|Info|SceneMappingService|Updating Scene mappings
+2025-06-09 14:12:11.0|Info|RssSyncService|Starting RSS Sync
+2025-06-09 14:12:28.3|Info|DownloadDecisionMaker|Processing 329 releases
+2025-06-09 14:12:29.8|Info|RssSyncService|RSS Sync Completed. Reports found: 329, Reports grabbed: 0
+2025-06-09 14:25:24.2|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
+2025-06-09 14:25:26.4|Info|ConsoleApp|Exiting main.
+2025-06-09 14:26:50.1|Info|Bootstrap|Starting Sonarr - /app/bin/Sonarr - Version 4.0.14.2939
+2025-06-09 14:26:50.4|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-06-09 14:26:50.5|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-06-09 14:26:52.8|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2025-06-09 14:26:54.0|Info|MigrationController|*** Migrating data source=/config/sonarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-06-09 14:26:54.4|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-06-09 14:26:54.4|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-06-09 14:26:54.4|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-06-09 14:26:54.6|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-06-09 14:26:54.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.1596326s
+2025-06-09 14:26:54.6|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-06-09 14:26:54.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.1646264s
+2025-06-09 14:26:55.6|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3;busytimeout=100 ***
+2025-06-09 14:26:55.6|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrating
+2025-06-09 14:26:55.6|Info|FluentMigrator.Runner.MigrationRunner|PerformDBOperation 
+2025-06-09 14:26:55.6|Info|NzbDrone.Core.Datastore.Migration.Framework.NzbDroneSQLiteProcessor|Performing DB Operation
+2025-06-09 14:26:55.6|Info|DatabaseEngineVersionCheck|SQLite 3.49.2
+2025-06-09 14:26:55.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0091045s
+2025-06-09 14:26:55.6|Info|FluentMigrator.Runner.MigrationRunner|DatabaseEngineVersionCheck migrated
+2025-06-09 14:26:55.6|Info|FluentMigrator.Runner.MigrationRunner|=> 0.0100124s
+2025-06-09 14:26:56.3|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:8989
+2025-06-09 14:26:56.3|Info|UpdaterConfigProvider|Update mechanism BuiltIn not supported in the current configuration, changing to Docker.
+2025-06-09 14:26:57.7|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2025-06-09 14:26:57.7|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2025-06-09 14:26:57.7|Info|Microsoft.Hosting.Lifetime|Content root path: /app/bin
+2025-06-09 14:26:58.4|Info|ManagedHttpDispatcher|IPv4 is available: True, IPv6 will be disabled
+2025-06-09 14:27:00.5|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 14:27:27.6|Info|RefreshSeriesService|Skipping refresh of series: Dept. Q
+2025-06-09 14:27:27.6|Info|DiskScanService|Scanning Dept. Q
+2025-06-09 14:27:29.7|Info|DiskScanService|Completed scanning disk for Dept. Q
+2025-06-09 14:27:29.7|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2025-06-09 14:27:29.7|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2025-06-09 14:27:29.7|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2025-06-09 14:27:29.7|Info|ExistingExtraFileService|Found 0 possible extra files, imported 0 files.
+2025-06-09 14:27:29.8|Info|RefreshSeriesService|Skipping refresh of series: MobLand
+2025-06-09 14:27:29.8|Info|DiskScanService|Scanning MobLand
+2025-06-09 14:27:29.8|Info|DiskScanService|Completed scanning disk for MobLand
+2025-06-09 14:27:29.8|Info|ExistingMetadataImporter|Found 0 existing metadata files
+2025-06-09 14:27:29.8|Info|ExistingSubtitleImporter|Found 0 existing subtitle files
+2025-06-09 14:27:29.8|Info|ExistingOtherExtraImporter|Found 0 existing other extra files
+2025-06-09 14:27:29.8|Info|ExistingExtraFileService|Found 0 possible extra files, imported 0 files.
+2025-06-09 14:27:29.8|Info|MetadataService|Series folder does not exist, skipping metadata creation
+2025-06-09 14:27:30.9|Info|RecycleBinProvider|Recycling Bin has not been configured, deleting permanently. /media/Dept. Q/Season 1/Dept. Q - S01E04 - Episode 4 WEBDL-1080p.mkv
+2025-06-09 14:27:57.6|Info|RssSyncService|Starting RSS Sync
+2025-06-09 14:27:57.9|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/1/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 14:27:58.1|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/1/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 14:27:58.1|Warn|Torznab|AniLibria (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:9696/1/api?t=caps&apikey=(removed)
+2025-06-09 14:27:58.2|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/2/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 14:27:58.2|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/2/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 14:27:58.2|Warn|Torznab|BigFANGroup (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:9696/2/api?t=caps&apikey=(removed)
+2025-06-09 14:27:58.2|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/3/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 14:27:58.2|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/3/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 14:27:58.2|Warn|Torznab|BitRu (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:9696/3/api?t=caps&apikey=(removed)
+2025-06-09 14:27:58.2|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/4/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 14:27:58.2|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/4/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 14:27:58.2|Warn|Torznab|NoNaMe Club (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:9696/4/api?t=caps&apikey=(removed)
+2025-06-09 14:27:58.3|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/6/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 14:27:58.3|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/6/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 14:27:58.3|Warn|Torznab|RuTracker.RU (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:9696/6/api?t=caps&apikey=(removed)
+2025-06-09 14:27:58.3|Info|DownloadDecisionMaker|No results found
+2025-06-09 14:27:58.3|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-06-09 14:28:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 14:29:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 14:30:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 14:31:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 14:32:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 14:33:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 14:34:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 14:35:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 14:36:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 14:37:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 14:38:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 14:39:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 14:40:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 14:41:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 14:42:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 14:43:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 14:43:27.9|Info|RssSyncService|Starting RSS Sync
+2025-06-09 14:43:28.0|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/1/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 14:43:28.0|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/1/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 14:43:28.0|Warn|Torznab|AniLibria (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:9696/1/api?t=caps&apikey=(removed)
+2025-06-09 14:43:28.0|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/2/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 14:43:28.1|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/2/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 14:43:28.1|Warn|Torznab|BigFANGroup (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:9696/2/api?t=caps&apikey=(removed)
+2025-06-09 14:43:28.1|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/3/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 14:43:28.1|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/3/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 14:43:28.1|Warn|Torznab|BitRu (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:9696/3/api?t=caps&apikey=(removed)
+2025-06-09 14:43:28.1|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/4/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 14:43:28.1|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/4/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 14:43:28.2|Warn|Torznab|NoNaMe Club (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:9696/4/api?t=caps&apikey=(removed)
+2025-06-09 14:43:28.2|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/6/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 14:43:28.2|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/6/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 14:43:28.2|Warn|Torznab|RuTracker.RU (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:9696/6/api?t=caps&apikey=(removed)
+2025-06-09 14:43:28.2|Info|DownloadDecisionMaker|No results found
+2025-06-09 14:43:28.2|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-06-09 14:44:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 14:45:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 14:46:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 14:47:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 14:48:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 14:49:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 14:50:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 14:51:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 14:52:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 14:53:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 14:54:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 14:55:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 14:56:00.1|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 14:57:00.1|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 14:58:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 14:58:28.5|Info|RssSyncService|Starting RSS Sync
+2025-06-09 14:58:28.6|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/1/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 14:58:28.6|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/1/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 14:58:28.6|Warn|Torznab|AniLibria (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:9696/1/api?t=caps&apikey=(removed)
+2025-06-09 14:58:28.6|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/2/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 14:58:28.7|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/2/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 14:58:28.7|Warn|Torznab|BigFANGroup (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:9696/2/api?t=caps&apikey=(removed)
+2025-06-09 14:58:28.7|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/3/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 14:58:28.7|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/3/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 14:58:28.7|Warn|Torznab|BitRu (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:9696/3/api?t=caps&apikey=(removed)
+2025-06-09 14:58:28.7|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/4/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 14:58:28.7|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/4/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 14:58:28.7|Warn|Torznab|NoNaMe Club (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:9696/4/api?t=caps&apikey=(removed)
+2025-06-09 14:58:28.7|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/6/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 14:58:28.8|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/6/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 14:58:28.8|Warn|Torznab|RuTracker.RU (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:9696/6/api?t=caps&apikey=(removed)
+2025-06-09 14:58:28.8|Info|DownloadDecisionMaker|No results found
+2025-06-09 14:58:28.8|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-06-09 14:59:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:00:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:01:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:02:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:03:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:04:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:05:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:06:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:07:00.1|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:08:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:09:00.1|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:10:00.4|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:11:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:12:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:13:00.7|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:13:35.2|Info|RssSyncService|Starting RSS Sync
+2025-06-09 15:13:36.1|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/1/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 15:13:36.2|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/1/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 15:13:36.2|Warn|Torznab|AniLibria (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:9696/1/api?t=caps&apikey=(removed)
+2025-06-09 15:13:36.2|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/2/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 15:13:36.2|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/2/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 15:13:36.2|Warn|Torznab|BigFANGroup (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:9696/2/api?t=caps&apikey=(removed)
+2025-06-09 15:13:36.2|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/3/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 15:13:36.3|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/3/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 15:13:36.3|Warn|Torznab|BitRu (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:9696/3/api?t=caps&apikey=(removed)
+2025-06-09 15:13:36.3|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/4/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 15:13:36.3|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/4/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 15:13:36.5|Warn|Torznab|NoNaMe Club (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:9696/4/api?t=caps&apikey=(removed)
+2025-06-09 15:13:36.5|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/6/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 15:13:36.5|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/6/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 15:13:36.5|Warn|Torznab|RuTracker.RU (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:9696/6/api?t=caps&apikey=(removed)
+2025-06-09 15:13:36.5|Info|DownloadDecisionMaker|No results found
+2025-06-09 15:13:36.5|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-06-09 15:14:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:15:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:16:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:17:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:18:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:19:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:20:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:20:38.6|Warn|Microsoft.AspNetCore.Server.Kestrel|As of "06/09/2025 15:20:36 +00:00", the heartbeat has been running for "00:00:01.3814519" which is longer than "00:00:01". This could be caused by thread pool starvation.
+2025-06-09 15:21:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:22:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:23:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:24:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:25:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:26:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:27:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:28:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:29:00.2|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:29:05.6|Info|RssSyncService|Starting RSS Sync
+2025-06-09 15:29:05.7|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-06-09 15:29:05.7|Info|DownloadDecisionMaker|No results found
+2025-06-09 15:29:05.8|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-06-09 15:30:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:31:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:32:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:33:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:34:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:35:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:36:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:37:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:38:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:39:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:40:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:41:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:42:01.5|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:42:01.7|Warn|Microsoft.AspNetCore.Server.Kestrel|As of "06/09/2025 15:42:00 +00:00", the heartbeat has been running for "00:00:01.5213158" which is longer than "00:00:01". This could be caused by thread pool starvation.
+2025-06-09 15:43:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:44:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:44:07.4|Info|RssSyncService|Starting RSS Sync
+2025-06-09 15:44:07.6|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/1/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 15:44:07.6|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/1/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 15:44:07.7|Warn|Torznab|AniLibria (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:9696/1/api?t=caps&apikey=(removed)
+2025-06-09 15:44:07.7|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/2/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 15:44:07.7|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/2/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 15:44:08.5|Warn|Torznab|BigFANGroup (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:9696/2/api?t=caps&apikey=(removed)
+2025-06-09 15:44:08.5|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/3/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 15:44:08.6|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/3/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 15:44:08.8|Warn|Torznab|BitRu (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:9696/3/api?t=caps&apikey=(removed)
+2025-06-09 15:44:08.8|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/4/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 15:44:08.8|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/4/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 15:44:08.9|Warn|Torznab|NoNaMe Club (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:9696/4/api?t=caps&apikey=(removed)
+2025-06-09 15:44:09.0|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/6/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 15:44:09.0|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/6/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 15:44:09.0|Warn|Torznab|RuTracker.RU (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:9696/6/api?t=caps&apikey=(removed)
+2025-06-09 15:44:09.0|Info|DownloadDecisionMaker|No results found
+2025-06-09 15:44:09.0|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-06-09 15:45:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:46:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:47:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:48:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:49:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:50:00.1|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:51:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:52:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:53:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:54:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:55:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:56:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:57:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:58:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:59:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 15:59:38.9|Info|RssSyncService|Starting RSS Sync
+2025-06-09 15:59:38.9|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-06-09 15:59:39.0|Info|DownloadDecisionMaker|No results found
+2025-06-09 15:59:39.0|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-06-09 16:00:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:01:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:02:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:03:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:04:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:05:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:06:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:07:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:08:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:09:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:10:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:11:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:12:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:13:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:14:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:14:39.1|Info|RssSyncService|Starting RSS Sync
+2025-06-09 16:14:39.1|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-06-09 16:14:39.1|Info|DownloadDecisionMaker|No results found
+2025-06-09 16:14:39.1|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-06-09 16:15:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:16:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:17:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:18:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:19:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:20:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:21:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:22:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:23:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:24:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:25:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:26:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:27:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:28:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:29:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:29:39.4|Info|RssSyncService|Starting RSS Sync
+2025-06-09 16:29:39.4|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-06-09 16:29:39.5|Info|DownloadDecisionMaker|No results found
+2025-06-09 16:29:39.5|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-06-09 16:30:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:31:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:32:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:33:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:34:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:35:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:36:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:37:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:38:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:39:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:40:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:41:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:42:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:43:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:44:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:44:39.6|Info|RssSyncService|Starting RSS Sync
+2025-06-09 16:44:39.7|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/1/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 16:44:39.7|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/1/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 16:44:39.7|Warn|Torznab|AniLibria (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:9696/1/api?t=caps&apikey=(removed)
+2025-06-09 16:44:39.7|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/2/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 16:44:39.7|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/2/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 16:44:39.7|Warn|Torznab|BigFANGroup (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:9696/2/api?t=caps&apikey=(removed)
+2025-06-09 16:44:39.7|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/3/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 16:44:39.8|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/3/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 16:44:39.8|Warn|Torznab|BitRu (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:9696/3/api?t=caps&apikey=(removed)
+2025-06-09 16:44:39.8|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/4/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 16:44:39.8|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/4/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 16:44:39.8|Warn|Torznab|NoNaMe Club (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:9696/4/api?t=caps&apikey=(removed)
+2025-06-09 16:44:39.8|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/6/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 16:44:39.8|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/6/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 16:44:39.8|Warn|Torznab|RuTracker.RU (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:9696/6/api?t=caps&apikey=(removed)
+2025-06-09 16:44:39.8|Info|DownloadDecisionMaker|No results found
+2025-06-09 16:44:39.8|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-06-09 16:45:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:46:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:47:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:48:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:49:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:50:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:51:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:52:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:53:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:54:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:55:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:55:40.0|Info|RecycleBinProvider|Recycle Bin has not been configured, cannot cleanup.
+2025-06-09 16:55:40.1|Info|HousekeepingService|Running housecleaning tasks
+2025-06-09 16:55:40.3|Info|Database|Vacuuming Log database
+2025-06-09 16:55:40.3|Info|Database|Log database compressed
+2025-06-09 16:55:40.3|Info|Database|Vacuuming Main database
+2025-06-09 16:55:40.6|Info|Database|Main database compressed
+2025-06-09 16:56:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:57:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:58:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:58:10.0|Info|SceneMappingService|Updating Scene mappings
+2025-06-09 16:59:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 16:59:40.0|Info|RssSyncService|Starting RSS Sync
+2025-06-09 16:59:40.0|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-06-09 16:59:40.0|Info|DownloadDecisionMaker|No results found
+2025-06-09 16:59:40.0|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-06-09 17:00:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:01:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:02:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:03:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:04:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:05:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:06:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:07:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:08:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:09:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:10:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:11:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:12:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:13:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:14:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:14:40.2|Info|RssSyncService|Starting RSS Sync
+2025-06-09 17:14:40.2|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-06-09 17:14:40.2|Info|DownloadDecisionMaker|No results found
+2025-06-09 17:14:40.2|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-06-09 17:15:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:16:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:17:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:18:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:19:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:20:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:21:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:22:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:23:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:24:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:25:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:26:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:27:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:28:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:29:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:29:40.4|Info|RssSyncService|Starting RSS Sync
+2025-06-09 17:29:40.4|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-06-09 17:29:40.4|Info|DownloadDecisionMaker|No results found
+2025-06-09 17:29:40.4|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-06-09 17:30:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:31:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:32:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:33:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:34:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:35:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:36:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:37:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:38:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:39:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:40:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:41:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:42:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:43:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:44:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:44:40.5|Info|RssSyncService|Starting RSS Sync
+2025-06-09 17:44:40.5|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-06-09 17:44:40.5|Info|DownloadDecisionMaker|No results found
+2025-06-09 17:44:40.5|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-06-09 17:45:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:46:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:47:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:48:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:49:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:50:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:51:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:52:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:53:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:54:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:55:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:56:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:57:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:58:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:59:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 17:59:40.7|Info|RssSyncService|Starting RSS Sync
+2025-06-09 17:59:40.7|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-06-09 17:59:40.7|Info|DownloadDecisionMaker|No results found
+2025-06-09 17:59:40.7|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-06-09 18:00:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:01:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:02:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:03:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:04:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:05:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:06:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:07:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:08:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:09:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:10:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:11:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:12:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:13:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:14:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:14:40.9|Info|RssSyncService|Starting RSS Sync
+2025-06-09 18:14:40.9|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-06-09 18:14:40.9|Info|DownloadDecisionMaker|No results found
+2025-06-09 18:14:40.9|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-06-09 18:15:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:16:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:17:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:18:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:19:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:20:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:21:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:22:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:23:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:24:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:25:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:26:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:27:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:28:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:29:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:29:41.1|Info|RssSyncService|Starting RSS Sync
+2025-06-09 18:29:41.2|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-06-09 18:29:41.2|Info|DownloadDecisionMaker|No results found
+2025-06-09 18:29:41.2|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-06-09 18:30:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:31:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:32:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:33:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:34:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:35:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:36:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:37:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:38:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:39:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:40:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:41:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:42:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:43:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:44:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:44:41.3|Info|RssSyncService|Starting RSS Sync
+2025-06-09 18:44:41.3|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-06-09 18:44:41.3|Info|DownloadDecisionMaker|No results found
+2025-06-09 18:44:41.3|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-06-09 18:45:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:46:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:47:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:48:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:49:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:50:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:51:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:52:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:53:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:54:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:55:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:56:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:57:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:58:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:59:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 18:59:41.5|Info|RssSyncService|Starting RSS Sync
+2025-06-09 18:59:41.5|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-06-09 18:59:41.5|Info|DownloadDecisionMaker|No results found
+2025-06-09 18:59:41.5|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-06-09 19:00:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:01:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:02:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:03:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:04:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:05:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:06:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:07:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:08:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:09:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:10:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:11:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:12:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:13:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:14:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:14:41.7|Info|RssSyncService|Starting RSS Sync
+2025-06-09 19:14:41.7|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-06-09 19:14:41.7|Info|DownloadDecisionMaker|No results found
+2025-06-09 19:14:41.7|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-06-09 19:15:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:16:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:17:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:18:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:19:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:20:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:21:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:22:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:23:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:24:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:25:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:26:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:27:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:28:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:29:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:29:41.9|Info|RssSyncService|Starting RSS Sync
+2025-06-09 19:29:41.9|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-06-09 19:29:41.9|Info|DownloadDecisionMaker|No results found
+2025-06-09 19:29:41.9|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-06-09 19:30:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:31:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:31:07.1|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:32:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:33:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:34:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:35:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:36:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:37:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:38:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:39:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:40:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:41:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:42:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:43:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:44:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:44:42.0|Info|RssSyncService|Starting RSS Sync
+2025-06-09 19:44:42.1|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/1/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 19:44:42.1|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/1/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 19:44:42.2|Warn|Torznab|AniLibria (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:9696/1/api?t=caps&apikey=(removed)
+2025-06-09 19:44:42.2|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/2/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 19:44:42.2|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/2/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 19:44:42.2|Warn|Torznab|BigFANGroup (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:9696/2/api?t=caps&apikey=(removed)
+2025-06-09 19:44:42.2|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/3/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 19:44:42.2|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/3/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 19:44:42.2|Warn|Torznab|BitRu (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:9696/3/api?t=caps&apikey=(removed)
+2025-06-09 19:44:42.2|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/4/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 19:44:42.2|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/4/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 19:44:42.2|Warn|Torznab|NoNaMe Club (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:9696/4/api?t=caps&apikey=(removed)
+2025-06-09 19:44:42.2|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/6/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 19:44:42.2|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:9696/6/api?t=caps&apikey=(removed) 401.Unauthorized (0 bytes)
+2025-06-09 19:44:42.3|Warn|Torznab|RuTracker.RU (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:9696/6/api?t=caps&apikey=(removed)
+2025-06-09 19:44:42.3|Info|DownloadDecisionMaker|No results found
+2025-06-09 19:44:42.3|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-06-09 19:45:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:46:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:47:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:48:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:49:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:50:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:51:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:52:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:53:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:54:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:55:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:56:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:57:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:58:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 19:58:42.2|Info|SceneMappingService|Updating Scene mappings
+2025-06-09 19:59:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:00:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:00:12.2|Info|RssSyncService|Starting RSS Sync
+2025-06-09 20:00:12.3|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-06-09 20:00:12.3|Info|DownloadDecisionMaker|No results found
+2025-06-09 20:00:12.3|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-06-09 20:01:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:02:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:03:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:04:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:05:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:06:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:07:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:08:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:09:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:10:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:11:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:12:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:13:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:14:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:15:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:15:12.4|Info|RssSyncService|Starting RSS Sync
+2025-06-09 20:15:12.4|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-06-09 20:15:12.4|Info|DownloadDecisionMaker|No results found
+2025-06-09 20:15:12.4|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-06-09 20:16:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:17:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:18:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:19:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:20:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:21:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:22:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:23:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:24:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:25:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:26:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:27:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:28:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:29:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:30:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:30:12.6|Info|RssSyncService|Starting RSS Sync
+2025-06-09 20:30:12.6|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-06-09 20:30:12.6|Info|DownloadDecisionMaker|No results found
+2025-06-09 20:30:12.6|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-06-09 20:31:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:32:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:33:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:34:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:35:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:36:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:37:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:38:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:39:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:40:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:41:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:42:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:43:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:44:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:45:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:45:12.8|Info|RssSyncService|Starting RSS Sync
+2025-06-09 20:45:12.8|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-06-09 20:45:12.8|Info|DownloadDecisionMaker|No results found
+2025-06-09 20:45:12.8|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-06-09 20:46:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:47:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:48:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:49:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:50:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:51:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:52:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:53:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:54:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:55:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:56:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:57:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:58:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 20:59:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:00:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:00:12.9|Info|RssSyncService|Starting RSS Sync
+2025-06-09 21:00:12.9|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-06-09 21:00:13.0|Info|DownloadDecisionMaker|No results found
+2025-06-09 21:00:13.0|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-06-09 21:01:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:02:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:03:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:04:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:05:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:06:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:07:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:08:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:09:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:10:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:11:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:12:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:13:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:14:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:15:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:15:13.1|Info|RssSyncService|Starting RSS Sync
+2025-06-09 21:15:13.1|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-06-09 21:15:13.1|Info|DownloadDecisionMaker|No results found
+2025-06-09 21:15:13.1|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-06-09 21:16:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:17:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:18:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:19:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:20:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:21:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:22:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:23:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:24:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:25:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:26:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:27:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:28:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:29:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:30:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:30:13.3|Info|RssSyncService|Starting RSS Sync
+2025-06-09 21:30:13.3|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-06-09 21:30:13.3|Info|DownloadDecisionMaker|No results found
+2025-06-09 21:30:13.3|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-06-09 21:31:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:32:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:33:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:34:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:35:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:36:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:37:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:38:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:39:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:40:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:41:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:42:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:43:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:44:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:45:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:45:13.5|Info|RssSyncService|Starting RSS Sync
+2025-06-09 21:45:13.5|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-06-09 21:45:13.5|Info|DownloadDecisionMaker|No results found
+2025-06-09 21:45:13.5|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-06-09 21:46:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:47:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:48:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:49:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:50:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:51:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:52:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:53:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:54:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:55:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:56:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:57:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:58:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 21:59:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:00:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:00:13.7|Info|RssSyncService|Starting RSS Sync
+2025-06-09 22:00:13.7|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-06-09 22:00:13.7|Info|DownloadDecisionMaker|No results found
+2025-06-09 22:00:13.7|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-06-09 22:01:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:02:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:03:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:04:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:05:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:06:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:07:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:08:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:09:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:10:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:11:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:12:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:13:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:14:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:15:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:15:13.9|Info|RssSyncService|Starting RSS Sync
+2025-06-09 22:15:13.9|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-06-09 22:15:13.9|Info|DownloadDecisionMaker|No results found
+2025-06-09 22:15:13.9|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-06-09 22:16:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:17:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:18:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:19:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:20:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:21:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:22:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:23:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:24:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:25:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:26:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:27:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:28:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:29:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:30:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:30:14.0|Info|RssSyncService|Starting RSS Sync
+2025-06-09 22:30:14.0|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-06-09 22:30:14.0|Info|DownloadDecisionMaker|No results found
+2025-06-09 22:30:14.0|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-06-09 22:31:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:32:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:33:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:34:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:35:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:36:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:37:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:38:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:39:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:40:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:41:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:42:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:43:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:44:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:45:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:45:14.2|Info|RssSyncService|Starting RSS Sync
+2025-06-09 22:45:14.2|Warn|FetchAndParseRssService|No available indexers. check your configuration.
+2025-06-09 22:45:14.2|Info|DownloadDecisionMaker|No results found
+2025-06-09 22:45:14.2|Info|RssSyncService|RSS Sync Completed. Reports found: 0, Reports grabbed: 0
+2025-06-09 22:46:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:47:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:48:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:49:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:50:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:51:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:52:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:53:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:54:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:55:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:56:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:57:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:58:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:59:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-09 22:59:14.4|Info|SceneMappingService|Updating Scene mappings
+2025-06-09 23:00:00.0|Info|Sonarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.

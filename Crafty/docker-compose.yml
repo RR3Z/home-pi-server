@@ -1,0 +1,18 @@
+services:
+  crafty:
+    container_name: crafty
+    image: arcadiatechnology/crafty-4:latest
+    restart: always
+    environment:
+        - TZ=Europe/Moscow
+    ports:
+        - "8443:8443" # HTTPS
+        - "8123:8123" # DYNMAP
+        - "19132:19132/udp" # BEDROCK
+        - "25500-25600:25500-25600" # MC SERV PORT RANGE
+    volumes:
+        - /mnt/hdd/minecraft-servers/backups:/backups
+        - /mnt/hdd/minecraft-servers/logs:/logs
+        - /mnt/hdd/minecraft-servers/servers:/servers
+        - /mnt/hdd/minecraft-servers/config:/app/config
+        - /mnt/hdd/minecraft-servers/import:/import
