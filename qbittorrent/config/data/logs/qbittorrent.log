@@ -188,3 +188,7 @@
 (W) 2025-06-09T14:29:24 - UPnP/NAT-PMP port mapping failed. Message: "could not map port using UPnP: no router found"
 (W) 2025-06-09T14:29:24 - UPnP/NAT-PMP port mapping failed. Message: "could not map port using UPnP: no router found"
 (N) 2025-06-09T17:29:38 - Torrent stopped. Torrent: "Отдел нераскрытых дел (Dept. Q) Сезон 1"
+(N) 2025-06-10T06:12:24 - qBittorrent termination initiated
+(N) 2025-06-10T06:12:25 - Saving resume data completed.
+(N) 2025-06-10T06:12:25 - BitTorrent session successfully finished.
+(N) 2025-06-10T06:12:25 - qBittorrent is now ready to exit

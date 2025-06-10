@@ -8430,3 +8430,75 @@ RequestUri: https://megapeer.vip/browse.php?search=2025&cat=0&stype=0&sort=0&asc
 2025-06-09 20:39:06.5|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
 2025-06-09 22:56:37.4|Debug|InstallUpdateService|Checking for updates
 2025-06-09 22:56:38.1|Debug|InstallUpdateService|No update available
+2025-06-10 01:31:08.0|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:7878/api/v3/indexer: 401.Unauthorized (0 bytes)
+2025-06-10 01:31:08.0|Warn|ApplicationService|NzbDrone.Core.Applications.ApplicationService HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:7878/api/v3/indexer]
+
+[v1.37.0.5076] NzbDrone.Common.Http.HttpException: HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:7878/api/v3/indexer]
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.Applications.Radarr.RadarrV3Proxy.Execute[TResource](HttpRequest request) in ./Prowlarr.Core/Applications/Radarr/RadarrV3Proxy.cs:line 228
+   at NzbDrone.Core.Applications.Radarr.RadarrV3Proxy.GetIndexers(RadarrSettings settings) in ./Prowlarr.Core/Applications/Radarr/RadarrV3Proxy.cs:line 50
+   at NzbDrone.Core.Applications.Radarr.Radarr.GetIndexerMappings() in ./Prowlarr.Core/Applications/Radarr/Radarr.cs:line 93
+   at NzbDrone.Core.Applications.ApplicationService.<>c.<SyncIndexers>b__14_1(IApplication a) in ./Prowlarr.Core/Applications/ApplicationService.cs:line 137
+   at NzbDrone.Core.Applications.ApplicationService.ExecuteAction[TResult](Func`2 applicationAction, IApplication application) in ./Prowlarr.Core/Applications/ApplicationService.cs:line 287
+
+
+
+2025-06-10 01:31:08.1|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:8989/api/v3/indexer: 401.Unauthorized (0 bytes)
+2025-06-10 01:31:08.1|Warn|ApplicationService|NzbDrone.Core.Applications.ApplicationService HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:8989/api/v3/indexer]
+
+[v1.37.0.5076] NzbDrone.Common.Http.HttpException: HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:8989/api/v3/indexer]
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.Applications.Sonarr.SonarrV3Proxy.Execute[TResource](HttpRequest request) in ./Prowlarr.Core/Applications/Sonarr/SonarrV3Proxy.cs:line 215
+   at NzbDrone.Core.Applications.Sonarr.SonarrV3Proxy.GetIndexers(SonarrSettings settings) in ./Prowlarr.Core/Applications/Sonarr/SonarrV3Proxy.cs:line 49
+   at NzbDrone.Core.Applications.Sonarr.Sonarr.GetIndexerMappings() in ./Prowlarr.Core/Applications/Sonarr/Sonarr.cs:line 97
+   at NzbDrone.Core.Applications.ApplicationService.<>c.<SyncIndexers>b__14_1(IApplication a) in ./Prowlarr.Core/Applications/ApplicationService.cs:line 137
+   at NzbDrone.Core.Applications.ApplicationService.ExecuteAction[TResult](Func`2 applicationAction, IApplication application) in ./Prowlarr.Core/Applications/ApplicationService.cs:line 287
+
+
+
+2025-06-10 01:45:16.6|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-06-10 01:45:16.6|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-10 01:45:16.6|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-06-10 01:45:16.6|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-10 01:45:16.6|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-06-10 01:45:16.6|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-10 01:45:16.6|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-06-10 01:45:16.6|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-10 01:45:16.6|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-06-10 01:45:16.6|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-10 01:45:16.6|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-06-10 01:45:16.6|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-10 01:45:16.7|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-06-10 01:45:16.7|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-10 01:45:16.7|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-06-10 01:45:16.7|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-10 01:45:16.7|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-06-10 01:45:16.7|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-10 01:45:16.7|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-06-10 01:45:16.7|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-10 02:39:11.8|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-06-10 02:39:11.8|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-10 02:39:11.8|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-06-10 02:39:11.8|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-10 02:39:11.8|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-06-10 02:39:11.8|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-10 02:39:11.8|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-06-10 02:39:11.8|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-10 02:39:11.9|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-06-10 02:39:11.9|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-10 02:39:11.9|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-06-10 02:39:11.9|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-10 02:39:11.9|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-06-10 02:39:11.9|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-10 02:39:11.9|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-06-10 02:39:11.9|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-10 02:39:11.9|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-06-10 02:39:11.9|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-10 02:39:11.9|Debug|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was not authenticated.
+2025-06-10 02:39:11.9|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-10 04:56:38.6|Debug|InstallUpdateService|Checking for updates
+2025-06-10 04:56:39.3|Debug|InstallUpdateService|No update available
+2025-06-10 06:12:25.0|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
+2025-06-10 06:12:25.9|Info|ConsoleApp|Exiting main.
