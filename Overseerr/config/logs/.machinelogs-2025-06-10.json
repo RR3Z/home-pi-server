@@ -2226,3 +2226,10 @@
 {"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-10T06:17:00.016Z"}
 {"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-10T06:17:00.022Z"}
 {"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-10T06:17:00.023Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-10T06:18:00.015Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-10T06:18:00.020Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-10T06:18:00.022Z"}
+{"label":"Jobs","level":"info","message":"Starting scheduled job: Plex Watchlist Sync","timestamp":"2025-06-10T06:18:00.027Z"}
+{"label":"Jobs","level":"debug","message":"Starting scheduled job: Download Sync","timestamp":"2025-06-10T06:19:00.016Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Radarr server: Radarr","timestamp":"2025-06-10T06:19:00.022Z"}
+{"label":"Download Tracker","level":"error","message":"Unable to get queue from Sonarr server: Sonarr","timestamp":"2025-06-10T06:19:00.023Z"}

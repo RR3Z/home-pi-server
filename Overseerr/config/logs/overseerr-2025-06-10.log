@@ -2226,3 +2226,10 @@
 2025-06-10T06:17:00.016Z [debug][Jobs]: Starting scheduled job: Download Sync 
 2025-06-10T06:17:00.022Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
 2025-06-10T06:17:00.023Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-10T06:18:00.015Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-10T06:18:00.020Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-10T06:18:00.022Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-10T06:18:00.027Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-10T06:19:00.016Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-10T06:19:00.022Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-10T06:19:00.023Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
