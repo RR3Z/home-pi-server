@@ -1,0 +1,480 @@
+2025-06-11T21:00:00.028Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:00:00.075Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T21:00:00.077Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:00:00.077Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:00:00.080Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2025-06-11T21:00:00.080Z [info][Plex Scan]: Scan starting {"sessionId":"0362ff38-0dad-45ed-88e3-848da9a29006"}
+2025-06-11T21:00:01.876Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?"}
+2025-06-11T21:01:00.019Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:01:00.024Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:01:00.025Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:02:04.185Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:02:04.251Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:02:04.252Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:03:00.033Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:03:00.043Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T21:03:00.052Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:03:00.053Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:04:00.028Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:04:00.034Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:04:00.950Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:05:00.027Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:05:00.033Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2025-06-11T21:05:00.034Z [info][Plex Scan]: Scan starting {"sessionId":"e97b59d3-4d9d-4f25-a412-ce357dfaee8b"}
+2025-06-11T21:05:00.038Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:05:00.038Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:05:01.406Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?"}
+2025-06-11T21:06:00.030Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:06:00.035Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T21:06:00.038Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:06:00.039Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:07:00.018Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:07:00.023Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:07:00.024Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:08:00.024Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:08:00.030Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:08:00.031Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:09:00.022Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:09:00.027Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T21:09:00.030Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:09:00.031Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:10:00.025Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:10:00.033Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2025-06-11T21:10:00.034Z [info][Plex Scan]: Scan starting {"sessionId":"84b6e94b-1d83-4262-9943-0ba5988e0b3a"}
+2025-06-11T21:10:00.036Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:10:00.036Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:10:00.678Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?"}
+2025-06-11T21:11:00.022Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:11:00.028Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:11:00.030Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:12:00.026Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:12:00.034Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T21:12:00.036Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:12:00.036Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:13:00.023Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:13:00.027Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:13:00.029Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:14:00.017Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:14:00.024Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:14:00.025Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:15:00.023Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:15:00.028Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T21:15:00.030Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:15:00.031Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:15:00.033Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2025-06-11T21:15:00.033Z [info][Plex Scan]: Scan starting {"sessionId":"8528f5f9-99db-45d3-be18-9d8a40f65552"}
+2025-06-11T21:15:00.599Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?"}
+2025-06-11T21:16:00.027Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:16:00.034Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:16:00.036Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:17:00.028Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:17:00.034Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:17:00.035Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:18:00.011Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:18:00.017Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T21:18:00.019Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:18:00.022Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:19:00.008Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:19:00.015Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:19:00.016Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:20:00.025Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:20:00.033Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2025-06-11T21:20:00.033Z [info][Plex Scan]: Scan starting {"sessionId":"3bed5d51-81f4-4ad2-9c77-6f493b0a9ea1"}
+2025-06-11T21:20:00.035Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:20:00.036Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:20:00.767Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?"}
+2025-06-11T21:21:00.014Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:21:00.020Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T21:21:00.022Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:21:00.023Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:22:00.008Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:22:00.014Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:22:00.015Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:23:00.027Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:23:00.033Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:23:00.034Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:24:00.019Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:24:00.025Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T21:24:00.027Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:24:00.027Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:25:00.027Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:25:00.034Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2025-06-11T21:25:00.034Z [info][Plex Scan]: Scan starting {"sessionId":"7eee24ca-d29c-4d4e-bfa5-f81f06aa2815"}
+2025-06-11T21:25:00.036Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:25:00.037Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:25:00.626Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?"}
+2025-06-11T21:26:00.020Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:26:00.026Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:26:00.027Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:27:00.026Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:27:00.034Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T21:27:00.036Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:27:00.037Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:28:00.023Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:28:00.029Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:28:00.030Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:29:00.018Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:29:00.023Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:29:00.024Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:30:00.028Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:30:00.036Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T21:30:00.038Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:30:00.039Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:30:00.043Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2025-06-11T21:30:00.043Z [info][Plex Scan]: Scan starting {"sessionId":"46b383e3-a217-4cdd-a647-74b68891153a"}
+2025-06-11T21:30:02.479Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?"}
+2025-06-11T21:31:00.016Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:31:00.020Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:31:00.027Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:32:00.025Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:32:00.031Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:32:00.032Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:33:00.016Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:33:00.023Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T21:33:00.025Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:33:00.026Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:34:00.027Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:34:00.033Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:34:00.034Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:35:00.028Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:35:00.034Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2025-06-11T21:35:00.035Z [info][Plex Scan]: Scan starting {"sessionId":"990fbeb0-92e2-419b-b526-0f6d0901a2a4"}
+2025-06-11T21:35:00.040Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:35:00.042Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:35:00.766Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?"}
+2025-06-11T21:36:00.023Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:36:00.029Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T21:36:00.031Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:36:00.033Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:37:00.015Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:37:00.022Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:37:00.023Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:38:00.010Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:38:00.014Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:38:00.015Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:39:00.023Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:39:00.031Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T21:39:00.033Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:39:00.033Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:40:00.024Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:40:00.031Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2025-06-11T21:40:00.031Z [info][Plex Scan]: Scan starting {"sessionId":"961c72d6-fc89-417e-9dd2-96e71eae3701"}
+2025-06-11T21:40:00.035Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:40:00.035Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:40:00.616Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?"}
+2025-06-11T21:41:00.018Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:41:00.025Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:41:00.026Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:42:00.022Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:42:00.029Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T21:42:00.031Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:42:00.031Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:43:00.028Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:43:00.035Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:43:00.036Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:44:00.018Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:44:00.025Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:44:00.026Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:45:00.023Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:45:00.029Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T21:45:00.031Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:45:00.032Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:45:00.036Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2025-06-11T21:45:00.036Z [info][Plex Scan]: Scan starting {"sessionId":"b5588cea-43d5-41c2-9597-053d9d337c52"}
+2025-06-11T21:45:00.602Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?"}
+2025-06-11T21:46:00.025Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:46:00.031Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:46:00.032Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:47:00.016Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:47:00.023Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:47:00.024Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:48:00.007Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:48:00.012Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T21:48:00.014Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:48:00.014Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:49:00.028Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:49:00.033Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:49:00.035Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:50:00.028Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:50:00.036Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2025-06-11T21:50:00.036Z [info][Plex Scan]: Scan starting {"sessionId":"ced8fbe8-0839-4621-848d-709854ef82d9"}
+2025-06-11T21:50:00.039Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:50:00.040Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:50:00.630Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?"}
+2025-06-11T21:51:00.023Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:51:00.031Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T21:51:00.033Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:51:00.034Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:52:00.009Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:52:00.015Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:52:00.016Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:53:00.021Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:53:00.027Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:53:00.028Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:54:00.011Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:54:00.018Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T21:54:00.028Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:54:00.029Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:55:00.012Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:55:00.021Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2025-06-11T21:55:00.022Z [info][Plex Scan]: Scan starting {"sessionId":"cce55095-96b3-40dc-b561-3a5780767fdd"}
+2025-06-11T21:55:00.026Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:55:00.027Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:55:00.734Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?"}
+2025-06-11T21:56:00.028Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:56:00.034Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:56:00.035Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:57:00.023Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:57:00.031Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T21:57:00.034Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:57:00.035Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:58:00.025Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:58:00.030Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T21:58:00.031Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:59:00.011Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T21:59:00.016Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T21:59:00.018Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:00:00.018Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:00:00.026Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T22:00:00.028Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:00:00.029Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:00:00.032Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2025-06-11T22:00:00.033Z [info][Plex Scan]: Scan starting {"sessionId":"464c79e6-8399-4410-89eb-da4c025d4288"}
+2025-06-11T22:00:00.042Z [info][Jobs]: Starting scheduled job: Download Sync Reset 
+2025-06-11T22:00:02.353Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?"}
+2025-06-11T22:01:00.007Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:01:00.013Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:01:00.015Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:02:00.012Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:02:00.018Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:02:00.019Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:03:00.015Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:03:00.022Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T22:03:00.024Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:03:00.026Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:04:00.018Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:04:00.026Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:04:00.027Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:05:00.017Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:05:00.025Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2025-06-11T22:05:00.026Z [info][Plex Scan]: Scan starting {"sessionId":"ce50f83d-74a2-48e7-9aaa-a02bde8d5a61"}
+2025-06-11T22:05:00.028Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:05:00.028Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:05:00.636Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?"}
+2025-06-11T22:06:00.021Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:06:00.030Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T22:06:00.032Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:06:00.033Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:07:00.015Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:07:00.022Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:07:00.023Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:08:00.010Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:08:00.015Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:08:00.017Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:09:00.029Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:09:00.037Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T22:09:00.041Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:09:00.042Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:10:00.016Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:10:00.025Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2025-06-11T22:10:00.025Z [info][Plex Scan]: Scan starting {"sessionId":"f7f5f7af-b8bf-41ce-8ff5-7018c2b6ed63"}
+2025-06-11T22:10:00.027Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:10:00.028Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:10:00.645Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?"}
+2025-06-11T22:11:00.017Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:11:00.023Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:11:00.027Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:12:00.019Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:12:00.025Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T22:12:00.027Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:12:00.029Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:13:00.018Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:13:00.025Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:13:00.027Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:14:00.010Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:14:00.015Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:14:00.016Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:15:00.027Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:15:00.033Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T22:15:00.036Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:15:00.037Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:15:00.041Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2025-06-11T22:15:00.041Z [info][Plex Scan]: Scan starting {"sessionId":"737711a9-5f5e-4c93-bfad-d9d5c2eb67cb"}
+2025-06-11T22:15:00.596Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?"}
+2025-06-11T22:16:00.023Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:16:00.029Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:16:00.031Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:17:00.024Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:17:00.030Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:17:00.031Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:18:00.024Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:18:00.029Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T22:18:00.031Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:18:00.033Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:19:00.027Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:19:00.033Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:19:00.034Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:20:00.028Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:20:00.033Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2025-06-11T22:20:00.034Z [info][Plex Scan]: Scan starting {"sessionId":"2323fc67-be5b-4dd7-adcc-76c5359c65cd"}
+2025-06-11T22:20:00.037Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:20:00.038Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:20:00.614Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?"}
+2025-06-11T22:21:00.026Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:21:00.033Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T22:21:00.035Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:21:00.036Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:22:00.017Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:22:00.023Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:22:00.024Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:23:00.025Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:23:00.031Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:23:00.032Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:24:00.027Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:24:00.034Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T22:24:00.036Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:24:00.037Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:25:00.019Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:25:00.026Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2025-06-11T22:25:00.027Z [info][Plex Scan]: Scan starting {"sessionId":"a4fdf7d5-07af-4555-8ab0-68c38732517c"}
+2025-06-11T22:25:00.029Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:25:00.030Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:25:00.592Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?"}
+2025-06-11T22:26:00.023Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:26:00.027Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:26:00.028Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:27:00.016Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:27:00.022Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T22:27:00.025Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:27:00.025Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:28:00.019Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:28:00.025Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:28:00.027Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:29:00.025Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:29:00.031Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:29:00.033Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:30:00.023Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:30:00.031Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T22:30:00.033Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:30:00.033Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:30:00.037Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2025-06-11T22:30:00.038Z [info][Plex Scan]: Scan starting {"sessionId":"90992bef-a6c6-40fe-b015-0c952abf60f6"}
+2025-06-11T22:30:02.192Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?"}
+2025-06-11T22:31:00.025Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:31:00.031Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:31:00.032Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:32:00.019Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:32:00.025Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:32:00.027Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:33:00.023Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:33:00.030Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T22:33:00.032Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:33:00.033Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:34:00.024Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:34:00.029Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:34:00.030Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:35:00.023Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:35:00.030Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2025-06-11T22:35:00.030Z [info][Plex Scan]: Scan starting {"sessionId":"ef4ef336-6527-4029-bb5e-5e81f52f838a"}
+2025-06-11T22:35:00.032Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:35:00.033Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:35:00.934Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?"}
+2025-06-11T22:36:00.007Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:36:00.014Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T22:36:00.016Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:36:00.017Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:37:00.027Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:37:00.033Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:37:00.034Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:38:00.023Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:38:00.033Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:38:00.034Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:39:00.026Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:39:00.033Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T22:39:00.035Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:39:00.036Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:40:00.024Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:40:00.030Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2025-06-11T22:40:00.031Z [info][Plex Scan]: Scan starting {"sessionId":"30688c6a-5fb4-49d6-9d04-dfa98b35ebc1"}
+2025-06-11T22:40:00.034Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:40:00.034Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:40:00.649Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?"}
+2025-06-11T22:41:00.026Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:41:00.033Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:41:00.034Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:42:00.023Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:42:00.031Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T22:42:00.033Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:42:00.034Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:43:00.025Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:43:00.030Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:43:00.032Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:44:00.026Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:44:00.032Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:44:00.034Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:45:00.023Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:45:00.031Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T22:45:00.033Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:45:00.034Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:45:00.038Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2025-06-11T22:45:00.038Z [info][Plex Scan]: Scan starting {"sessionId":"9d4a9bac-2885-4576-9a6f-b1d613a6be7a"}
+2025-06-11T22:45:00.573Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?"}
+2025-06-11T22:46:00.003Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:46:00.010Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:46:00.012Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:47:00.020Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:47:00.026Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:47:00.028Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:48:00.025Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:48:00.033Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T22:48:00.035Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:48:00.036Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:49:00.016Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:49:00.023Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:49:00.024Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:50:00.015Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:50:00.020Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2025-06-11T22:50:00.021Z [info][Plex Scan]: Scan starting {"sessionId":"aa9693fd-2e46-41e7-b0f4-7d94e999d212"}
+2025-06-11T22:50:00.023Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:50:00.024Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:50:00.736Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?"}
+2025-06-11T22:51:00.023Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:51:00.030Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T22:51:00.031Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:51:00.032Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:52:00.023Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:52:00.031Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:52:00.032Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:53:00.014Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:53:00.020Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:53:00.022Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:54:00.027Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:54:00.034Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T22:54:00.036Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:54:00.037Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:55:00.006Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:55:00.013Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2025-06-11T22:55:00.014Z [info][Plex Scan]: Scan starting {"sessionId":"e77de175-329f-474b-8afa-d3f03f8f8919"}
+2025-06-11T22:55:00.016Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:55:00.017Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:55:00.756Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?"}
+2025-06-11T22:56:00.023Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:56:00.028Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:56:00.030Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:57:00.022Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:57:00.028Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T22:57:00.031Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:57:00.032Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:58:00.022Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:58:00.028Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:58:00.029Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T22:59:00.025Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T22:59:00.031Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T22:59:00.033Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T23:00:00.026Z [debug][Jobs]: Starting scheduled job: Download Sync 
+2025-06-11T23:00:00.032Z [info][Jobs]: Starting scheduled job: Plex Watchlist Sync 
+2025-06-11T23:00:00.035Z [error][Download Tracker]: Unable to get queue from Radarr server: Radarr 
+2025-06-11T23:00:00.036Z [error][Download Tracker]: Unable to get queue from Sonarr server: Sonarr 
+2025-06-11T23:00:00.039Z [info][Jobs]: Starting scheduled job: Plex Recently Added Scan 
+2025-06-11T23:00:00.039Z [info][Plex Scan]: Scan starting {"sessionId":"15163d7a-1336-4b78-a5b1-b0c06ca73256"}
+2025-06-11T23:00:02.756Z [error][Plex Scan]: Scan interrupted {"errorMessage":"Permission denied even after attempted authentication :( Wrong username and/or password maybe?"}
