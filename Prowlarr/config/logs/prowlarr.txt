@@ -7174,3 +7174,141 @@ RequestUri: https://megapeer.vip/browse.php?search=2025&cat=0&stype=0&sort=0&asc
 2025-06-13 18:07:12.6|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
 2025-06-13 18:07:12.7|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
 2025-06-13 18:07:12.7|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-13 23:36:26.8|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:7878/api/v3/indexer: 401.Unauthorized (0 bytes)
+2025-06-13 23:36:26.9|Warn|ApplicationService|NzbDrone.Core.Applications.ApplicationService HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:7878/api/v3/indexer]
+
+[v1.37.0.5076] NzbDrone.Common.Http.HttpException: HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:7878/api/v3/indexer]
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.Applications.Radarr.RadarrV3Proxy.Execute[TResource](HttpRequest request) in ./Prowlarr.Core/Applications/Radarr/RadarrV3Proxy.cs:line 228
+   at NzbDrone.Core.Applications.Radarr.RadarrV3Proxy.GetIndexers(RadarrSettings settings) in ./Prowlarr.Core/Applications/Radarr/RadarrV3Proxy.cs:line 50
+   at NzbDrone.Core.Applications.Radarr.Radarr.GetIndexerMappings() in ./Prowlarr.Core/Applications/Radarr/Radarr.cs:line 93
+   at NzbDrone.Core.Applications.ApplicationService.<>c.<SyncIndexers>b__14_1(IApplication a) in ./Prowlarr.Core/Applications/ApplicationService.cs:line 137
+   at NzbDrone.Core.Applications.ApplicationService.ExecuteAction[TResult](Func`2 applicationAction, IApplication application) in ./Prowlarr.Core/Applications/ApplicationService.cs:line 287
+
+
+
+2025-06-13 23:36:26.9|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:8989/api/v3/indexer: 401.Unauthorized (0 bytes)
+2025-06-13 23:36:26.9|Warn|ApplicationService|NzbDrone.Core.Applications.ApplicationService HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:8989/api/v3/indexer]
+
+[v1.37.0.5076] NzbDrone.Common.Http.HttpException: HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:8989/api/v3/indexer]
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.Applications.Sonarr.SonarrV3Proxy.Execute[TResource](HttpRequest request) in ./Prowlarr.Core/Applications/Sonarr/SonarrV3Proxy.cs:line 215
+   at NzbDrone.Core.Applications.Sonarr.SonarrV3Proxy.GetIndexers(SonarrSettings settings) in ./Prowlarr.Core/Applications/Sonarr/SonarrV3Proxy.cs:line 49
+   at NzbDrone.Core.Applications.Sonarr.Sonarr.GetIndexerMappings() in ./Prowlarr.Core/Applications/Sonarr/Sonarr.cs:line 97
+   at NzbDrone.Core.Applications.ApplicationService.<>c.<SyncIndexers>b__14_1(IApplication a) in ./Prowlarr.Core/Applications/ApplicationService.cs:line 137
+   at NzbDrone.Core.Applications.ApplicationService.ExecuteAction[TResult](Func`2 applicationAction, IApplication application) in ./Prowlarr.Core/Applications/ApplicationService.cs:line 287
+
+
+
+2025-06-14 05:36:28.0|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:7878/api/v3/indexer: 401.Unauthorized (0 bytes)
+2025-06-14 05:36:28.1|Warn|ApplicationService|NzbDrone.Core.Applications.ApplicationService HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:7878/api/v3/indexer]
+
+[v1.37.0.5076] NzbDrone.Common.Http.HttpException: HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:7878/api/v3/indexer]
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.Applications.Radarr.RadarrV3Proxy.Execute[TResource](HttpRequest request) in ./Prowlarr.Core/Applications/Radarr/RadarrV3Proxy.cs:line 228
+   at NzbDrone.Core.Applications.Radarr.RadarrV3Proxy.GetIndexers(RadarrSettings settings) in ./Prowlarr.Core/Applications/Radarr/RadarrV3Proxy.cs:line 50
+   at NzbDrone.Core.Applications.Radarr.Radarr.GetIndexerMappings() in ./Prowlarr.Core/Applications/Radarr/Radarr.cs:line 93
+   at NzbDrone.Core.Applications.ApplicationService.<>c.<SyncIndexers>b__14_1(IApplication a) in ./Prowlarr.Core/Applications/ApplicationService.cs:line 137
+   at NzbDrone.Core.Applications.ApplicationService.ExecuteAction[TResult](Func`2 applicationAction, IApplication application) in ./Prowlarr.Core/Applications/ApplicationService.cs:line 287
+
+
+
+2025-06-14 05:36:28.1|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:8989/api/v3/indexer: 401.Unauthorized (0 bytes)
+2025-06-14 05:36:28.1|Warn|ApplicationService|NzbDrone.Core.Applications.ApplicationService HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:8989/api/v3/indexer]
+
+[v1.37.0.5076] NzbDrone.Common.Http.HttpException: HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:8989/api/v3/indexer]
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.Applications.Sonarr.SonarrV3Proxy.Execute[TResource](HttpRequest request) in ./Prowlarr.Core/Applications/Sonarr/SonarrV3Proxy.cs:line 215
+   at NzbDrone.Core.Applications.Sonarr.SonarrV3Proxy.GetIndexers(SonarrSettings settings) in ./Prowlarr.Core/Applications/Sonarr/SonarrV3Proxy.cs:line 49
+   at NzbDrone.Core.Applications.Sonarr.Sonarr.GetIndexerMappings() in ./Prowlarr.Core/Applications/Sonarr/Sonarr.cs:line 97
+   at NzbDrone.Core.Applications.ApplicationService.<>c.<SyncIndexers>b__14_1(IApplication a) in ./Prowlarr.Core/Applications/ApplicationService.cs:line 137
+   at NzbDrone.Core.Applications.ApplicationService.ExecuteAction[TResult](Func`2 applicationAction, IApplication application) in ./Prowlarr.Core/Applications/ApplicationService.cs:line 287
+
+
+
+2025-06-14 11:36:30.5|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:7878/api/v3/indexer: 401.Unauthorized (0 bytes)
+2025-06-14 11:36:30.6|Warn|ApplicationService|NzbDrone.Core.Applications.ApplicationService HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:7878/api/v3/indexer]
+
+[v1.37.0.5076] NzbDrone.Common.Http.HttpException: HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:7878/api/v3/indexer]
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.Applications.Radarr.RadarrV3Proxy.Execute[TResource](HttpRequest request) in ./Prowlarr.Core/Applications/Radarr/RadarrV3Proxy.cs:line 228
+   at NzbDrone.Core.Applications.Radarr.RadarrV3Proxy.GetIndexers(RadarrSettings settings) in ./Prowlarr.Core/Applications/Radarr/RadarrV3Proxy.cs:line 50
+   at NzbDrone.Core.Applications.Radarr.Radarr.GetIndexerMappings() in ./Prowlarr.Core/Applications/Radarr/Radarr.cs:line 93
+   at NzbDrone.Core.Applications.ApplicationService.<>c.<SyncIndexers>b__14_1(IApplication a) in ./Prowlarr.Core/Applications/ApplicationService.cs:line 137
+   at NzbDrone.Core.Applications.ApplicationService.ExecuteAction[TResult](Func`2 applicationAction, IApplication application) in ./Prowlarr.Core/Applications/ApplicationService.cs:line 287
+
+
+
+2025-06-14 11:36:30.6|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:8989/api/v3/indexer: 401.Unauthorized (0 bytes)
+2025-06-14 11:36:30.6|Warn|ApplicationService|NzbDrone.Core.Applications.ApplicationService HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:8989/api/v3/indexer]
+
+[v1.37.0.5076] NzbDrone.Common.Http.HttpException: HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:8989/api/v3/indexer]
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.Applications.Sonarr.SonarrV3Proxy.Execute[TResource](HttpRequest request) in ./Prowlarr.Core/Applications/Sonarr/SonarrV3Proxy.cs:line 215
+   at NzbDrone.Core.Applications.Sonarr.SonarrV3Proxy.GetIndexers(SonarrSettings settings) in ./Prowlarr.Core/Applications/Sonarr/SonarrV3Proxy.cs:line 49
+   at NzbDrone.Core.Applications.Sonarr.Sonarr.GetIndexerMappings() in ./Prowlarr.Core/Applications/Sonarr/Sonarr.cs:line 97
+   at NzbDrone.Core.Applications.ApplicationService.<>c.<SyncIndexers>b__14_1(IApplication a) in ./Prowlarr.Core/Applications/ApplicationService.cs:line 137
+   at NzbDrone.Core.Applications.ApplicationService.ExecuteAction[TResult](Func`2 applicationAction, IApplication application) in ./Prowlarr.Core/Applications/ApplicationService.cs:line 287
+
+
+
+2025-06-14 17:36:01.5|Info|HousekeepingService|Running housecleaning tasks
+2025-06-14 17:36:01.5|Info|HistoryService|Removing items older than 30 days from history
+2025-06-14 17:36:01.6|Info|Database|Vacuuming Log database
+2025-06-14 17:36:01.7|Info|Database|Log database compressed
+2025-06-14 17:36:01.7|Info|Database|Vacuuming Main database
+2025-06-14 17:36:01.7|Info|Database|Main database compressed
+2025-06-14 17:36:31.6|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:7878/api/v3/indexer: 401.Unauthorized (0 bytes)
+2025-06-14 17:36:31.7|Warn|ApplicationService|NzbDrone.Core.Applications.ApplicationService HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:7878/api/v3/indexer]
+
+[v1.37.0.5076] NzbDrone.Common.Http.HttpException: HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:7878/api/v3/indexer]
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.Applications.Radarr.RadarrV3Proxy.Execute[TResource](HttpRequest request) in ./Prowlarr.Core/Applications/Radarr/RadarrV3Proxy.cs:line 228
+   at NzbDrone.Core.Applications.Radarr.RadarrV3Proxy.GetIndexers(RadarrSettings settings) in ./Prowlarr.Core/Applications/Radarr/RadarrV3Proxy.cs:line 50
+   at NzbDrone.Core.Applications.Radarr.Radarr.GetIndexerMappings() in ./Prowlarr.Core/Applications/Radarr/Radarr.cs:line 93
+   at NzbDrone.Core.Applications.ApplicationService.<>c.<SyncIndexers>b__14_1(IApplication a) in ./Prowlarr.Core/Applications/ApplicationService.cs:line 137
+   at NzbDrone.Core.Applications.ApplicationService.ExecuteAction[TResult](Func`2 applicationAction, IApplication application) in ./Prowlarr.Core/Applications/ApplicationService.cs:line 287
+
+
+
+2025-06-14 17:36:31.7|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://172.25.0.2:8989/api/v3/indexer: 401.Unauthorized (0 bytes)
+2025-06-14 17:36:31.8|Warn|ApplicationService|NzbDrone.Core.Applications.ApplicationService HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:8989/api/v3/indexer]
+
+[v1.37.0.5076] NzbDrone.Common.Http.HttpException: HTTP request failed: [401:Unauthorized] [GET] at [http://172.25.0.2:8989/api/v3/indexer]
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.Applications.Sonarr.SonarrV3Proxy.Execute[TResource](HttpRequest request) in ./Prowlarr.Core/Applications/Sonarr/SonarrV3Proxy.cs:line 215
+   at NzbDrone.Core.Applications.Sonarr.SonarrV3Proxy.GetIndexers(SonarrSettings settings) in ./Prowlarr.Core/Applications/Sonarr/SonarrV3Proxy.cs:line 49
+   at NzbDrone.Core.Applications.Sonarr.Sonarr.GetIndexerMappings() in ./Prowlarr.Core/Applications/Sonarr/Sonarr.cs:line 97
+   at NzbDrone.Core.Applications.ApplicationService.<>c.<SyncIndexers>b__14_1(IApplication a) in ./Prowlarr.Core/Applications/ApplicationService.cs:line 137
+   at NzbDrone.Core.Applications.ApplicationService.ExecuteAction[TResult](Func`2 applicationAction, IApplication application) in ./Prowlarr.Core/Applications/ApplicationService.cs:line 287
+
+
+
+2025-06-14 17:54:46.6|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-14 17:54:46.6|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-14 17:54:46.7|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-14 17:54:46.7|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-14 17:54:46.7|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-14 17:54:46.7|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-14 17:54:46.7|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-14 17:54:46.7|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-14 17:54:46.7|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-14 17:54:46.7|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-14 18:08:16.6|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-14 18:08:16.6|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-14 18:08:16.6|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-14 18:08:16.6|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-14 18:08:16.6|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-14 18:08:16.6|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-14 18:08:16.7|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-14 18:08:16.7|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-14 18:08:16.7|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2025-06-14 18:08:16.7|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
