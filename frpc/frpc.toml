@@ -1,0 +1,11 @@
+serverAddr = "194.87.29.250"
+serverPort = 7000
+auth.method = "token"
+auth.token = "Crtktnjy124573swdQ!"
+
+[[proxies]]
+name = "home-plex-server"
+type = "http"
+localIP = "127.0.0.1"
+localPort = 32400
+customDomains = ["plex.roger3z-vps.online"]
