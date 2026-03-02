@@ -1,0 +1,18 @@
+serverAddr = "194.87.29.250"
+serverPort = 7000
+auth.method = "token"
+auth.token = "Crtktnjy124573swdQ!"
+
+[[proxies]]
+name = "home-jellyfin-server"
+type = "http"
+localIP = "127.0.0.1"
+localPort = 8096
+customDomains = ["jellyfin.roger3z-vps.online"]
+
+[[proxies]]
+name = "home-seerr-aggregator"
+type = "http"
+localIP = "127.0.0.1"
+localPort = 5055
+customDomains = ["seerr.roger3z-vps.online"]

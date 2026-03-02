@@ -1,0 +1,14 @@
+services:
+  radarr:
+    container_name: radarr
+    image: ghcr.io/hotio/radarr
+    network_mode: "container:gluetun"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - UMASK=002
+      - TZ=Etc/UTC
+    volumes:
+      - /home/raspberrypi/home-pi-server/Radarr/config:/config
+      - /mnt/hdd/media:/media
+      - /mnt/hdd/downloads:/downloads
