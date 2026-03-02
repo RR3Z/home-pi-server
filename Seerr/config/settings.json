@@ -1,9 +1,9 @@
 {
- "clientId": "4e491316-0fd1-454e-b948-7ff8828350e5",
- "vapidPrivate": "5y--bGyafes0Ohscl00VCiU6mk18owgsPCBxZNItahc",
- "vapidPublic": "BLykllyAcdcwNnVn7WioexawikHTK8QMbB13g6PpXZLJ0ex6ShrBCVNuM5j24KVF42nMKTtooVhALNQ1O3oUOpE",
+ "clientId": "08d971b8-0aff-4144-9a6a-4227b92144c9",
+ "vapidPrivate": "H6We3MelUFvO8YMoOkjwh-cLUQ-S-pT6pjUlR6gILoc",
+ "vapidPublic": "BAiUitIJRUA9bMt1sJFXvgA8tECOedwUcZ8JmF2a6m-OwNvhNxi80SIjhGJMBanSgI8Jq3fLR9ugJV9HKVZIseI",
  "main": {
-  "apiKey": "MTc3MjM5Njg3MDE3NTMwNGNmYjJlLWQ4ZGItNGNmOS1hOTYzLThlN2QyMmMzY2Q2ZQ==",
+  "apiKey": "MTc3MjQ0NDUzMjYwN2I1ZWUxY2FjLWExZWYtNGRiYi1hODI0LWIzMDQxNWI5ZjU3MQ==",
   "applicationTitle": "Seerr",
   "applicationUrl": "",
   "cacheImages": false,
@@ -18,51 +18,47 @@
   "mediaServerLogin": true,
   "newPlexLogin": true,
   "discoverRegion": "",
-  "streamingRegion": "US",
+  "streamingRegion": "",
   "originalLanguage": "",
   "blocklistedTags": "",
   "blocklistedTagsLimit": 50,
-  "mediaServerType": 1,
+  "mediaServerType": 2,
   "partialRequestsEnabled": true,
   "enableSpecialEpisodes": false,
-  "locale": "ru",
+  "locale": "en",
   "youtubeUrl": ""
  },
  "plex": {
-  "name": "raspberrypi",
-  "ip": "192.168.0.111",
-  "port": 32400,
-  "useSsl": false,
-  "libraries": [
-   {
-    "id": "3",
-    "name": "Films",
-    "enabled": true,
-    "type": "movie",
-    "lastScan": 1772436900048
-   },
-   {
-    "id": "2",
-    "name": "TV Shows",
-    "enabled": true,
-    "type": "show",
-    "lastScan": 1772436900072
-   }
-  ],
-  "webAppUrl": "https://plex.roger3z-vps.online/",
-  "machineId": "3c0811d8cdf8bdd497e50ddf7ecf000c9532dc79"
- },
- "jellyfin": {
   "name": "",
   "ip": "",
+  "port": 32400,
+  "useSsl": false,
+  "libraries": []
+ },
+ "jellyfin": {
+  "name": "RogeR3Z-Jellyfin",
+  "ip": "192.168.0.111",
   "port": 8096,
   "useSsl": false,
   "urlBase": "",
-  "externalHostname": "",
+  "externalHostname": "https://jellyfin.roger3z-vps.online",
   "jellyfinForgotPasswordUrl": "",
-  "libraries": [],
-  "serverId": "",
-  "apiKey": ""
+  "libraries": [
+   {
+    "id": "b853ad1780b36e82af77f6d2445b7c22",
+    "name": "Фильмы",
+    "enabled": true,
+    "type": "movie"
+   },
+   {
+    "id": "e87b1123b76f6061f95c3d6d4b8f564c",
+    "name": "Сериалы",
+    "enabled": true,
+    "type": "show"
+   }
+  ],
+  "serverId": "49cd45849c824896b8746c9b86428d8f",
+  "apiKey": "3a16e83c4d16498d9ba3328a42875062"
  },
  "tautulli": {},
  "metadataSettings": {
@@ -101,6 +97,7 @@
    "activeProfileId": 6,
    "activeProfileName": "HD - 720p/1080p",
    "activeDirectory": "/media",
+   "animeSeriesType": "anime",
    "activeAnimeProfileId": 6,
    "activeAnimeProfileName": "HD - 720p/1080p",
    "activeAnimeDirectory": "/media",
@@ -108,7 +105,7 @@
    "animeTags": [],
    "is4k": false,
    "isDefault": true,
-   "enableSeasonFolders": true,
+   "enableSeasonFolders": false,
    "syncEnabled": true,
    "preventSearch": false,
    "tagRequests": false,
