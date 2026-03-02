@@ -4,8 +4,15 @@ auth.method = "token"
 auth.token = "Crtktnjy124573swdQ!"
 
 [[proxies]]
-name = "home-plex-server"
+name = "home-jellyfin-server"
 type = "http"
 localIP = "127.0.0.1"
-localPort = 32400
-customDomains = ["plex.roger3z-vps.online"]
+localPort = 8096
+customDomains = ["jellyfin.roger3z-vps.online"]
+
+[[proxies]]
+name = "home-seerr-aggregator"
+type = "http"
+localIP = "127.0.0.1"
+localPort = 5055
+customDomains = ["seerr.roger3z-vps.online"]

@@ -1,9 +1,9 @@
 {
- "clientId": "03f47931-a2c5-494c-9919-a48c7c46025b",
- "vapidPrivate": "9OU3jZGIPSIEBy9Z7Y708uTSXbKpqjzbt8S-oOz9dlw",
- "vapidPublic": "BE54E0nK9RppI_75QQL-4uZb_8irW1ve8_81aKW9O507DmQaNZhCetaH5A5qVVRXBNjyKWp78yYb4bPpWqUAkeY",
+ "clientId": "4e491316-0fd1-454e-b948-7ff8828350e5",
+ "vapidPrivate": "5y--bGyafes0Ohscl00VCiU6mk18owgsPCBxZNItahc",
+ "vapidPublic": "BLykllyAcdcwNnVn7WioexawikHTK8QMbB13g6PpXZLJ0ex6ShrBCVNuM5j24KVF42nMKTtooVhALNQ1O3oUOpE",
  "main": {
-  "apiKey": "MTc0OTQxMzMwMDc1OGZlOTU0NjMyLWU1NTMtNGM0Ny1iMDg3LWNmZTUyMWU1OTFkYw==",
+  "apiKey": "MTc3MjM5Njg3MDE3NTMwNGNmYjJlLWQ4ZGItNGNmOS1hOTYzLThlN2QyMmMzY2Q2ZQ==",
   "applicationTitle": "Seerr",
   "applicationUrl": "",
   "cacheImages": false,
@@ -39,18 +39,18 @@
     "name": "Films",
     "enabled": true,
     "type": "movie",
-    "lastScan": 1772394300030
+    "lastScan": 1772436900048
    },
    {
     "id": "2",
     "name": "TV Shows",
     "enabled": true,
     "type": "show",
-    "lastScan": 1772394300036
+    "lastScan": 1772436900072
    }
   ],
-  "machineId": "3c0811d8cdf8bdd497e50ddf7ecf000c9532dc79",
-  "webAppUrl": "https://plex.roger3z-vps.online/"
+  "webAppUrl": "https://plex.roger3z-vps.online/",
+  "machineId": "3c0811d8cdf8bdd497e50ddf7ecf000c9532dc79"
  },
  "jellyfin": {
   "name": "",
@@ -66,8 +66,8 @@
  },
  "tautulli": {},
  "metadataSettings": {
-  "tv": "tvdb",
-  "anime": "tvdb"
+  "tv": "tmdb",
+  "anime": "tmdb"
  },
  "radarr": [
   {
@@ -81,13 +81,13 @@
    "activeProfileName": "HD - 720p/1080p",
    "activeDirectory": "/media",
    "is4k": false,
-   "minimumAvailability": "inCinemas",
+   "minimumAvailability": "announced",
    "tags": [],
    "isDefault": true,
-   "syncEnabled": false,
+   "syncEnabled": true,
    "preventSearch": false,
    "tagRequests": false,
-   "id": 1
+   "id": 0
   }
  ],
  "sonarr": [
@@ -99,22 +99,20 @@
    "useSsl": false,
    "baseUrl": "",
    "activeProfileId": 6,
-   "activeLanguageProfileId": 1,
    "activeProfileName": "HD - 720p/1080p",
    "activeDirectory": "/media",
    "activeAnimeProfileId": 6,
-   "activeAnimeLanguageProfileId": 1,
    "activeAnimeProfileName": "HD - 720p/1080p",
    "activeAnimeDirectory": "/media",
    "tags": [],
    "animeTags": [],
    "is4k": false,
    "isDefault": true,
-   "enableSeasonFolders": false,
-   "syncEnabled": false,
+   "enableSeasonFolders": true,
+   "syncEnabled": true,
    "preventSearch": false,
    "tagRequests": false,
-   "id": 1
+   "id": 0
   }
  ],
  "public": {
@@ -224,25 +222,25 @@
    "schedule": "0 */5 * * * *"
   },
   "plex-full-scan": {
-   "schedule": "0 0 */4 * * *"
+   "schedule": "0 0 3 * * *"
   },
   "plex-watchlist-sync": {
-   "schedule": "*/60 * * * * *"
+   "schedule": "0 */3 * * * *"
   },
   "plex-refresh-token": {
    "schedule": "0 0 5 * * *"
   },
   "radarr-scan": {
-   "schedule": "0 0 */1 * * *"
+   "schedule": "0 0 4 * * *"
   },
   "sonarr-scan": {
-   "schedule": "0 0 */1 * * *"
+   "schedule": "0 30 4 * * *"
   },
   "availability-sync": {
-   "schedule": "0 0 */4 * * *"
+   "schedule": "0 0 5 * * *"
   },
   "download-sync": {
-   "schedule": "*/60 * * * * *"
+   "schedule": "0 * * * * *"
   },
   "download-sync-reset": {
    "schedule": "0 0 1 * * *"
@@ -254,7 +252,7 @@
    "schedule": "0 0 3 * * *"
   },
   "image-cache-cleanup": {
-   "schedule": "0 0 */12 * * *"
+   "schedule": "0 0 5 * * *"
   },
   "process-blocklisted-tags": {
    "schedule": "0 30 1 */7 * *"

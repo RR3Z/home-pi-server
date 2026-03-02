@@ -37,3 +37,12 @@ Radarr/config/logs
 
 Prowlarr/config/config.xml
 Overseerr/config/settings.json
+
+Jellyfin/cache/
+Jellyfin/config/log/
+Jellyfin/config/logs/
+Jellyfin/config/transcodes/
+Jellyfin/config/plugins/
+Jellyfin/config/root/
+Jellyfin/config/metadata/
+
