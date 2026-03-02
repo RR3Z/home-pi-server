@@ -1,49 +1,30 @@
-**/config/logs/
-**/config/Logs/
-**/config/cache/
-**/config/Cache/
-**/config/Metadata/
-**/config/Media/
-**/config/Sentry/
-**/config/Backups/
-**/config/Definitions/
-**/cache/**
-**/Cache/**
-**/Logs/**
-**/logs/**
-**/Metadata/**
-**/Backups/**
+.DS_Store
+Thumbs.db
+*.swp
 
+**/logs/
+**/Logs/
 *.log
 *.log.gz
-*.gz
-*.json.gz
 
-BT_backup/
-queue/
+*.db-shm
+*.db-wal
+*.sqlite-shm
+*.sqlite-wal
 
-.DS_Store
-.Thumbs.db
-.Trash-*
+**/MediaCover/
+**/update/
+**/bin/
 
-# Custom
-Sonarr/config/config.xml
-Sonarr/config/MediaCover
-Sonarr/config/logs
+**/BT_backup/
+**/GeoDB/
+**/nova3/
 
-Radarr/config/config.xml
-Radarr/config/MediaCover
-Radarr/config/logs
+**/metadata/
+**/Metadata/
+**/cache/
+**/Cache/
+**/transcodes/
+**/Transcode/
 
-Prowlarr/config/config.xml
-Overseerr/config/settings.json
-
-Jellyfin/cache/
-Jellyfin/config/.cache/
-Jellyfin/config/log/
-Jellyfin/config/logs/
-Jellyfin/config/transcodes/
-Jellyfin/config/plugins/
-Jellyfin/config/root/
-Jellyfin/config/metadata/
-Jellyfin/config/data/
+**/public/images/
