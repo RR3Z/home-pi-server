@@ -1,3 +1,0 @@
-{"sdk":{"name":"sentry.dotnet","version":"4.0.2"}}
-{"type":"client_report","length":192}
-{"timestamp":"2026-03-02T09:57:58.9259699+00:00","discarded_events":[{"reason":"network_error","category":"default","quantity":34},{"reason":"network_error","category":"error","quantity":28}]}
