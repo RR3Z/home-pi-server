@@ -14,6 +14,9 @@
             - title: qBitTorrent
               url: http://192.168.0.111:8081
               icon: /assets/qbittorrent-logo.png
+            - title: v2rayA (VPN)
+              url: http://192.168.0.111:2017
+              icon: /assets/v2raya-logo.png
 
         - type: monitor
           cache: 1m
@@ -34,6 +37,18 @@
             - title: Seerr
               url: http://192.168.0.111:5055
               icon: /assets/seerr-logo.png
+
+        - type: monitor
+          cache: 1m
+          title: MS Links
+          sites:
+            - title: Jellyfin
+              url: https://jellyfin.roger3z-vps.online/web/#/home
+              icon: /assets/jellyfin-logo.png
+            - title: Seerr
+              url: https://seerr.roger3z-vps.online/
+              icon: /assets/seerr-logo.png
+
 
         - type: docker-containers
           hide-by-default: false
