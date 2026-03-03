@@ -1,0 +1,16 @@
+{
+  "category": "Anime",
+  "changelog": "- Jellyfin 10.11 support (#28) @crobibero",
+  "description": "AniSearch metadata provider\n",
+  "guid": "776d9158-b91f-49d9-82c5-dacce63d63b8",
+  "name": "AniSearch",
+  "overview": "AniSearch metadata provider",
+  "owner": "jellyfin",
+  "targetAbi": "10.11.0.0",
+  "timestamp": "2025-10-20T01:27:49.0000000Z",
+  "version": "6.0.0.0",
+  "status": "Active",
+  "autoUpdate": true,
+  "imagePath": "/config/data/plugins/AniSearch_6.0.0.0/jellyfin-plugin-anisearch.png",
+  "assemblies": []
+}

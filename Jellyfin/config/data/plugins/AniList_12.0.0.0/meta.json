@@ -1,0 +1,16 @@
+{
+  "category": "Anime",
+  "changelog": "- Jellyfin 10.11 support (#92) @crobibero",
+  "description": "AniList metadata provider\n",
+  "guid": "1bd22884-44be-40f3-ad95-fc4a7834ba2c",
+  "name": "AniList",
+  "overview": "AniList metadata provider",
+  "owner": "jellyfin",
+  "targetAbi": "10.11.0.0",
+  "timestamp": "2025-10-20T01:41:08.0000000Z",
+  "version": "12.0.0.0",
+  "status": "Active",
+  "autoUpdate": true,
+  "imagePath": "/config/data/plugins/AniList_12.0.0.0/jellyfin-plugin-anilist.png",
+  "assemblies": []
+}

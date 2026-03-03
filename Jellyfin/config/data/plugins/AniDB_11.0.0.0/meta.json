@@ -1,0 +1,16 @@
+{
+  "category": "Anime",
+  "changelog": "- Jellyfin 10.11 support (#78) @crobibero",
+  "description": "AniDB metadata provider\n",
+  "guid": "a2b2a7ed-aa28-4521-a64a-63d86901f246",
+  "name": "AniDB",
+  "overview": "AniDB metadata provider",
+  "owner": "jellyfin",
+  "targetAbi": "10.11.0.0",
+  "timestamp": "2025-10-20T01:24:26.0000000Z",
+  "version": "11.0.0.0",
+  "status": "Active",
+  "autoUpdate": true,
+  "imagePath": "/config/data/plugins/AniDB_11.0.0.0/jellyfin-plugin-anidb.png",
+  "assemblies": []
+}

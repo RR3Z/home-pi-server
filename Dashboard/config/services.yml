@@ -1,0 +1,68 @@
+- name: Services
+  width: slim
+  center-vertically: true
+  columns:
+    - size: full
+      widgets:
+        - type: monitor
+          cache: 1m
+          title: General
+          sites:
+            - title: Portainer
+              url: http://192.168.0.111:9000
+              icon: /assets/portainer-logo.png
+            - title: qBitTorrent
+              url: http://192.168.0.111:8081
+              icon: /assets/qbittorrent-logo.png
+            - title: v2rayA (VPN)
+              url: http://192.168.0.111:2017
+              icon: /assets/v2raya-logo.png
+
+        - type: monitor
+          cache: 1m
+          title: Media Server
+          sites:
+            - title: Jellyfin
+              url: http://192.168.0.111:8096
+              icon: /assets/jellyfin-logo.png
+            - title: Radarr
+              url: http://192.168.0.111:7878
+              icon: /assets/radarr-logo.png
+            - title: Sonarr
+              url: http://192.168.0.111:8989
+              icon: /assets/sonarr-logo.png
+            - title: Prowlarr
+              url: http://192.168.0.111:9696
+              icon: /assets/prowlarr-logo.png
+            - title: Seerr
+              url: http://192.168.0.111:5055
+              icon: /assets/seerr-logo.png
+
+        - type: monitor
+          cache: 1m
+          title: MS Links
+          sites:
+            - title: Jellyfin
+              url: https://jellyfin.roger3z-vps.online/web/#/home
+              icon: /assets/jellyfin-logo.png
+            - title: Seerr
+              url: https://seerr.roger3z-vps.online/
+              icon: /assets/seerr-logo.png
+
+
+        - type: docker-containers
+          hide-by-default: false
+
+    - size: small
+      widgets:
+        - type: calendar
+          first-day-of-week: monday
+        - type: repository
+          repository: RR3Z/home-pi-server
+          issues-limit: 3
+          commits-limit: 3
+        - type: server-stats
+          servers:
+            - type: local
+              name: Raspberry Pi 5
+              hide-swap: false

@@ -1,0 +1,16 @@
+{
+  "category": "Books",
+  "changelog": "- Jellyfin 10.11 support (#130) @crobibero",
+  "description": "Supports several different metadata providers and options for organizing your collection.\n",
+  "guid": "9c4e63f1-031b-4f25-988b-4f7d78a8b53e",
+  "name": "Bookshelf",
+  "overview": "Manage your books",
+  "owner": "jellyfin",
+  "targetAbi": "10.11.0.0",
+  "timestamp": "2025-10-20T01:25:49.0000000Z",
+  "version": "13.0.0.0",
+  "status": "Active",
+  "autoUpdate": true,
+  "imagePath": "",
+  "assemblies": []
+}
