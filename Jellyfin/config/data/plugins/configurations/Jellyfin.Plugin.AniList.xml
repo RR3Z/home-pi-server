@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TitlePreference>Localized</TitlePreference>
+  <OriginalTitlePreference>JapaneseRomaji</OriginalTitlePreference>
+  <PersonLanguageFilterPreference>All</PersonLanguageFilterPreference>
+  <MaxPeople>0</MaxPeople>
+  <MaxGenres>5</MaxGenres>
+  <StudioFilterPreference>All</StudioFilterPreference>
+  <AnimeDefaultGenre>Anime</AnimeDefaultGenre>
+  <AniDbRateLimit>2000</AniDbRateLimit>
+  <AniDbReplaceGraves>true</AniDbReplaceGraves>
+  <AniListShowSpoilerTags>true</AniListShowSpoilerTags>
+  <UseAnitomyLibrary>false</UseAnitomyLibrary>
+</PluginConfiguration>

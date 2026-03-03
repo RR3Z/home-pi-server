@@ -1,0 +1,16 @@
+{
+  "category": "General",
+  "changelog": "Fix Version\n",
+  "description": "Skin Manager",
+  "guid": "e9ca8b8e-ca6d-40e7-85dc-58e536df8eb3",
+  "name": "SkinManager",
+  "overview": "Skins for jellyfin",
+  "owner": "danieladov",
+  "targetAbi": "10.7.0.0",
+  "timestamp": "2024-11-04T23:02:52.0000000Z",
+  "version": "2.0.2.0",
+  "status": "Active",
+  "autoUpdate": true,
+  "imagePath": "/config/data/plugins/Skin Manager_2.0.2.0/thumb.png",
+  "assemblies": []
+}

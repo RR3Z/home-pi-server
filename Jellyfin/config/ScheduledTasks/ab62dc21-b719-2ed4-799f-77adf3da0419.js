@@ -1,0 +1,1 @@
+[{"Type":"DailyTrigger","TimeOfDayTicks":0}]

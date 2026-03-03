@@ -1,0 +1,16 @@
+{
+  "category": "Metadata",
+  "changelog": "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0430 \u0441\u043E\u0432\u043C\u0435\u0441\u0442\u0438\u043C\u043E\u0441\u0442\u044C \u0441 10.10.*",
+  "description": "\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044F \u043E \u0444\u0438\u043B\u044C\u043C\u0430\u0445 \u0438 \u0441\u0435\u0440\u0438\u0430\u043B\u0430\u0445 \u0441 \u041A\u0438\u043D\u043E\u041F\u043E\u0438\u0441\u043A\u0430",
+  "guid": "33e6d249-648f-44cd-a9ce-497be06c08df",
+  "name": "\u041A\u0438\u043D\u043E\u041F\u043E\u0438\u0441\u043A",
+  "overview": "\u0418\u043D\u0444\u043E\u0440\u043C\u0430\u0446\u0438\u044F \u043E \u0444\u0438\u043B\u044C\u043C\u0430\u0445 \u0438 \u0441\u0435\u0440\u0438\u0430\u043B\u0430\u0445 \u0441 \u041A\u0438\u043D\u043E\u041F\u043E\u0438\u0441\u043A\u0430",
+  "owner": "LinFor \u0026 skrashevich",
+  "targetAbi": "10.10.0",
+  "timestamp": "2026-02-18T07:38:15.0000000Z",
+  "version": "10.10.3.0",
+  "status": "Active",
+  "autoUpdate": true,
+  "imagePath": "/config/data/plugins/\u041A\u0438\u043D\u043E\u041F\u043E\u0438\u0441\u043A_10.10.3.0/25f8c0315e6ccb2aa6c2642e48f2c9e9.png",
+  "assemblies": []
+}

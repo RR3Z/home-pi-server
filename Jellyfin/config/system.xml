@@ -2,13 +2,14 @@
 <ServerConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <LogFileRetentionDays>3</LogFileRetentionDays>
   <IsStartupWizardCompleted>true</IsStartupWizardCompleted>
+  <CachePath />
   <EnableMetrics>false</EnableMetrics>
   <EnableNormalizedItemByNameIds>true</EnableNormalizedItemByNameIds>
   <IsPortAuthorized>true</IsPortAuthorized>
   <QuickConnectAvailable>true</QuickConnectAvailable>
   <EnableCaseSensitiveItemIds>true</EnableCaseSensitiveItemIds>
   <DisableLiveTvChannelUserDataName>true</DisableLiveTvChannelUserDataName>
-  <MetadataPath />
+  <MetadataPath>/media</MetadataPath>
   <PreferredMetadataLanguage>ru</PreferredMetadataLanguage>
   <MetadataCountryCode>RU</MetadataCountryCode>
   <SortReplaceCharacters>
@@ -147,6 +148,26 @@
       <Url>https://repo.jellyfin.org/files/plugin/manifest.json</Url>
       <Enabled>true</Enabled>
     </RepositoryInfo>
+    <RepositoryInfo>
+      <Name>Jellyfin Unstable</Name>
+      <Url>https://repo.jellyfin.org/files/plugin-unstable/manifest.json</Url>
+      <Enabled>true</Enabled>
+    </RepositoryInfo>
+    <RepositoryInfo>
+      <Name>Jellyfin KinoPoisk Plugin</Name>
+      <Url>https://raw.githubusercontent.com/LinFor/jellyfin-plugin-kinopoisk/master/dist/manifest.json</Url>
+      <Enabled>true</Enabled>
+    </RepositoryInfo>
+    <RepositoryInfo>
+      <Name>Jellyfin Skin Manager Plugin</Name>
+      <Url>https://raw.githubusercontent.com/danieladov/JellyfinPluginManifest/master/manifest.json</Url>
+      <Enabled>true</Enabled>
+    </RepositoryInfo>
+    <RepositoryInfo>
+      <Name>Jellyfin Merge Versions Plugin</Name>
+      <Url>https://raw.githubusercontent.com/danieladov/JellyfinPluginManifest/master/manifest.json</Url>
+      <Enabled>true</Enabled>
+    </RepositoryInfo>
   </PluginRepositories>
   <EnableExternalContentInSuggestions>true</EnableExternalContentInSuggestions>
   <ImageExtractionTimeoutMs>0</ImageExtractionTimeoutMs>
@@ -160,8 +181,8 @@
   <LibraryScanFanoutConcurrency>0</LibraryScanFanoutConcurrency>
   <LibraryMetadataRefreshConcurrency>0</LibraryMetadataRefreshConcurrency>
   <AllowClientLogUpload>true</AllowClientLogUpload>
-  <DummyChapterDuration>0</DummyChapterDuration>
-  <ChapterImageResolution>MatchSource</ChapterImageResolution>
+  <DummyChapterDuration>300</DummyChapterDuration>
+  <ChapterImageResolution>P1080</ChapterImageResolution>
   <ParallelImageEncodingLimit>0</ParallelImageEncodingLimit>
   <CastReceiverApplications>
     <CastReceiverApplication>

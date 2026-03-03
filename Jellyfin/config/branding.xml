@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <BrandingOptions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CustomCss>@import url('https://ctalvio.github.io/Kaleidochromic/default_style.css');@import url('https://ctalvio.github.io/Monochromic/improve-performance_style.css');
+@import url('https://ctalvio.github.io/Monochromic/improve-performance_style.css');
+:root {--accent: 98.00787045,121.00999580324999,204.99450000000002;}
+:root {--rounding: 12px;}
+</CustomCss>
   <SplashscreenEnabled>false</SplashscreenEnabled>
 </BrandingOptions>

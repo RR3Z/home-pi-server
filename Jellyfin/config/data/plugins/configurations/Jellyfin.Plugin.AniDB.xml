@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TitlePreference>Localized</TitlePreference>
+  <OriginalTitlePreference>Localized</OriginalTitlePreference>
+  <IgnoreSeason>false</IgnoreSeason>
+  <TitleSimilarityThreshold>50</TitleSimilarityThreshold>
+  <MaxGenres>5</MaxGenres>
+  <TidyGenreList>true</TidyGenreList>
+  <TitleCaseGenres>false</TitleCaseGenres>
+  <AnimeDefaultGenre>Anime</AnimeDefaultGenre>
+  <AniDbRateLimit>2000</AniDbRateLimit>
+  <MaxCacheAge>7</MaxCacheAge>
+  <AniDbReplaceGraves>true</AniDbReplaceGraves>
+</PluginConfiguration>

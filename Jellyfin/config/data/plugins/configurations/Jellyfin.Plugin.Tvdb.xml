@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SubscriberPIN />
+  <CacheDurationInHours>1</CacheDurationInHours>
+  <CacheDurationInDays>7</CacheDurationInDays>
+  <FallbackLanguages>ru</FallbackLanguages>
+  <ImportSeasonName>true</ImportSeasonName>
+  <FallbackToOriginalLanguage>true</FallbackToOriginalLanguage>
+  <IncludeMissingSpecials>true</IncludeMissingSpecials>
+  <RemoveAllMissingEpisodesOnRefresh>false</RemoveAllMissingEpisodesOnRefresh>
+  <IncludeOriginalCountryInTags>true</IncludeOriginalCountryInTags>
+  <MetadataUpdateInHours>2</MetadataUpdateInHours>
+  <UpdateSeriesScheduledTask>true</UpdateSeriesScheduledTask>
+  <UpdateSeasonScheduledTask>true</UpdateSeasonScheduledTask>
+  <UpdateEpisodeScheduledTask>true</UpdateEpisodeScheduledTask>
+  <UpdateMovieScheduledTask>true</UpdateMovieScheduledTask>
+  <UpdatePersonScheduledTask>true</UpdatePersonScheduledTask>
+</PluginConfiguration>

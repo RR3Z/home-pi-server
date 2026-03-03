@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <selectedSkin>@import url('https://ctalvio.github.io/Kaleidochromic/default_style.css');</selectedSkin>
+  <options>
+    <string>@import url('https://ctalvio.github.io/Monochromic/improve-performance_style.css');</string>
+    <string>true</string>
+    <string>@import url('https://ctalvio.github.io/Monochromic/bottom-progress_style.css');</string>
+    <string>false</string>
+    <string>:root {--rounding: $px;}</string>
+    <string>12</string>
+    <string>:root {--accent: $;}</string>
+    <string>#6279cd</string>
+  </options>
+</PluginConfiguration>
