@@ -1,0 +1,16 @@
+{
+  "category": "MoviesAndShows",
+  "changelog": "- Jellyfin 10.11 support (#211) @crobibero",
+  "description": "Get TV metadata from TheTvdb\n",
+  "guid": "a677c0da-fac5-4cde-941a-7134223f14c8",
+  "name": "TheTVDB",
+  "overview": "Get TV metadata from TheTvdb",
+  "owner": "jellyfin",
+  "targetAbi": "10.11.0.0",
+  "timestamp": "2025-10-20T01:25:49.0000000Z",
+  "version": "20.0.0.0",
+  "status": "Active",
+  "autoUpdate": true,
+  "imagePath": "/config/data/plugins/TheTVDB_20.0.0.0/jellyfin-plugin-tvdb.png",
+  "assemblies": []
+}
