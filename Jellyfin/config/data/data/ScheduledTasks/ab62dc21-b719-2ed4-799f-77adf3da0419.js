@@ -1,1 +1,1 @@
-{"StartTimeUtc":"2026-03-04T21:00:00.0028442Z","EndTimeUtc":"2026-03-04T21:00:00.005212Z","Status":"Completed","Name":"Purge TheTVDB plugin cache","Key":"PurgeTheTVDBPluginCache","Id":"ab62dc21b7192ed4799f77adf3da0419"}
+{"StartTimeUtc":"2026-03-05T20:59:59.9999974Z","EndTimeUtc":"2026-03-05T21:00:00.0036357Z","Status":"Completed","Name":"Purge TheTVDB plugin cache","Key":"PurgeTheTVDBPluginCache","Id":"ab62dc21b7192ed4799f77adf3da0419"}
